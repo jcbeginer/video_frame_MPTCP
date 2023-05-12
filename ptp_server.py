@@ -1,27 +1,18 @@
 import socket
 import time
 
-SERVER_IP = '13.125.241.159'  # Replace with the server's IP address
+SERVER_IP = '172.31.41.24'  # Replace with the server's IP address
 PORT = 9090
 
-def synchronize_time():
-    client_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+def main():
+    server_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    server_socket.bind((SERVER_IP, PORT))
+    
+    while True:
+        request, addr = server_socket.recvfrom(1024)
+        if request.decode() == 'SYNC_REQUEST':
+            timestamp = time.time()
+            server_socket.sendto(str(timestamp).encode(), addr)
 
-    send_time = time.time()
-    client_socket.sendto('SYNC_REQUEST'.encode(), (SERVER_IP, PORT))
-
-    server_timestamp = client_socket.recv(1024).decode()
-    receive_time = time.time()
-
-    round_trip_time = receive_time - send_time
-    adjusted_server_time = float(server_timestamp) + (round_trip_time / 2)
-
-    return adjusted_server_time
- 
-def main(): 
-    print('Start client') 
-    adjusted_server_time = synchronize_time() 
-    print(f'Adjusted server time: {adjusted_server_time}') 
- 
 if __name__ == "__main__": 
     main()
