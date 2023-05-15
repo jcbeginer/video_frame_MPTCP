@@ -30,7 +30,7 @@ if not os.path.exists('./logging'):
 # start logging
 with open('./logging/log_file.txt', 'a') as f:
         # Write the log message to the file
-        f.write('start--------------------------------------------')
+        f.write('start--------------------------------------------\n')
 
 # Receive the video frames from the server
 while True:
