@@ -66,7 +66,7 @@ while True:
     # Open the log file in append mode
     with open('./logging/log_file.txt', 'a') as f:
         # Write the log message to the file
-        f.write('Received frame with timestamp {} E2E delay {} and size {}\n'.format(timestamp,e2e_delay, frame_size))
+        f.write('Received frame with timestamp ,{}, E2E delay ,{}, and size ,{},\n'.format(timestamp,e2e_delay, frame_size))
 
     
 # Close the connection
