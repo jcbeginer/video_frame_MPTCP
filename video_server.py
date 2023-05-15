@@ -23,6 +23,11 @@ client_socket, client_address = server_socket.accept()
 
 print('Accepted connection from:', client_address)
 
+# start logging
+with open('./logging/log_file.txt', 'a') as f:
+        # Write the log message to the file
+        f.write('start--------------------------------------------')
+
 # Receive the video frames from the server
 while True:
     # Receive the message header from the server
@@ -48,10 +53,24 @@ while True:
         frame_data += chunk
     if len(frame_data) < frame_size:
         break
-    
+    e2e_delay = float(time.time())-timestamp
     # Print the timestamp and frame size
-    print('Received frame with timestamp', timestamp, 'and size', frame_size)
+    print('Received frame with timestamp', timestamp,'E2E delay',e2e_delay, 'and size', frame_size)
+    
+    # Write log
+    
+    # Ensure the logging directory exists
+    if not os.path.exists('./logging'):
+        os.makedirs('./logging')
 
+    # Open the log file in append mode
+    with open('./logging/log_file.txt', 'a') as f:
+        # Write the log message to the file
+        f.write('Received frame with timestamp {} E2E delay {} and size {}\n'.format(timestamp,e2e_delay, frame_size))
+
+    
 # Close the connection
 client_socket.close()
 server_socket.close()
+with open('./logging/log_file.txt', 'a') as f:
+    f.write('END ----------------------------------------------------------------------------')
