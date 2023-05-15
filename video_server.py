@@ -73,4 +73,4 @@ while True:
 client_socket.close()
 server_socket.close()
 with open('./logging/log_file.txt', 'a') as f:
-    f.write('END ----------------------------------------------------------------------------')
+    f.write('END ----------------------------------------------------------------------------\n')
