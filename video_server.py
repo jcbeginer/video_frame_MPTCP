@@ -55,7 +55,7 @@ while True:
         break
     e2e_delay = float(time.time())-timestamp
     # Print the timestamp and frame size
-    print('Received frame with timestamp', timestamp,'E2E delay',e2e_delay, 'and size', frame_size)
+    print('Received frame with timestamp:', timestamp,'E2E delay:',e2e_delay, 'and size:', frame_size)
     
     # Write log
     
