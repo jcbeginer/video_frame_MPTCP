@@ -23,6 +23,10 @@ client_socket, client_address = server_socket.accept()
 
 print('Accepted connection from:', client_address)
 
+# Ensure the logging directory exists
+if not os.path.exists('./logging'):
+    os.makedirs('./logging')
+
 # start logging
 with open('./logging/log_file.txt', 'a') as f:
         # Write the log message to the file
@@ -57,12 +61,8 @@ while True:
     # Print the timestamp and frame size
     print('Received frame with timestamp:', timestamp,'E2E delay:',e2e_delay, 'and size:', frame_size)
     
-    # Write log
+# Write log
     
-    # Ensure the logging directory exists
-    if not os.path.exists('./logging'):
-        os.makedirs('./logging')
-
     # Open the log file in append mode
     with open('./logging/log_file.txt', 'a') as f:
         # Write the log message to the file
