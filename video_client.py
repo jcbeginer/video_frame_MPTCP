@@ -11,7 +11,7 @@ client_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 client_socket.setsockopt(socket.IPPROTO_TCP, 42, 1) #42 is MPTCP_EBABLED option
 
 # Connect to the server
-server_address = ('13.125.241.159', 8888)
+server_address = ('54.180.119.186', 8888)
 print('Connecting to %s:%s...' % server_address)
 client_socket.connect(server_address)
 
@@ -21,7 +21,8 @@ try:
         frame_sizes = f.read().splitlines()
 except FileNotFoundError:
     print('Error: No frame_sizes.txt file found. Using default frame size of 80KB')
-    frame_sizes = ['81920']
+    #frame_sizes = ['81920']
+    frame_sizes = ['327680']
 
 # Define the frame rate (in frames per second)
 frame_rate = 30
