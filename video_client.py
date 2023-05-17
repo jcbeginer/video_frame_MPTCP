@@ -21,7 +21,8 @@ try:
         frame_sizes = f.read().splitlines()
 except FileNotFoundError:
     print('Error: No frame_sizes.txt file found. Using default frame size of 80KB')
-    frame_sizes = ['81920']
+    #frame_sizes = ['81920']
+    frame_sizes = ['327680']
 
 # Define the frame rate (in frames per second)
 frame_rate = 30
