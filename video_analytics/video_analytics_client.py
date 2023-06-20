@@ -3,6 +3,8 @@ import time
 import struct
 import os
 import threading
+from datetime import datetime
+
 # global variable to save send timestamp
 send_timestamps = []
 
@@ -64,14 +66,23 @@ def receive_frames(client_socket, frame_sizes):
             e2e_delay = time.time() - send_timestamp
             print('E2E delay:', e2e_delay)
             rec_frame_len = len(received_frame_data)
-        with open('./logging/video_analytics_client_log.txt', 'a') as f:
+        with open(filename, 'a') as f:
             f.write('Received frame with send_timestamp ,{}, E2E delay ,{}, and size ,{},\n'.format(send_timestamp,e2e_delay, rec_frame_len))
 
         #print('Received frame with size:', len(received_frame_data))
 
 if not os.path.exists('./logging'):
     os.makedirs('./logging')
-with open('./logging/video_analytics_log_file.txt', 'a') as f:
+# Get the current date
+now = datetime.now()
+
+# Format the date as a string in the format 'YYYYMMDD'
+date_string = now.strftime('%y%m%d')
+
+# Use the date string in the file name
+filename = './logging/video_analytics_client_log{}.txt'.format(date_string)
+
+with open(filename, 'a') as f:
     f.write('start--------------------------------------------\n')
 
 # Create a socket object
