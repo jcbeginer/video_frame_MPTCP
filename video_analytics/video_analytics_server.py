@@ -3,6 +3,7 @@ import time
 import struct
 import os
 import threading
+from datetime import datetime
 
 # Handle client connection
 def handle_client(client_socket):
@@ -10,8 +11,16 @@ def handle_client(client_socket):
 
     if not os.path.exists('./logging'):
         os.makedirs('./logging')
+    # Get the current date
+    now = datetime.now()
 
-    with open('./logging/video_analytics_server_log.txt', 'a') as f:
+    # Format the date as a string in the format 'YYYYMMDD'
+    date_string = now.strftime('%y%m%d')
+
+    # Use the date string in the file name
+    filename = './logging/video_analytics_server_log{}.txt'.format(date_string)
+
+    with open(filename, 'a') as f:
         f.write('start--------------------------------------------\n')
 
     while True:
@@ -43,7 +52,7 @@ def handle_client(client_socket):
         time.sleep(0.06)
         client_socket.sendall(frame_data)
 
-        with open('./logging/video_analytics_server_log.txt', 'a') as f:
+        with open(filename, 'a') as f:
             f.write('Received frame with timestamp ,{}, E2E delay ,{}, and size ,{},\n'.format(timestamp,e2e_delay, frame_size))
 
 
@@ -54,7 +63,7 @@ def handle_client(client_socket):
 def terminate(client_socket, server_socket):
     client_socket.close()
     server_socket.close()
-    with open('./logging/video_analytics_server_log.txt', 'a') as f:
+    with open(filename, 'a') as f:
         f.write('END ----------------------------------------------------------------------------\n')
 
 
