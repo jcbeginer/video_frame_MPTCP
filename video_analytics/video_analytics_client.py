@@ -3,9 +3,13 @@ import time
 import struct
 import os
 import threading
+# global variable to save send timestamp
+send_timestamps = []
 
 # Function to handle frame sending
 def send_frames(client_socket, frame_sizes):
+    global send_timestamps
+    
     # Define the frame rate (in frames per second)
     frame_rate = 30
 
@@ -20,10 +24,14 @@ def send_frames(client_socket, frame_sizes):
         # Create a video frame of the specified size
         data = b'0' * frame_size
 
+        # Get current timestamp and save it
+        timestamp = float(time.time())
+        send_timestamps.append(timestamp)
+
         # Pack the frame data and header into a message
-        timestamp = struct.pack('d', float(time.time()))
+        timestamp_packed = struct.pack('d', timestamp)
         frame_size_packed = struct.pack('L', frame_size)
-        message = timestamp + frame_size_packed  + data
+        message = timestamp_packed + frame_size_packed  + data
 
         # Send the message to the client
         client_socket.sendall(message)
@@ -35,6 +43,8 @@ def send_frames(client_socket, frame_sizes):
 
 # Function to handle frame receiving
 def receive_frames(client_socket, frame_sizes):
+    global send_timestamps
+    
     # Keep receiving the frames
     while True:
         # Read the size of the next video frame from the txt file
@@ -47,6 +57,12 @@ def receive_frames(client_socket, frame_sizes):
             if not chunk:
                 return
             received_frame_data += chunk
+
+        # Calculate E2E delay
+        if send_timestamps:
+            send_timestamp = send_timestamps.pop(0)
+            e2e_delay = time.time() - send_timestamp
+            print('E2E delay:', e2e_delay)
 
         print('Received frame with size:', len(received_frame_data))
 
