@@ -63,8 +63,16 @@ def receive_frames(client_socket, frame_sizes):
             send_timestamp = send_timestamps.pop(0)
             e2e_delay = time.time() - send_timestamp
             print('E2E delay:', e2e_delay)
+            rec_frame_len = len(received_frame_data)
+        with open('./logging/video_analytics_client_log.txt', 'a') as f:
+            f.write('Received frame with send_timestamp ,{}, E2E delay ,{}, and size ,{},\n'.format(send_timestamp,e2e_delay, rec_frame_len))
 
-        print('Received frame with size:', len(received_frame_data))
+        #print('Received frame with size:', len(received_frame_data))
+
+if not os.path.exists('./logging'):
+    os.makedirs('./logging')
+with open('./logging/video_analytics_log_file.txt', 'a') as f:
+    f.write('start--------------------------------------------\n')
 
 # Create a socket object
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
