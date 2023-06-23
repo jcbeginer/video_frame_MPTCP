@@ -47,7 +47,7 @@ def receive_frames(client_socket, frame_size):
         while len(received_frame_data) < frame_size:
             chunk = client_socket.recv(frame_size - len(received_frame_data))
             if not chunk:
-                return
+                break
             received_frame_data += chunk
     
     # Receive the video frames from the server
@@ -77,8 +77,8 @@ def receive_frames(client_socket, frame_size):
             break
         
         # Calculate E2E delay
-        received_timestamp = float(time.time())
-        received_send_delay = received_timestamp - sent_timestamp
+        received_timestamp = float(time.time()) + 0.06 # 60ms for video analytics processing time on server side
+        received_send_delay = received_timestamp - sent_timestamp 
         print('received_send_delay:', received_send_delay)
         rec_frame_len = len(received_frame_data)
         with open(filename, 'a') as f:
@@ -115,9 +115,10 @@ try:
     with open('frame_sizes.txt', 'r') as f:
         frame_sizes = f.read().splitlines()
 except FileNotFoundError:
-    print('Error: No frame_sizes.txt file found. Using default frame size of 80KB')
+    
     frame_sizes = ['81920']
     #frame_sizes = ['327680']
+    print('Error: No frame_sizes.txt file found. Using default frame size of {}KB'.format(frame_sizes[0]/1024))
 
 threads = []
 # Define the frame rate (in frames per second)
@@ -127,17 +128,10 @@ frame_rate = 30
 duration = 10
 
 # Start threads for sending and receiving
-'''
-while not q.empty():
-    send_thread = threading.Thread(target=process_frames)
-    threads.append(send_thread)
-    send_thread.start()
-    time.sleep(1/frame_rate)
-'''
+
 send_thread = threading.Thread(target=send_frames(client_socket,frame_sizes[0]))
-receive_thread = threading.Thread(target=receive_frames(client_socket, sent_timestamp, frame_sizes[0])
-# Wait for threads to finish
 send_thread.start()
+receive_thread = threading.Thread(target=receive_frames(client_socket, sent_timestamp, frame_sizes[0])
 receive_thread.start()                                  
 send_thread.join()
 receive_thread.join()                                  
