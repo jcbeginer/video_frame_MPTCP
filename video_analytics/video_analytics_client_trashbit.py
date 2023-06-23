@@ -4,9 +4,16 @@ import struct
 import os
 import threading
 from datetime import datetime
+import queue
 
 # global variable to save send timestamp
 send_timestamps = []
+
+# Create a Queue object
+q = queue.Queue()
+
+for i in range(frame_rate * duration):
+    q.put((client_socket, i, frame_sizes[0]))
 
 # Function to handle frame sending
 def send_frames(client_socket, i,frame_sizes):
@@ -55,6 +62,13 @@ def receive_frames(client_socket, i,sent_timestamp, frame_size):
     with open(filename, 'a') as f:
         f.write('number ,{}, sent_timestamp ,{}, received_timestamp,{},received-send delay ,{}, and size ,{},\n'.format(i,sent_timestamp,received_timestamp,received_send_delay, rec_frame_len))
 
+# Function to process frames
+def process_frames():
+    while not q.empty():
+        args = q.get()
+        send_frames(*args)
+        time.sleep(1/frame_rate)
+
 if not os.path.exists('./logging'):
     os.makedirs('./logging')
 # Get the current date
@@ -98,8 +112,8 @@ frame_rate = 30
 duration = 10
 
 # Start threads for sending and receiving
-for i in range(frame_rate * duration):
-    send_thread = threading.Thread(target=send_frames, args=(client_socket, i,frame_sizes[0]))
+while not q.empty():
+    send_thread = threading.Thread(target=process_frames)
     threads.append(send_thread)
     send_thread.start()
     time.sleep(1/frame_rate)
