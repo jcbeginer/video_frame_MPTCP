@@ -4,72 +4,54 @@ import struct
 import os
 import threading
 from datetime import datetime
+import cv2
 
 # global variable to save send timestamp
 send_timestamps = []
 
 # Function to handle frame sending
-def send_frames(client_socket, frame_sizes):
+def send_frames(client_socket, encoded_frame, i):
     global send_timestamps
     
-    # Define the frame rate (in frames per second)
-    frame_rate = 30
+    # Get the encoded frame
+    data = encoded_frame
 
-    # Define the duration of the video transmission (in seconds)
-    duration = 10
+    # Get current timestamp and save it
+    timestamp = float(time.time())
+    send_timestamps.append(timestamp)
 
-    # Transmit the video frames
-    for i in range(frame_rate * duration):
-        # Read the size of the next video frame from the txt file
-        frame_size = int(frame_sizes[i % len(frame_sizes)])
+    # Pack the frame data and header into a message
+    timestamp_packed = struct.pack('d', timestamp)
+    frame_size_packed = struct.pack('L', len(data))
+    message = timestamp_packed + frame_size_packed  + data
 
-        # Create a video frame of the specified size
-        data = b'0' * frame_size
+    # Send the message to the server
+    client_socket.sendall(message)
 
-        # Get current timestamp and save it
-        timestamp = float(time.time())
-        send_timestamps.append(timestamp)
+    print('Sent frame', i+1, 'of size', len(data), 'to the server')
 
-        # Pack the frame data and header into a message
-        timestamp_packed = struct.pack('d', timestamp)
-        frame_size_packed = struct.pack('L', frame_size)
-        message = timestamp_packed + frame_size_packed  + data
-
-        # Send the message to the client
-        client_socket.sendall(message)
-
-        print('Sent frame', i+1, 'of size', frame_size, 'to the client')
-
-        # Wait for the next frame to be transmitted
-        time.sleep(1/frame_rate)
+ # Now receive the response from server
+    receive_frame(client_socket, timestamp, len(data))
 
 # Function to handle frame receiving
-def receive_frames(client_socket, frame_sizes):
-    global send_timestamps
-    
-    # Keep receiving the frames
-    while True:
-        # Read the size of the next video frame from the txt file
-        frame_size = int(frame_sizes[0])
+def receive_frame(client_socket, sent_timestamp, frame_size):
+    # Receive the frame data back from the server
+    received_frame_data = b''
+    while len(received_frame_data) < frame_size:
+        chunk = client_socket.recv(frame_size - len(received_frame_data))
+        if not chunk:
+            return
+        received_frame_data += chunk
 
-        # Receive the frame data back from the server
-        received_frame_data = b''
-        while len(received_frame_data) < frame_size:
-            chunk = client_socket.recv(frame_size - len(received_frame_data))
-            if not chunk:
-                return
-            received_frame_data += chunk
+    # Calculate E2E delay
+    e2e_delay = float(time.time()) - sent_timestamp
+    print('E2E delay:', e2e_delay)
+    rec_frame_len = len(received_frame_data)
+    with open(filename, 'a') as f:
+        f.write('Received frame with sent_timestamp ,{}, E2E delay ,{}, and size ,{},\n'.format(sent_timestamp,e2e_delay, rec_frame_len))
 
-        # Calculate E2E delay
-        if send_timestamps:
-            send_timestamp = send_timestamps.pop(0)
-            e2e_delay = time.time() - send_timestamp
-            print('E2E delay:', e2e_delay)
-            rec_frame_len = len(received_frame_data)
-        with open(filename, 'a') as f:
-            f.write('Received frame with send_timestamp ,{}, E2E delay ,{}, and size ,{},\n'.format(send_timestamp,e2e_delay, rec_frame_len))
 
-        #print('Received frame with size:', len(received_frame_data))
+        
 
 if not os.path.exists('./logging'):
     os.makedirs('./logging')
@@ -85,6 +67,24 @@ filename = './logging/video_analytics_client_log{}.txt'.format(date_string)
 with open(filename, 'a') as f:
     f.write('start--------------------------------------------\n')
 
+# Extract frames from the video and store them in a list
+video_path = './test_video_data.3gpp'  # update with your video path
+video = cv2.VideoCapture(video_path)
+frames = []
+while True:
+    success, frame = video.read()
+    if not success:
+        break
+    frames.append(frame)
+
+# Convert frames to JPEG-encoded byte-like objects
+encoded_frames = []
+for frame in frames:
+    success, encoded_image = cv2.imencode('.jpg', frame)
+    if not success:
+        raise ValueError('Could not encode image')
+    encoded_frames.append(encoded_image.tobytes())
+
 # Create a socket object
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
@@ -97,25 +97,23 @@ server_address = ('54.180.119.186', 8888)
 print('Connecting to %s:%s...' % server_address)
 client_socket.connect(server_address)
 
-# Read the frame sizes from the txt file
-try:
-    with open('frame_sizes.txt', 'r') as f:
-        frame_sizes = f.read().splitlines()
-except FileNotFoundError:
-    print('Error: No frame_sizes.txt file found. Using default frame size of 80KB')
-    #frame_sizes = ['81920']
-    frame_sizes = ['327680']
+frame_rate = 30
 
-while True:
-    # Start threads for sending and receiving
-    send_thread = threading.Thread(target=send_frames, args=(client_socket, frame_sizes))
-    receive_thread = threading.Thread(target=receive_frames, args=(client_socket, frame_sizes))
+# Start threads for sending and receiving
+threads = []
+for i, encoded_frame in enumerate(encoded_frames):
+    send_thread = threading.Thread(target=send_frames, args=(client_socket, encoded_frame, i))
+    threads.append(send_thread)
     send_thread.start()
-    receive_thread.start()
 
-    # Wait for both threads to finish
-    send_thread.join()
-    receive_thread.join()
+    # Wait for the next frame to be transmitted
+    time.sleep(1/frame_rate)
+
+# Wait for all threads to finish
+for thread in threads:
+    thread.join()
+
+
 
 # Close the connection
 client_socket.close()
