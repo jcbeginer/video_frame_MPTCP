@@ -4,70 +4,85 @@ import struct
 import os
 import threading
 from datetime import datetime
-import queue
+
 
 # global variable to save send timestamp
 send_timestamps = []
 
-# Create a Queue object
-q = queue.Queue()
-
-for i in range(frame_rate * duration):
-    q.put((client_socket, i, frame_sizes[0]))
-
 # Function to handle frame sending
-def send_frames(client_socket, i,frame_sizes):
+def send_frames(client_socket,frame_sizes):
     global send_timestamps
     
     # Transmit the video frames
     
     frame_size = int(frame_sizes)
-
+    
     # Create a video frame of the specified size
     data = b'0' * frame_size
+    for i in range(frame_rate * duration):
+        # Get current timestamp and save it
+        timestamp = float(time.time())
+        send_timestamps.append(timestamp)
 
-    # Get current timestamp and save it
-    timestamp = float(time.time())
-    send_timestamps.append(timestamp)
+        # Pack the frame data and header into a message
+        timestamp_packed = struct.pack('t', timestamp)
+        frame_size_packed = struct.pack('f', frame_size)
+        index_packed = struct.pack('i', i)
+        message = timestamp_packed + frame_size_packed + index_packed  + data
 
-    # Pack the frame data and header into a message
-    timestamp_packed = struct.pack('d', timestamp)
-    frame_size_packed = struct.pack('L', frame_size)
-    message = timestamp_packed + frame_size_packed  + data
+        # Send the message to the client
+        client_socket.sendall(message)
 
-    # Send the message to the client
-    client_socket.sendall(message)
-
-    print('Sent frame', i+1, 'of size', frame_size, 'to the client')
+        print('Sent frame', i+1, 'of size', frame_size, 'to the client')
         
-    receive_frames(client_socket,i,timestamp,len(data))
+    #receive_frames(client_socket,i,timestamp,len(data))
     # Wait for the next frame to be transmitted
     
 
 # Function to handle frame receiving
-def receive_frames(client_socket, i,sent_timestamp, frame_size):
+def receive_frames(client_socket, frame_size):
     # Receive the frame data back from the server
-    received_frame_data = b''
-    while len(received_frame_data) < frame_size:
-        chunk = client_socket.recv(frame_size - len(received_frame_data))
-        if not chunk:
-            return
-        received_frame_data += chunk
-
-    # Calculate E2E delay
-    received_timestamp = float(time.time())
-    received_send_delay = received_timestamp - sent_timestamp
-    print('received_send_delay:', received_send_delay)
-    rec_frame_len = len(received_frame_data)
-    with open(filename, 'a') as f:
-        f.write('number ,{}, sent_timestamp ,{}, received_timestamp,{},received-send delay ,{}, and size ,{},\n'.format(i,sent_timestamp,received_timestamp,received_send_delay, rec_frame_len))
-
-# Function to process frames
-def process_frames():
-    while not q.empty():
-        args = q.get()
-        send_frames(*args)
-        time.sleep(1/frame_rate)
+    while True:
+        received_frame_data = b''
+        while len(received_frame_data) < frame_size:
+            chunk = client_socket.recv(frame_size - len(received_frame_data))
+            if not chunk:
+                return
+            received_frame_data += chunk
+    
+    # Receive the video frames from the server
+    while True:
+        # Receive the message header from the server
+        header_data = b''
+        while len(header_data) < 16:
+            chunk = client_socket.recv(16 - len(header_data))
+            if not chunk:
+                break
+            header_data += chunk
+        if len(header_data) < 16:
+            break
+    
+        print('Header', len(header_data))
+        # Unpack the timestamp and frame size fields from the message header
+        sent_timestamp, frame_size, idx = struct.unpack('tfi', header_data)
+    
+        # Receive the frame data from the server
+        frame_data = b''
+        while len(frame_data) < frame_size:
+            chunk = client_socket.recv(frame_size - len(frame_data))
+            if not chunk:
+                break
+            frame_data += chunk
+        if len(frame_data) < frame_size:
+            break
+        
+        # Calculate E2E delay
+        received_timestamp = float(time.time())
+        received_send_delay = received_timestamp - sent_timestamp
+        print('received_send_delay:', received_send_delay)
+        rec_frame_len = len(received_frame_data)
+        with open(filename, 'a') as f:
+            f.write('packet_index ,{}, sent_timestamp ,{}, received_timestamp,{},received-send delay ,{}, and size ,{},\n'.format(idx,sent_timestamp,received_timestamp,received_send_delay, rec_frame_len))
 
 if not os.path.exists('./logging'):
     os.makedirs('./logging')
@@ -112,15 +127,21 @@ frame_rate = 30
 duration = 10
 
 # Start threads for sending and receiving
+'''
 while not q.empty():
     send_thread = threading.Thread(target=process_frames)
     threads.append(send_thread)
     send_thread.start()
     time.sleep(1/frame_rate)
-
+'''
+send_thread = threading.Thread(target=send_frames(client_socket,frame_sizes[0]))
+receive_thread = threading.Thread(target=receive_frames(client_socket, sent_timestamp, frame_sizes[0])
 # Wait for threads to finish
-for thread in threads:
-    thread.join()
+send_thread.start()
+receive_thread.start()                                  
+send_thread.join()
+receive_thread.join()                                  
+                                
 
 
 # Close the connection
