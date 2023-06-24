@@ -11,16 +11,16 @@ from datetime import datetime
 def receive_frame():
     while True:
       header_data = b''
-      while len(header_data) < 16:
-          chunk = client_socket.recv(16 - len(header_data))
+      while len(header_data) < 20:
+          chunk = client_socket.recv(20 - len(header_data))
           if not chunk:
               break
           header_data += chunk
-      if len(header_data) < 16:
+      if len(header_data) < 20:
           break
 
       print('Header', len(header_data))
-      timestamp, frame_size, idx = struct.unpack('tfi', header_data)
+      timestamp, frame_size, idx = struct.unpack('dLi', header_data)
         
       frame_data = b''
       while len(frame_data) < frame_size:
@@ -34,14 +34,14 @@ def receive_frame():
       received_timestamp = float(time.time())
       e2e_delay = received_timestamp-timestamp
     # Pack the frame data and header into a message
-      timestamp_packed = struct.pack('t', timestamp)
-      frame_size_packed = struct.pack('f', frame_size)
+      timestamp_packed = struct.pack('d', timestamp)
+      frame_size_packed = struct.pack('L', frame_size)
       idx_packed = struct.pack('i', idx)
       message = timestamp_packed + frame_size_packed + idx_packed  + frame_data
                 
       print('idx :', idx,'E2E delay:',e2e_delay, 'and size:', frame_size)
 
-
+      #client_socket.sendall(idx_packed)
       client_socket.sendall(message)
 
       with open(filename, 'a') as f:
