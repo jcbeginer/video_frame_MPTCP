@@ -56,7 +56,7 @@ def receive_frames(client_socket, frame_sizes):
           break
 
       print('Header', len(header_data))
-      timestamp, frame_size, idx = struct.unpack('dLi', header_data)
+      sent_timestamp, received_frame_size, idx = struct.unpack('dLi', header_data)
         
       frame_data = b''
       while len(frame_data) < frame_size:
