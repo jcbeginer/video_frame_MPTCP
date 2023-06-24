@@ -42,6 +42,7 @@ def send_frames(client_socket,frame_sizes):
 
 # Function to handle frame receiving
 def receive_frames(client_socket, frame_sizes):
+    print("receiver start")
     frame_size = int(frame_sizes)
     # Receive the frame data back from the server
     while True:
