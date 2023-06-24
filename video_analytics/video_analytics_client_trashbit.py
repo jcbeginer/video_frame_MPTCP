@@ -27,7 +27,7 @@ def send_frames(client_socket,frame_sizes):
         # Pack the frame data and header into a message
         timestamp_packed = struct.pack('d', timestamp)
         frame_size_packed = struct.pack('L', frame_size)
-        index_packed = struct.pack('i', i)
+        index_packed = struct.pack('i', i+1)
         message = timestamp_packed + frame_size_packed + index_packed  + data
 
         # Send the message to the client
