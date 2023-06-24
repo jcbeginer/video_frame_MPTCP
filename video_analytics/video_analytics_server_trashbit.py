@@ -11,12 +11,12 @@ from datetime import datetime
 def receive_frame():
     while True:
       header_data = b''
-      while len(header_data) < 16:
-          chunk = client_socket.recv(16 - len(header_data))
+      while len(header_data) < 20:
+          chunk = client_socket.recv(20 - len(header_data))
           if not chunk:
               break
           header_data += chunk
-      if len(header_data) < 16:
+      if len(header_data) < 20:
           break
 
       print('Header', len(header_data))
@@ -41,7 +41,7 @@ def receive_frame():
                 
       print('idx :', idx,'E2E delay:',e2e_delay, 'and size:', frame_size)
 
-
+      #client_socket.sendall(idx_packed)
       client_socket.sendall(message)
 
       with open(filename, 'a') as f:
