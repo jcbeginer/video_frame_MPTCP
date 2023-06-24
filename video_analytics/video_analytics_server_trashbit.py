@@ -45,7 +45,7 @@ def receive_frame():
       client_socket.sendall(message)
 
       with open(filename, 'a') as f:
-          f.write('sender's timestamp ,{},received timestamp ,{}, E2E delay ,{}, and size ,{},\n'.format(timestamp,received_timestamp,e2e_delay, frame_size))
+          f.write("sender's timestamp ,{},received timestamp ,{}, E2E delay ,{}, and size ,{},\n".format(timestamp,received_timestamp,e2e_delay, frame_size))
 
 
 # Create a socket object
