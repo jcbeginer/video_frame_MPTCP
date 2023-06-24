@@ -19,7 +19,7 @@ def receive_frame():
       if len(header_data) < 20:
           break
 
-      print('Header', len(header_data))
+ #    print('Header', len(header_data))
       timestamp, frame_size, idx = struct.unpack('dLi', header_data)
         
       frame_data = b''
