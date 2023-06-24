@@ -25,8 +25,8 @@ def send_frames(client_socket,frame_sizes):
         send_timestamps.append(timestamp)
 
         # Pack the frame data and header into a message
-        timestamp_packed = struct.pack('t', timestamp)
-        frame_size_packed = struct.pack('f', frame_size)
+        timestamp_packed = struct.pack('d', timestamp)
+        frame_size_packed = struct.pack('L', frame_size)
         index_packed = struct.pack('i', i)
         message = timestamp_packed + frame_size_packed + index_packed  + data
 
@@ -64,7 +64,7 @@ def receive_frames(client_socket, frame_size):
     
         print('Header', len(header_data))
         # Unpack the timestamp and frame size fields from the message header
-        sent_timestamp, frame_size, idx = struct.unpack('tfi', header_data)
+        sent_timestamp, frame_size, idx = struct.unpack('dLi', header_data)
     
         # Receive the frame data from the server
         frame_data = b''
@@ -118,7 +118,7 @@ except FileNotFoundError:
     
     frame_sizes = ['81920']
     #frame_sizes = ['327680']
-    print('Error: No frame_sizes.txt file found. Using default frame size of {}KB'.format(frame_sizes[0]/1024))
+    print('Error: No frame_sizes.txt file found. Using default frame size of {}KB'.format(int(int(frame_sizes[0])/1024)))
 
 threads = []
 # Define the frame rate (in frames per second)
@@ -131,7 +131,7 @@ duration = 10
 
 send_thread = threading.Thread(target=send_frames(client_socket,frame_sizes[0]))
 send_thread.start()
-receive_thread = threading.Thread(target=receive_frames(client_socket, sent_timestamp, frame_sizes[0])
+receive_thread = threading.Thread(target=receive_frames(client_socket, sent_timestamp, frame_sizes[0]))
 receive_thread.start()                                  
 send_thread.join()
 receive_thread.join()                                  
