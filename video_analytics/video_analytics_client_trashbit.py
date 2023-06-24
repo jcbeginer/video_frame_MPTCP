@@ -68,12 +68,12 @@ def receive_frames(client_socket, frame_sizes):
         
         # Calculate E2E delay
         # 60ms for video analytics processing time on server side
-        received_timestamp = float(time.time()) + 0.06 
-        received_send_delay = received_timestamp - sent_timestamp 
-        print('packet_idx {}, received_send_delay {}'.format(idx, received_send_delay))
-        rec_frame_len = len(received_frame_data)
-        with open(filename, 'a') as f:
-            f.write('packet_index ,{}, sent_timestamp ,{}, received_timestamp,{},received-send delay ,{}, and size ,{},\n'.format(idx,sent_timestamp,received_timestamp,received_send_delay, rec_frame_len))
+      received_timestamp = float(time.time()) + 0.06 
+      received_send_delay = received_timestamp - sent_timestamp 
+      print('packet_idx {}, received_send_delay {}'.format(idx, received_send_delay))
+      rec_frame_len = len(received_frame_data)
+      with open(filename, 'a') as f:
+          f.write('packet_index ,{}, sent_timestamp ,{}, received_timestamp,{},received-send delay ,{}, and size ,{},\n'.format(idx,sent_timestamp,received_timestamp,received_send_delay, rec_frame_len))
 
 if not os.path.exists('./logging'):
     os.makedirs('./logging')
