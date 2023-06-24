@@ -20,7 +20,7 @@ def receive_frame():
           break
 
       print('Header', len(header_data))
-      timestamp, frame_size, idx = struct.unpack('tfi', header_data)
+      timestamp, frame_size, idx = struct.unpack('dLi', header_data)
         
       frame_data = b''
       while len(frame_data) < frame_size:
@@ -34,8 +34,8 @@ def receive_frame():
       received_timestamp = float(time.time())
       e2e_delay = received_timestamp-timestamp
     # Pack the frame data and header into a message
-      timestamp_packed = struct.pack('t', timestamp)
-      frame_size_packed = struct.pack('f', frame_size)
+      timestamp_packed = struct.pack('d', timestamp)
+      frame_size_packed = struct.pack('L', frame_size)
       idx_packed = struct.pack('i', idx)
       message = timestamp_packed + frame_size_packed + idx_packed  + frame_data
                 
