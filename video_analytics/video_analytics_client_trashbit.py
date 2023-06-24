@@ -131,7 +131,7 @@ duration = 10
 
 send_thread = threading.Thread(target=send_frames(client_socket,frame_sizes[0]))
 send_thread.start()
-receive_thread = threading.Thread(target=receive_frames(client_socket, sent_timestamp, frame_sizes[0])
+receive_thread = threading.Thread(target=receive_frames(client_socket, sent_timestamp, frame_sizes[0]))
 receive_thread.start()                                  
 send_thread.join()
 receive_thread.join()                                  
