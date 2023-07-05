@@ -30,12 +30,14 @@ def receive_frame():
       if len(frame_data) < frame_size:
           break
     #received time stamp
+      #frame_size of sending is =8192 (1KB)
       received_timestamp = float(time.time())
       e2e_delay = received_timestamp-timestamp
     # Pack the frame data and header into a message
       timestamp_packed = struct.pack('d', timestamp)
-      frame_size_packed = struct.pack('L', frame_size)
+      frame_size_packed = struct.pack('L', 8192)
       idx_packed = struct.pack('i', idx)
+      frame_data = data = b'0' * 8192
       message = timestamp_packed + frame_size_packed + idx_packed  + frame_data
                 
       print('idx :', idx,'E2E delay:',e2e_delay, 'and size:', frame_size)
