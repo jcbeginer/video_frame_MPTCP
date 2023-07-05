@@ -19,9 +19,9 @@ def send_frames(client_socket,frame_sizes):
     
     # Create a video frame of the specified size
     
-    for i in range(len(frame_sizes)*7):
+    for i in range(20):
         # Get current timestamp and save it
-        frame_size = frame_sizes[int(i/7)]
+        frame_size = frame_sizes[0]
         data = b'0' * frame_size
         timestamp = float(time.time())
         send_timestamps.append(timestamp)
