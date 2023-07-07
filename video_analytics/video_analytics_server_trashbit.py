@@ -37,7 +37,7 @@ def receive_frame():
       timestamp_packed = struct.pack('d', timestamp)
       frame_size_packed = struct.pack('L', frame_size)
       idx_packed = struct.pack('i', idx)
-      #frame_data = b'0'*8192 
+      frame_data = b'0'*8192 
     #frame_size of sending is 8192 (1KB)
       message = timestamp_packed + frame_size_packed + idx_packed  + frame_data
                 
