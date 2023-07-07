@@ -41,9 +41,9 @@ def send_frames(client_socket,frame_sizes):
     
 
 # Function to handle frame receiving
-def receive_frames(client_socket, frame_sizes):
+def receive_frames(client_socket, frame_size):
     print("receiver start")
-    frame_size = int(frame_sizes)
+    frame_size = int(frame_size)
     # Receive the frame data back from the server
     while True:
       header_data = b''
@@ -108,11 +108,13 @@ try:
         frame_sizes = f.read().splitlines()
 except FileNotFoundError:
     
-    frame_sizes=['800']
+    frame_sizes=[15360,25600,30720,40960,71680,102400,133120,153600] # 15KB (index24), 25KB(index25), 30KB(index26), 40KB(index27), 70KB(index28), 100KB(index29), 130KB(index30), 150KB(index31)
     #frame_sizes = ['81920']
     #frame_sizes = ['327680']
-    print('Error: No frame_sizes.txt file found. Using default frame size of {}KB'.format(int(int(frame_sizes[0])/1024)))
+    #print('Error: No frame_sizes.txt file found. Using default frame size of {}KB'.format(int(int(frame_sizes[0])/1024)))
 
+#define frame_size
+frame_size = frame_sizes[0]
 threads = []
 # Define the frame rate (in frames per second)
 frame_rate = 30
@@ -122,8 +124,8 @@ duration = 10
 
 # Start threads for sending and receiving
 
-send_thread = threading.Thread(target=send_frames,args=(client_socket,frame_sizes[0]))
-receive_thread = threading.Thread(target=receive_frames,args=(client_socket, frame_sizes[0]))
+send_thread = threading.Thread(target=send_frames,args=(client_socket,frame_size))
+receive_thread = threading.Thread(target=receive_frames,args=(client_socket, frame_size))
 receive_thread.start()                                  
 send_thread.start()
 send_thread.join()
