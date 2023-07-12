@@ -40,7 +40,7 @@ def send_frames(client_socket,frame_sizes):
             receive_frames(client_socket,100)
         # Wait for the next frame to be transmitted
 
-        time.sleep(3)
+        time.sleep(5)
 
 # Function to handle frame receiving
 def receive_frames(client_socket, frame_size):
