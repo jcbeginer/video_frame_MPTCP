@@ -19,7 +19,7 @@ def send_frames(client_socket,frame_sizes):
     
     # Create a video frame of the specified size
     for frame_size in frame_sizes:
-        for i in range(100):
+        for i in range(50):
             data = b'0' * frame_size #여기서 b'0'는 1 byte를 가진다! (not 1 bit)
             timestamp = float(time.time())
             send_timestamps.append(timestamp)
@@ -37,6 +37,7 @@ def send_frames(client_socket,frame_sizes):
     
         
             receive_frames(client_socket,100,frame_size)
+            #time.sleep(0.05) #50ms for wait BSR
         # Wait for the next frame to be transmitted
 
         time.sleep(3)
@@ -114,7 +115,7 @@ except FileNotFoundError:
     #frame_sizes = ['327680']
     #print('Error: No frame_sizes.txt file found. Using default frame size of {}KB'.format(int(int(frame_sizes[0])/1024)))
 
-frame_sizes=[72000,74000,76000,78000]
+frame_sizes=[70000,80000,90000,100000]
 #frame_size=frame_sizes[0]
 
 
