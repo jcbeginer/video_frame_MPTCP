@@ -20,7 +20,6 @@ def send_frames(client_socket,frame_sizes):
     # Create a video frame of the specified size
     for frame_size in frame_sizes:
         for i in range(100):
-            #frame_size=f_s*8
             data = b'0' * frame_size #여기서 b'0'는 1 byte를 가진다! (not 1 bit)
             timestamp = float(time.time())
             send_timestamps.append(timestamp)
