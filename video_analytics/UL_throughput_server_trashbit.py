@@ -1,3 +1,4 @@
+#그렇게 유의미한 결과를 보이지 않음!
 import socket
 import time
 import struct
