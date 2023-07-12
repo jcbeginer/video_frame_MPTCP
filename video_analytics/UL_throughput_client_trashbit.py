@@ -10,7 +10,7 @@ from datetime import datetime
 send_timestamps = []
 
 # Function to handle frame sending
-def send_frames(client_socket,frame_size):
+def send_frames(client_socket,frame_sizes):
     global send_timestamps
     
     # Transmit the video frames
@@ -18,28 +18,29 @@ def send_frames(client_socket,frame_size):
     
     
     # Create a video frame of the specified size
-
-    for i in range(1000):
+    for frame_size in frame_sizes:
+        for i in range(1000):
     
-        data = b'0' * frame_size
-        timestamp = float(time.time())
-        send_timestamps.append(timestamp)
+            data = b'0' * frame_size
+            timestamp = float(time.time())
+            send_timestamps.append(timestamp)
 
-        # Pack the frame data and header into a message
-        timestamp_packed = struct.pack('d', timestamp)
-        frame_size_packed = struct.pack('L', frame_size)
-        index_packed = struct.pack('i', i+1)
-        message = timestamp_packed + frame_size_packed + index_packed  + data
+            # Pack the frame data and header into a message
+            timestamp_packed = struct.pack('d', timestamp)
+            frame_size_packed = struct.pack('L', frame_size)
+            index_packed = struct.pack('i', i+1)
+            message = timestamp_packed + frame_size_packed + index_packed  + data
 
-        # Send the message to the client
-        client_socket.sendall(message)
+            # Send the message to the client
+            client_socket.sendall(message)
        
-        print('Sent frame', i+1, 'of size', frame_size, 'to the client')
+            print('Sent frame', i+1, 'of size', frame_size, 'to the client')
     
         
-        receive_frames(client_socket,100)
-    # Wait for the next frame to be transmitted
-    
+            receive_frames(client_socket,100)
+        # Wait for the next frame to be transmitted
+
+        time.sleep(3)
 
 # Function to handle frame receiving
 def receive_frames(client_socket, frame_size):
@@ -114,8 +115,8 @@ except FileNotFoundError:
     #frame_sizes = ['327680']
     #print('Error: No frame_sizes.txt file found. Using default frame size of {}KB'.format(int(int(frame_sizes[0])/1024)))
 
-frame_sizes=[74000,76000]
-frame_size=frame_sizes[0]
+frame_sizes=[74000,76000,78000]
+#frame_size=frame_sizes[0]
 
 
 threads = []
@@ -127,7 +128,7 @@ duration = 10
 
 # Start threads for sending and receiving
 
-send_thread = threading.Thread(target=send_frames,args=(client_socket,frame_size))
+send_thread = threading.Thread(target=send_frames,args=(client_socket,frame_sizes))
 #receive_thread = threading.Thread(target=receive_frames,args=(client_socket, 8192))
 #receive_thread.start()                                  
 send_thread.start()
