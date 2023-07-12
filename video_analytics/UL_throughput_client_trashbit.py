@@ -18,9 +18,9 @@ def send_frames(client_socket,frame_sizes):
     
     
     # Create a video frame of the specified size
-    for frame_size in frame_sizes:
+    for f_s in frame_sizes:
         for i in range(100):
-    
+            frame_size=f_s*8
             data = b'0' * frame_size
             timestamp = float(time.time())
             send_timestamps.append(timestamp)
@@ -45,7 +45,7 @@ def send_frames(client_socket,frame_sizes):
 # Function to handle frame receiving
 def receive_frames(client_socket, frame_sizes):
     #print("receiver start")
-    frame_size = frame_sizes*8
+    
     # Receive the frame data back from the server
     
     header_data = b''
