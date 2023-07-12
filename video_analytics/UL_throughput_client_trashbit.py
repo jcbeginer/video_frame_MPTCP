@@ -10,7 +10,7 @@ from datetime import datetime
 send_timestamps = []
 
 # Function to handle frame sending
-def send_frames(client_socket,frame_size):
+def send_frames(client_socket,frame_sizes):
     global send_timestamps
     
     # Transmit the video frames
@@ -18,31 +18,31 @@ def send_frames(client_socket,frame_size):
     
     
     # Create a video frame of the specified size
+    for frame_size in frame_sizes:
+        for i in range(100):
+            data = b'0' * frame_size #여기서 b'0'는 1 byte를 가진다! (not 1 bit)
+            timestamp = float(time.time())
+            send_timestamps.append(timestamp)
 
-    for i in range(300):
-    
-        data = b'0' * frame_size
-        timestamp = float(time.time())
-        send_timestamps.append(timestamp)
+            # Pack the frame data and header into a message
+            timestamp_packed = struct.pack('d', timestamp)
+            frame_size_packed = struct.pack('L', frame_size)
+            index_packed = struct.pack('i', i+1)
+            message = timestamp_packed + frame_size_packed + index_packed  + data
 
-        # Pack the frame data and header into a message
-        timestamp_packed = struct.pack('d', timestamp)
-        frame_size_packed = struct.pack('L', frame_size)
-        index_packed = struct.pack('i', i+1)
-        message = timestamp_packed + frame_size_packed + index_packed  + data
-
-        # Send the message to the client
-        client_socket.sendall(message)
+            # Send the message to the client
+            client_socket.sendall(message)
        
-        print('Sent frame', i+1, 'of size', frame_size, 'to the client')
+            print('Sent frame', i+1, 'of size', frame_size, 'to the client')
     
         
-        receive_frames(client_socket,100)
-    # Wait for the next frame to be transmitted
-    
+            receive_frames(client_socket,100,frame_size)
+        # Wait for the next frame to be transmitted
+
+        time.sleep(3)
 
 # Function to handle frame receiving
-def receive_frames(client_socket, frame_size):
+def receive_frames(client_socket, frame_size,send_frame_size):
     #print("receiver start")
     
     # Receive the frame data back from the server
@@ -53,8 +53,8 @@ def receive_frames(client_socket, frame_size):
         if not chunk:
             break
         header_data += chunk
-    if len(header_data) < 20:
-          break
+    #if len(header_data) < 20:
+    #    break
 
     #print('Header', len(header_data))
     sent_timestamp, received_frame_size, idx = struct.unpack('dLi', header_data)
@@ -65,17 +65,17 @@ def receive_frames(client_socket, frame_size):
         if not chunk:
             break
         frame_data += chunk
-    if len(frame_data) < frame_size:
-        break
+    #if len(frame_data) < frame_size:
+    #    break
         
     # Calculate E2E delay
-    # 60ms for video analytics processing time on server side
+    # 20.63ms for video analytics processing time on server side
     received_timestamp = float(time.time()) + 0.02063 
     received_send_delay = received_timestamp - sent_timestamp 
     print('packet_idx {}, received_send_delay {}'.format(idx, received_send_delay))
     rec_frame_len = len(frame_data)
     with open(filename, 'a') as f:
-        f.write('packet_index ,{}, sent_timestamp ,{}, received_timestamp,{},received-send delay ,{}, and size ,{},\n'.format(idx,sent_timestamp,received_timestamp,received_send_delay, rec_frame_len))
+        f.write('packet_index ,{}, sent_timestamp ,{}, received_timestamp,{},received-send delay ,{}, and size ,{},\n'.format(idx,sent_timestamp,received_timestamp,received_send_delay, send_frame_size))
 
 if not os.path.exists('./logging'):
     os.makedirs('./logging')
@@ -114,7 +114,9 @@ except FileNotFoundError:
     #frame_sizes = ['327680']
     #print('Error: No frame_sizes.txt file found. Using default frame size of {}KB'.format(int(int(frame_sizes[0])/1024)))
 
-frame_size=frame_sizes[0]
+frame_sizes=[72000,74000,76000,78000]
+#frame_size=frame_sizes[0]
+
 
 threads = []
 # Define the frame rate (in frames per second)
@@ -125,7 +127,7 @@ duration = 10
 
 # Start threads for sending and receiving
 
-send_thread = threading.Thread(target=send_frames,args=(client_socket,frame_size))
+send_thread = threading.Thread(target=send_frames,args=(client_socket,frame_sizes))
 #receive_thread = threading.Thread(target=receive_frames,args=(client_socket, 8192))
 #receive_thread.start()                                  
 send_thread.start()
