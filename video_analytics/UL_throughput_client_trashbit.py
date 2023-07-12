@@ -43,7 +43,7 @@ def send_frames(client_socket,frame_sizes):
         time.sleep(3)
 
 # Function to handle frame receiving
-def receive_frames(client_socket, frame_sizes,send_frame_size):
+def receive_frames(client_socket, frame_size,send_frame_size):
     #print("receiver start")
     
     # Receive the frame data back from the server
