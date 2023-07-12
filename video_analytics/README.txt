@@ -1,6 +1,6 @@
-
+230712
 data = b'0' * frame_size #여기서 b'0'는 1 byte를 가진다! (not 1 bit)
-
+-----------------------------------------------------------------------------------------------
 UL_throughput_client_trashbit.py를 이용해서 frame size를 70 72 74 76 78 KB로 보낼 때, 
 이렇게 되면 BSR index가 바뀌면서 70일 때보다 78KB일 때 throughput이 더 좋아질 것으로 예상했다!
 
@@ -11,3 +11,10 @@ UL_throughput_client_trashbit.py를 이용해서 frame size를 70 72 74 76 78 KB
 그런데 두 가지의 경우가 거의 엇비슷한 throughput을 보인다.
 
 그러면 반대로 조금 더 frame_size를 줄이고 이렇게 하면 어떤 변화가 있을까???
+
+------------------------------------------------------------------------------------------------
+UL_throughput_client_trashbit.py를 활용해서 frame_size에 따라서 throughput이 바뀌는 걸 보려고 했다.
+기본적으로 BS report 기반의 UL은 BS report를 하면, 그것 보다 큰 resource를 할당해주기에 
+70000,80000,90000,100000 의 다른 frame size로 실험을 했을 때, 최소한 선형적으로 throughput이 늘거라고 생각했다.
+
+결과는 5번 실험해봤을 때 그렇게 유의미하게 보이지 않았다.
