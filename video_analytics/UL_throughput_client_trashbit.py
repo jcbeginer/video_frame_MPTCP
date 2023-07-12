@@ -43,9 +43,9 @@ def send_frames(client_socket,frame_sizes):
         time.sleep(5)
 
 # Function to handle frame receiving
-def receive_frames(client_socket, frame_size):
+def receive_frames(client_socket, frame_sizes):
     #print("receiver start")
-    
+    frame_size = frame_sizes*8
     # Receive the frame data back from the server
     
     header_data = b''
@@ -115,7 +115,7 @@ except FileNotFoundError:
     #frame_sizes = ['327680']
     #print('Error: No frame_sizes.txt file found. Using default frame size of {}KB'.format(int(int(frame_sizes[0])/1024)))
 
-frame_sizes=[74000,76000,78000]
+frame_sizes=[72000,74000,76000,78000]
 #frame_size=frame_sizes[0]
 
 
