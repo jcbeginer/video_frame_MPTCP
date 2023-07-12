@@ -53,8 +53,8 @@ def receive_frames(client_socket, frame_size):
         if not chunk:
             break
         header_data += chunk
-    if len(header_data) < 20:
-        break
+    #if len(header_data) < 20:
+    #    break
 
     #print('Header', len(header_data))
     sent_timestamp, received_frame_size, idx = struct.unpack('dLi', header_data)
