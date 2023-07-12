@@ -65,11 +65,11 @@ def receive_frames(client_socket, frame_size):
         if not chunk:
             break
         frame_data += chunk
-    if len(frame_data) < frame_size:
-        break
+    #if len(frame_data) < frame_size:
+    #    break
         
     # Calculate E2E delay
-    # 60ms for video analytics processing time on server side
+    # 20.63ms for video analytics processing time on server side
     received_timestamp = float(time.time()) + 0.02063 
     received_send_delay = received_timestamp - sent_timestamp 
     print('packet_idx {}, received_send_delay {}'.format(idx, received_send_delay))
