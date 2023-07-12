@@ -37,13 +37,13 @@ def send_frames(client_socket,frame_sizes):
             print('Sent frame', i+1, 'of size', frame_size, 'to the client')
     
         
-            receive_frames(client_socket,100)
+            receive_frames(client_socket,100,frame_size)
         # Wait for the next frame to be transmitted
 
-        time.sleep(5)
+        time.sleep(3)
 
 # Function to handle frame receiving
-def receive_frames(client_socket, frame_sizes):
+def receive_frames(client_socket, frame_sizes,send_frame_size):
     #print("receiver start")
     
     # Receive the frame data back from the server
@@ -76,7 +76,7 @@ def receive_frames(client_socket, frame_sizes):
     print('packet_idx {}, received_send_delay {}'.format(idx, received_send_delay))
     rec_frame_len = len(frame_data)
     with open(filename, 'a') as f:
-        f.write('packet_index ,{}, sent_timestamp ,{}, received_timestamp,{},received-send delay ,{}, and size ,{},\n'.format(idx,sent_timestamp,received_timestamp,received_send_delay, rec_frame_len))
+        f.write('packet_index ,{}, sent_timestamp ,{}, received_timestamp,{},received-send delay ,{}, and size ,{},\n'.format(idx,sent_timestamp,received_timestamp,received_send_delay, send_frame_size))
 
 if not os.path.exists('./logging'):
     os.makedirs('./logging')
