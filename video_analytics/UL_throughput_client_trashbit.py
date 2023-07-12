@@ -19,7 +19,7 @@ def send_frames(client_socket,frame_size):
     
     # Create a video frame of the specified size
 
-    for i in range(300):
+    for i in range(1000):
     
         data = b'0' * frame_size
         timestamp = float(time.time())
@@ -114,7 +114,9 @@ except FileNotFoundError:
     #frame_sizes = ['327680']
     #print('Error: No frame_sizes.txt file found. Using default frame size of {}KB'.format(int(int(frame_sizes[0])/1024)))
 
+frame_sizes=[74000,76000]
 frame_size=frame_sizes[0]
+
 
 threads = []
 # Define the frame rate (in frames per second)
