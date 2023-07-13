@@ -43,6 +43,7 @@ def send_frames(client_socket,frame_sizes):
 # Function to handle frame receiving
 def receive_frames(client_socket, frame_size):
     print("receiver start")
+    global send_frame_size
     frame_size = int(frame_size)
     # Receive the frame data back from the server
     while True:
@@ -74,7 +75,7 @@ def receive_frames(client_socket, frame_size):
       print('packet_idx {}, received_send_delay {}'.format(idx, received_send_delay))
       rec_frame_len = len(frame_data)
       with open(filename, 'a') as f:
-          f.write('packet_index ,{}, sent_timestamp ,{}, received_timestamp,{},received-send delay ,{}, and size ,{},\n'.format(idx,sent_timestamp,received_timestamp,received_send_delay, rec_frame_len))
+          f.write('packet_index ,{}, sent_timestamp ,{}, received_timestamp,{},received-send delay ,{}, and size ,{},\n'.format(idx,sent_timestamp,received_timestamp,received_send_delay, send_frame_size))
 
 if not os.path.exists('./logging'):
     os.makedirs('./logging')
@@ -114,7 +115,7 @@ except FileNotFoundError:
     print('Error: No frame_sizes.txt file found. Using default frame size of {}KB'.format(int(int(frame_sizes[0])/1024)))
 
 #define frame_size
-frame_size = frame_sizes[0]
+send_frame_size = frame_sizes[0]
 threads = []
 # Define the frame rate (in frames per second)
 frame_rate = 30
@@ -124,7 +125,7 @@ duration = 10
 
 # Start threads for sending and receiving
 
-send_thread = threading.Thread(target=send_frames,args=(client_socket,frame_size))
+send_thread = threading.Thread(target=send_frames,args=(client_socket,send_frame_size))
 receive_thread = threading.Thread(target=receive_frames,args=(client_socket, 8192))
 receive_thread.start()                                  
 send_thread.start()
