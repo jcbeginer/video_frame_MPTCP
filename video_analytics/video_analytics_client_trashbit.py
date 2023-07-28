@@ -4,14 +4,13 @@ import struct
 import os
 import threading
 from datetime import datetime
+import pytz
 
 
-# global variable to save send timestamp
-send_timestamps = []
 
 # Function to handle frame sending
 def send_frames(client_socket,frame_sizes):
-    global send_timestamps
+    #global send_timestamps
     
     # Transmit the video frames
     
@@ -22,7 +21,7 @@ def send_frames(client_socket,frame_sizes):
     for i in range(frame_rate * duration):
         # Get current timestamp and save it
         timestamp = float(time.time())
-        send_timestamps.append(timestamp)
+        #send_timestamps.append(timestamp)
 
         # Pack the frame data and header into a message
         timestamp_packed = struct.pack('d', timestamp)
@@ -43,7 +42,8 @@ def send_frames(client_socket,frame_sizes):
 # Function to handle frame receiving
 def receive_frames(client_socket, frame_size):
     print("receiver start")
-    global send_frame_size
+    kst = pytz.timezone('Asia/Seoul')
+    
     frame_size = int(frame_size)
     # Receive the frame data back from the server
     while True:
@@ -74,8 +74,9 @@ def receive_frames(client_socket, frame_size):
       received_send_delay = received_timestamp - sent_timestamp 
       print('packet_idx {}, received_send_delay {}'.format(idx, received_send_delay))
       rec_frame_len = len(frame_data)
+      timestamp_str = datetime.fromtimestamp(sent_timestamp, tz=kst).strftime('%y-%m-%d %H:%M:%S')
       with open(filename, 'a') as f:
-          f.write('packet_index ,{}, sent_timestamp ,{}, received_timestamp,{},received-send delay ,{}, and size ,{},\n'.format(idx,sent_timestamp,received_timestamp,received_send_delay, send_frame_size))
+          f.write('packet_index ,{}, sent_timestamp ,{},received-send delay ,{}, and size ,{},\n'.format(idx,timestamp_str,received_send_delay, send_frame_size))
 
 if not os.path.exists('./logging'):
     os.makedirs('./logging')
