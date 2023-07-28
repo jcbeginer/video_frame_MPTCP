@@ -69,7 +69,7 @@ static int mptcp_subflow_queued(struct sock *sk, u32 max_tso_segs)
     printk("mptcp path index : %u, cwnd: %u, cwnd - queued: %d\n",
             tp->mptcp->path_index, tp->snd_cwnd, cwnd_queued_diff);
 
-    return return_value
+    return return_value;
 	//I Added
 	//return queued + tcp_packets_in_flight(tp);
 }
