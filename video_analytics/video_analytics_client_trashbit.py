@@ -87,7 +87,7 @@ now = datetime.now()
 date_string = now.strftime('%y%m%d')
 
 # Use the date string in the file name
-filename = './logging/video_analytics_client_log{}.txt'.format(date_string)
+filename = './logging/video_analytics_client_log{}_minRTT_40KB.txt'.format(date_string)
 
 with open(filename, 'a') as f:
     f.write('start--------------------------------------------\n')
@@ -116,13 +116,13 @@ except FileNotFoundError:
     print('Error: No frame_sizes.txt file found. Using default frame size of {}KB'.format(int(int(frame_sizes[0])/1024)))
 
 #define frame_size
-send_frame_size = frame_sizes[0]
+send_frame_size = frame_sizes[3]
 threads = []
 # Define the frame rate (in frames per second)
 frame_rate = 30
 
 # Define the duration of the video transmission (in seconds)
-duration = 10
+duration = 100
 
 # Start threads for sending and receiving
 
