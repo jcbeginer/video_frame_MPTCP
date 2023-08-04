@@ -31,8 +31,9 @@ def send_frames(client_socket,frame_sizes):
 
         # Send the message to the client
         client_socket.sendall(message)
-       
-        print('Sent frame', i+1, 'of size', frame_size, 'to the client')
+        delayed_time = timestamp-float(time.time())
+        print('Sent frame', i+1, 'of size', frame_size, 'to the client','delayed time is', delayed_time)
+        
         time.sleep(1/frame_rate)
         
     #receive_frames(client_socket,i,timestamp,len(data))
