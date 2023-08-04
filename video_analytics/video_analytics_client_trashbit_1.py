@@ -32,12 +32,22 @@ def send_frames(client_socket,frame_sizes):
         # Send the message to the client
         client_socket.sendall(message)
         delayed_time = (timestamp-float(time.time()))*(-1)
-        print('Sent frame', i+1, 'of size', frame_size, 'to the client','delayed time is', delayed_time)
+        if 1/frame_rate > delayed_time:
+            wait_time = (1/frame_rate)-delayed_time
+            print('Sent frame', i+1, 'of size', frame_size, 'to the client','delayed time is', wait_time)
+            with open(filename2, 'a') as f:
+                f.write('packet_index is {} and wait_time is {}\n'.format(i+1,wait_time))
+            time.sleep(wait_time)
+        else:
+            print('Sent frame', i+1, 'of size', frame_size, 'to the client','delayed time is', delayed_time)
+            with open(filename2, 'a') as f:
+                f.write('packet_index is {} and wait_time is {}\n'.format(i+1,0))
+            continue
         
-        with open(filename2, 'a') as f:
-          f.write('packet_index is {} and delayed_time is {}\n'.format(i+1,delayed_time))
+        
+        
 
-        time.sleep(1/frame_rate)
+        
         
     #receive_frames(client_socket,i,timestamp,len(data))
     # Wait for the next frame to be transmitted
