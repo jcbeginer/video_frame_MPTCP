@@ -38,7 +38,8 @@ def send_frames(client_socket,frame_sizes):
         delayed_time = float(time.time()) - timestamp
         print('Sent frame', i+1, 'of size', frame_size, 'to the client')
         if delayed_time >1/frame_rate: continue
-        else: wait_time = (1/frame_rate)-delayed_time
+        else: 
+            wait_time = (1/frame_rate)-delayed_time
             time.sleep(wait_time)
         
     #receive_frames(client_socket,i,timestamp,len(data))
