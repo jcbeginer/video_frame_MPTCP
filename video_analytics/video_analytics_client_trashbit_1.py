@@ -31,11 +31,12 @@ def send_frames(client_socket,frame_sizes):
 
         # Send the message to the client
         client_socket.sendall(message)
-        delayed_time = (timestamp-float(time.time()))*(-1)
+        delayed_time = float(time.time())-timestamp
         wait_time=c_wait_time-delayed_time
-        print('Sent frame', i+1, 'of size', frame_size, 'to the client','sleep time is', wait_time)
+        logging_time = min(0,wait_time)*-1
+        print('Sent frame', i+1, 'of size', frame_size, 'to the client','delayed_time is', logging_time)
         with open(filename2, 'a') as f:
-            f.write('packet_index is {} and delayed_time is {}\n'.format(i+1,(min(0,wait_time))*-1)
+            f.write('packet_index is {} and delayed_time is {}\n'.format(i+1,logging_time))
         try: time.sleep(wait_time)
         except: continue
         '''
