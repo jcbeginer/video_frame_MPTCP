@@ -15,7 +15,7 @@ def send_frames(client_socket,frame_sizes):
     # Transmit the video frames
     
     frame_size = int(frame_sizes)
-    
+    c_wait_time = 1/frame_rate
     # Create a video frame of the specified size
     data = b'0' * frame_size
     for i in range(frame_rate * duration):
@@ -32,18 +32,24 @@ def send_frames(client_socket,frame_sizes):
         # Send the message to the client
         client_socket.sendall(message)
         delayed_time = (timestamp-float(time.time()))*(-1)
+        wait_time=c_wait_time-delayed_time
+        print('Sent frame', i+1, 'of size', frame_size, 'to the client','sleep time is', wait_time)
+        with open(filename2, 'a') as f:
+            f.write('packet_index is {} and delayed_time is {}\n'.format(i+1,(min(0,wait_time))*-1)
+        try: time.sleep(wait_time)
+        except: continue
+        '''
         if 1/frame_rate > delayed_time:
-            wait_time = (1/frame_rate)-delayed_time
-            print('Sent frame', i+1, 'of size', frame_size, 'to the client','delayed time is', wait_time)
+            print('Sent frame', i+1, 'of size', frame_size, 'to the client','sleep time is', wait_time)
             with open(filename2, 'a') as f:
-                f.write('packet_index is {} and wait_time is {}\n'.format(i+1,wait_time))
+                f.write('packet_index is {} and delayed_time is {}\n'.format(i+1,0))
             time.sleep(wait_time)
         else:
             print('Sent frame', i+1, 'of size', frame_size, 'to the client','delayed time is', delayed_time)
             with open(filename2, 'a') as f:
-                f.write('packet_index is {} and wait_time is {}\n'.format(i+1,0))
+                f.write('packet_index is {} and delayed_time is {}\n'.format(i+1,delayed_time-(1/frame_rate))
             continue
-        
+        '''
         
         
 
