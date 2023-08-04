@@ -19,11 +19,12 @@ def send_frames(client_socket,frame_sizes):
     # Create a video frame of the specified size
     data = b'0' * frame_size
     timestamp = float(time.time())
+    c_wait_time = 1/frame_rate
     for i in range(frame_rate * duration):
         # Get current timestamp and save it
         tmp = float(time.time())
         with open(filename2, 'a') as f:
-            f.write('packet_index is {} and delayed_time is {}\n'.format(i+1,tmp-timestamp))
+            f.write('packet_index is {} and delayed_time is {}\n'.format(i+1,tmp-timestamp-c_wait_time))
         timestamp = float(time.time())
         #send_timestamps.append(timestamp)
 
@@ -37,9 +38,9 @@ def send_frames(client_socket,frame_sizes):
         client_socket.sendall(message)
         delayed_time = float(time.time()) - timestamp
         print('Sent frame', i+1, 'of size', frame_size, 'to the client')
-        if delayed_time >1/frame_rate: continue
+        if delayed_time >c_wait_time: continue
         else: 
-            wait_time = (1/frame_rate)-delayed_time
+            wait_time = c_wait_time-delayed_time
             time.sleep(wait_time)
         
     #receive_frames(client_socket,i,timestamp,len(data))
@@ -95,7 +96,7 @@ date_string = now.strftime('%y%m%d')
 
 # Use the date string in the file name
 filename = './logging/video_analytics_client_log{}_minRTT_40KB.txt'.format(date_string)
-filename2 = './logging/delayed_time_log{}.txt'.format(date_string)
+filename2 = './logging/delayed_time_log{}2.txt'.format(date_string)
 
 with open(filename, 'a') as f:
     f.write('start--------------------------------------------\n')
