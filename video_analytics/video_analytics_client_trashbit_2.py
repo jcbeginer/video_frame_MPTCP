@@ -83,7 +83,7 @@ def receive_frames(client_socket, frame_size):
       received_timestamp = float(time.time()) +  0.02063 
       received_send_delay = received_timestamp - sent_timestamp 
       print('packet_idx {}, received_send_delay {}'.format(idx, received_send_delay))
-      rec_frame_len = len(frame_data)
+      #rec_frame_len = len(frame_data)
       timestamp_str = datetime.fromtimestamp(sent_timestamp, tz=kst).strftime('%y-%m-%d %H:%M:%S')
       with open(filename, 'a') as f:
           f.write('packet_index ,{}, sent_timestamp ,{},received-send delay ,{}, and size ,{},\n'.format(idx,timestamp_str,received_send_delay, send_frame_size))
