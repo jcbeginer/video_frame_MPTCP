@@ -49,8 +49,12 @@ def send_frames(client_socket,frame_sizes):
         data[:len(message)] = message[:]
 
         # Send the message to the client
+<<<<<<< HEAD
         client_socket.sendall(bytes(data))
         #client_socket.sendall(data)
+=======
+        client_socket.sendall(data[:frame_size+20])
+>>>>>>> d514b130714d63dc59cfeb396125089fd8175895
         delayed_time = float(time.time()) - timestamp
         print('Sent frame', i+1, 'of size', frame_size, 'to the client')
         time.sleep(1/frame_rate)
@@ -85,7 +89,11 @@ def receive_frames(client_socket, frame_size):
 
       #print('Header', len(header_data))
       sent_timestamp, received_frame_size, idx = struct.unpack('dLi', header_data)
+<<<<<<< HEAD
         
+=======
+      frame_size -=20
+>>>>>>> d514b130714d63dc59cfeb396125089fd8175895
       frame_data = b''
       while len(frame_data) < frame_size:
           chunk = client_socket.recv(frame_size - len(frame_data))
@@ -94,7 +102,11 @@ def receive_frames(client_socket, frame_size):
           frame_data += chunk
       if len(frame_data) < frame_size:
           break
+<<<<<<< HEAD
         
+=======
+      
+>>>>>>> d514b130714d63dc59cfeb396125089fd8175895
         # Calculate E2E delay
         # 60ms for video analytics processing time on server side
       received_timestamp = float(time.time()) +  0.02063 

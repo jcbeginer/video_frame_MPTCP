@@ -7,6 +7,7 @@ from datetime import datetime
 
 
 frame_data = bytearray(b'0'*8192)
+#frame_data = b'0'*8192
 # Handle client connection
 def receive_frame():
     while True:
@@ -23,6 +24,7 @@ def receive_frame():
       timestamp, frame_size, idx = struct.unpack('dLi', header_data)
       
       received_data = b''
+      frame_size -=20
       while len(received_data) < frame_size:
           chunk = client_socket.recv(frame_size - len(received_data))
           if not chunk:
@@ -40,13 +42,14 @@ def receive_frame():
       idx_packed = struct.pack('i', idx)
        
     #frame_size of sending is 8192 (1KB)
-      message = timestamp_packed + frame_size_packed + idx_packed
+      message = timestamp_packed + frame_size_packed + idx_packed+frame_data
       frame_data[:len(message)] = message
                 
       print('idx :', idx,'E2E delay:',e2e_delay, 'and size:', frame_size)
 
       #client_socket.sendall(idx_packed)
-      client_socket.sendall(frame_data)
+      #client_socket.sendall(frame_data[:8192+20])
+      client_socket.sendall(message)
 
       with open(filename, 'a') as f:
           f.write("sender's timestamp ,{},received timestamp ,{}, E2E delay ,{}, and size ,{},\n".format(timestamp,received_timestamp,e2e_delay, frame_size))
