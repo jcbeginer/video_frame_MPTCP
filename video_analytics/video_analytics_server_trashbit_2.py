@@ -21,7 +21,7 @@ def receive_frame():
 
  #    print('Header', len(header_data))
       timestamp, frame_size, idx = struct.unpack('dLi', header_data)
-      '''
+      
       frame_data = b''
       while len(frame_data) < frame_size:
           chunk = client_socket.recv(frame_size - len(frame_data))
@@ -30,7 +30,7 @@ def receive_frame():
           frame_data += chunk
       if len(frame_data) < frame_size:
           break
-      '''
+      
     #received time stamp
       received_timestamp = float(time.time())
       e2e_delay = received_timestamp-timestamp
