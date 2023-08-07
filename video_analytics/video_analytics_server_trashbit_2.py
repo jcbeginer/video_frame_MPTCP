@@ -46,7 +46,7 @@ def receive_frame():
       print('idx :', idx,'E2E delay:',e2e_delay, 'and size:', frame_size)
 
       #client_socket.sendall(idx_packed)
-      client_socket.sendall(frame_data)
+      client_socket.sendall(frame_data[:8192+20])
 
       with open(filename, 'a') as f:
           f.write("sender's timestamp ,{},received timestamp ,{}, E2E delay ,{}, and size ,{},\n".format(timestamp,received_timestamp,e2e_delay, frame_size))
