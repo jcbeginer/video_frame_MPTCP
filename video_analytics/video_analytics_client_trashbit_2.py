@@ -133,7 +133,7 @@ except FileNotFoundError:
 send_frame_size = frame_sizes[3]
 threads = []
 # Define the frame rate (in frames per second)
-frame_rate = 3
+frame_rate = 30
 
 # Define the duration of the video transmission (in seconds)
 duration = 10
