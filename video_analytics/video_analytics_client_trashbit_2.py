@@ -70,7 +70,7 @@ def receive_frames(client_socket, frame_size):
 
       #print('Header', len(header_data))
       sent_timestamp, received_frame_size, idx = struct.unpack('dLi', header_data)
-
+      '''
       #frame_size -=20 아래에서 thread를 approach할 때 20 줄여서 넣음!
       frame_data = b''
       while len(frame_data) < frame_size:
@@ -80,13 +80,13 @@ def receive_frames(client_socket, frame_size):
           #frame_data += chunk
       if len(frame_data) < frame_size:
           break
-
+      '''
         # Calculate E2E delay
         # 60ms for video analytics processing time on server side
       received_timestamp = float(time.time()) +  0.02063 
       received_send_delay = received_timestamp - sent_timestamp 
       print('packet_idx {}, received_send_delay {}'.format(idx, received_send_delay))
-      #rec_frame_len = len(frame_data)
+      
       timestamp_str = datetime.fromtimestamp(sent_timestamp, tz=kst).strftime('%y-%m-%d %H:%M:%S')
       with open(filename, 'a') as f:
           f.write('packet_index ,{}, sent_timestamp ,{},received-send delay ,{}, and size ,{},\n'.format(idx,timestamp_str,received_send_delay, send_frame_size))
