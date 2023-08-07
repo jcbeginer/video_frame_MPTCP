@@ -32,10 +32,12 @@ def send_frames(client_socket,frame_sizes):
         timestamp_packed = struct.pack('d', timestamp)
         frame_size_packed = struct.pack('L', frame_size)
         index_packed = struct.pack('i', i+1)
-        message = timestamp_packed + frame_size_packed + index_packed  + data
+        message = timestamp_packed + frame_size_packed + index_packed
+        len_message = len(message)
+        data[:len_message] = message
 
         # Send the message to the client
-        client_socket.sendall(message)
+        client_socket.sendall(data)
         delayed_time = float(time.time()) - timestamp
         print('Sent frame', i+1, 'of size', frame_size, 'to the client')
         if delayed_time >c_wait_time: continue
