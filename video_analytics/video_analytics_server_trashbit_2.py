@@ -39,7 +39,7 @@ def receive_frame():
       e2e_delay = received_timestamp-timestamp
     # Pack the frame data and header into a message
       timestamp_packed = struct.pack('d', timestamp)
-      frame_size_packed = struct.pack('L', frame_size)
+      frame_size_packed = struct.pack('L', frame_size+20)
       idx_packed = struct.pack('i', idx)
        
     #frame_size of sending is 8192 (1KB)
@@ -48,8 +48,7 @@ def receive_frame():
                 
       print('idx :', idx,'E2E delay:',e2e_delay, 'and size:', frame_size)
 
-      #client_socket.sendall(idx_packed)
-      #client_socket.sendall(frame_data[:8192+20])
+      
       client_socket.sendall(frame_data)
 
       with open(filename, 'a') as f:
