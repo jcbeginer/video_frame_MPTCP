@@ -23,12 +23,12 @@ def receive_frame():
       timestamp, frame_size, idx = struct.unpack('dLi', header_data)
       
       received_data = b''
-      while len(received_data) < frame_size:
+      while len(received_data) < frame_size-20:
           chunk = client_socket.recv(frame_size - len(received_data))
           if not chunk:
               break
           received_data += chunk
-      if len(received_data) < frame_size:
+      if len(received_data) < frame_size-20:
           break
       
     #received time stamp
