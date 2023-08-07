@@ -19,6 +19,11 @@ def send_frames(client_socket,frame_sizes):
     # Create a video frame of the specified size
     data = bytearray(b'0' * frame_size)
     timestamp = float(time.time())
+    timestamp_packed = struct.pack('d', timestamp)
+    frame_size_packed = struct.pack('L', frame_size)
+    index_packed = struct.pack('i', 0)
+    message = timestamp_packed + frame_size_packed + index_packed
+    data = message+data
     c_wait_time = 1/frame_rate
     for i in range(frame_rate * duration):
         # Get current timestamp and save it
