@@ -44,12 +44,13 @@ def receive_frame():
        
     #frame_size of sending is 8192 (1KB)
       message = timestamp_packed + frame_size_packed + idx_packed
-      frame_data[:len(message)] = message
+      #frame_data[:len(message)] = message
                 
       print('idx :', idx,'E2E delay:',e2e_delay, 'and size:', frame_size)
 
       
-      client_socket.sendall(frame_data)
+      #client_socket.sendall(frame_data)
+      client_socket.sendall(message) #because, too much receive_frame cause block of client sending
 
       with open(filename, 'a') as f:
           f.write("sender's timestamp ,{},received timestamp ,{}, E2E delay ,{}, and size ,{},\n".format(timestamp,received_timestamp,e2e_delay, frame_size))
