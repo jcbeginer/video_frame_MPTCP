@@ -23,14 +23,10 @@ def send_frames(client_socket,frame_sizes):
     c_wait_time = 1/frame_rate
     for i in range(frame_rate * duration):
         # Get current timestamp and save it
-        #tmp = time.time()
-        delayed_time = time.time() - timestamp
-        if delayed_time <c_wait_time        
-            wait_time = c_wait_time-delayed_time
-            time.sleep(wait_time)
+        tmp = float(time.time())
         with open(filename2, 'a') as f:
-            f.write('packet_index is {} and delayed_time is {}\n'.format(i+1,time.time()-timestamp-c_wait_time))
-        timestamp = time.time()
+            f.write('packet_index is {} and delayed_time is {}\n'.format(i+1,tmp-timestamp-c_wait_time))
+        timestamp = float(time.time())
         
         # Pack the frame data and header into a message
         timestamp_packed = struct.pack('d', timestamp)
@@ -43,9 +39,12 @@ def send_frames(client_socket,frame_sizes):
         client_socket.sendall(data)
 
         
-        
+        delayed_time = float(time.time()) - timestamp
         print('Sent frame', i+1, 'of size', frame_size, 'to the client')
-        
+        if delayed_time >c_wait_time: continue
+        else: 
+            wait_time = c_wait_time-delayed_time
+            time.sleep(wait_time)
         
         
     #receive_frames(client_socket,i,timestamp,len(data))
