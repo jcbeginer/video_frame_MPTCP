@@ -6,10 +6,11 @@ import threading
 from datetime import datetime
 
 
-frame_data = bytearray(b'0'*8192)
+
 #frame_data = b'0'*8192
 # Handle client connection
 def receive_frame():
+    frame_data = bytearray(b'0'*8192)
     while True:
       header_data = b''
       while len(header_data) < 20:
