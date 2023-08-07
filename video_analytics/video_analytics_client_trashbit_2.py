@@ -21,13 +21,13 @@ def send_frames(client_socket,frame_sizes):
     #data = b'0' * frame_size
     #print(sys.getsizeof(data))
     data = bytearray(b'0' * frame_size)
-    print(sys.getsizeof(data))
+    #print(sys.getsizeof(data))
     timestamp = float(time.time())
     timestamp_packed = struct.pack('d', timestamp)
     frame_size_packed = struct.pack('L', frame_size)
     index_packed = struct.pack('i', 0)
     message = timestamp_packed + frame_size_packed + index_packed
-    print("message_size is {}".format(sys.getsizeof(message)),len(message))
+    #print("message_size is {}".format(sys.getsizeof(message)),len(message))
     data[:len(message)] = message
     print(sys.getsizeof(data),len(data))
     print(sys.getsizeof(bytes(data)),len(bytes(data)))
@@ -46,15 +46,14 @@ def send_frames(client_socket,frame_sizes):
         index_packed = struct.pack('i', i+1)
         message = timestamp_packed + frame_size_packed + index_packed
         #len_message = len(message)
-        data[:len(message)] = message[:]
+        data[:len(message)] = message
 
         # Send the message to the client
-<<<<<<< HEAD
-        client_socket.sendall(bytes(data))
-        #client_socket.sendall(data)
-=======
-        client_socket.sendall(data[:frame_size+20])
->>>>>>> d514b130714d63dc59cfeb396125089fd8175895
+        #client_socket.sendall(bytes(data))
+        client_socket.sendall(data)
+
+        #client_socket.sendall(data[:frame_size+20])
+
         delayed_time = float(time.time()) - timestamp
         print('Sent frame', i+1, 'of size', frame_size, 'to the client')
         time.sleep(1/frame_rate)
@@ -89,11 +88,8 @@ def receive_frames(client_socket, frame_size):
 
       #print('Header', len(header_data))
       sent_timestamp, received_frame_size, idx = struct.unpack('dLi', header_data)
-<<<<<<< HEAD
-        
-=======
+
       frame_size -=20
->>>>>>> d514b130714d63dc59cfeb396125089fd8175895
       frame_data = b''
       while len(frame_data) < frame_size:
           chunk = client_socket.recv(frame_size - len(frame_data))
