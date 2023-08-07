@@ -40,10 +40,14 @@ def send_frames(client_socket,frame_sizes):
         client_socket.sendall(data)
         delayed_time = float(time.time()) - timestamp
         print('Sent frame', i+1, 'of size', frame_size, 'to the client')
+        try: time.sleep(delayed_time)
+        except:continue
+        '''
         if delayed_time >c_wait_time: continue
         else: 
             wait_time = c_wait_time-delayed_time
             time.sleep(wait_time)
+        '''
         
     #receive_frames(client_socket,i,timestamp,len(data))
     # Wait for the next frame to be transmitted
