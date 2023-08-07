@@ -101,7 +101,7 @@ date_string = now.strftime('%y%m%d')
 
 # Use the date string in the file name
 filename = './logging/video_analytics_client_log{}_minRTT_40KB.txt'.format(date_string)
-filename2 = './logging/delayed_time_log{}2.txt'.format(date_string)
+filename2 = './logging/delayed_time_log{}_2.txt'.format(date_string)
 
 with open(filename, 'a') as f:
     f.write('start--------------------------------------------\n')
