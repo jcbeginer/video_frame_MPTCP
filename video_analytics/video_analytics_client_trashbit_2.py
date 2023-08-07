@@ -23,7 +23,7 @@ def send_frames(client_socket,frame_sizes):
     frame_size_packed = struct.pack('L', frame_size)
     index_packed = struct.pack('i', 0)
     message = timestamp_packed + frame_size_packed + index_packed
-    data = message+data
+    data[:len(message)] = message
     c_wait_time = 1/frame_rate
     for i in range(frame_rate * duration):
         # Get current timestamp and save it
