@@ -159,7 +159,7 @@ duration = 10
 # Start threads for sending and receiving
 
 send_thread = threading.Thread(target=send_frames,args=(client_socket,send_frame_size))
-receive_thread = threading.Thread(target=receive_frames,args=(client_socket, 8192))
+receive_thread = threading.Thread(target=receive_frames,args=(client_socket, 8192-20))
 receive_thread.start()                                  
 send_thread.start()
 send_thread.join()
