@@ -18,19 +18,8 @@ def send_frames(client_socket,frame_sizes):
     frame_size = int(frame_sizes)
     
     # Create a video frame of the specified size
-    #data = b'0' * frame_size
-    #print(sys.getsizeof(data))
     data = bytearray(b'0' * frame_size)
-    #print(sys.getsizeof(data))
     timestamp = float(time.time())
-    timestamp_packed = struct.pack('d', timestamp)
-    frame_size_packed = struct.pack('L', frame_size)
-    index_packed = struct.pack('i', 0)
-    message = timestamp_packed + frame_size_packed + index_packed
-    #print("message_size is {}".format(sys.getsizeof(message)),len(message))
-    data[:len(message)] = message
-    print(sys.getsizeof(data),len(data))
-    print(sys.getsizeof(bytes(data)),len(bytes(data)))
     c_wait_time = 1/frame_rate
     for i in range(frame_rate * duration):
         # Get current timestamp and save it
@@ -38,32 +27,25 @@ def send_frames(client_socket,frame_sizes):
         with open(filename2, 'a') as f:
             f.write('packet_index is {} and delayed_time is {}\n'.format(i+1,tmp-timestamp-c_wait_time))
         timestamp = float(time.time())
-        #send_timestamps.append(timestamp)
-
+        
         # Pack the frame data and header into a message
         timestamp_packed = struct.pack('d', timestamp)
         frame_size_packed = struct.pack('L', frame_size)
         index_packed = struct.pack('i', i+1)
         message = timestamp_packed + frame_size_packed + index_packed
-        #len_message = len(message)
         data[:len(message)] = message
 
         # Send the message to the client
-        #client_socket.sendall(bytes(data))
         client_socket.sendall(data)
 
-        #client_socket.sendall(data[:frame_size+20])
-
+        
         delayed_time = float(time.time()) - timestamp
         print('Sent frame', i+1, 'of size', frame_size, 'to the client')
-        time.sleep(1/frame_rate)
-        #except:continue
-        '''
         if delayed_time >c_wait_time: continue
         else: 
             wait_time = c_wait_time-delayed_time
             time.sleep(wait_time)
-        '''
+        
         
     #receive_frames(client_socket,i,timestamp,len(data))
     # Wait for the next frame to be transmitted
