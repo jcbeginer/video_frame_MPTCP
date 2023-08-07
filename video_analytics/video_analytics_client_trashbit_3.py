@@ -1,3 +1,4 @@
+#multiprocessing이 시간이 늦어지는 현상을 해결해줄 수 있을듯 해서 시도했으나, 오히려 _2.py 파일보다 느림...
 import socket
 import time
 import struct
