@@ -77,7 +77,7 @@ def receive_frames(client_socket, frame_size):
           chunk = client_socket.recv(frame_size - len(frame_data))
           if not chunk:
               break
-          frame_data += chunk
+          #frame_data += chunk
       if len(frame_data) < frame_size:
           break
 
