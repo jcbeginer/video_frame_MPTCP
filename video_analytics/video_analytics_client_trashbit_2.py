@@ -17,7 +17,7 @@ def send_frames(client_socket,frame_sizes):
     frame_size = int(frame_sizes)
     
     # Create a video frame of the specified size
-    data = b'0' * frame_size
+    data = bytearray(b'0' * frame_size)
     timestamp = float(time.time())
     c_wait_time = 1/frame_rate
     for i in range(frame_rate * duration):
@@ -33,8 +33,8 @@ def send_frames(client_socket,frame_sizes):
         frame_size_packed = struct.pack('L', frame_size)
         index_packed = struct.pack('i', i+1)
         message = timestamp_packed + frame_size_packed + index_packed
-        len_message = len(message)
-        data[:len_message] = message
+        #len_message = len(message)
+        data[:len(message)] = message
 
         # Send the message to the client
         client_socket.sendall(data)
