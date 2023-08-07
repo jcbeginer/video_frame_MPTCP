@@ -98,11 +98,7 @@ def receive_frames(client_socket, frame_size):
           frame_data += chunk
       if len(frame_data) < frame_size:
           break
-<<<<<<< HEAD
-        
-=======
-      
->>>>>>> d514b130714d63dc59cfeb396125089fd8175895
+
         # Calculate E2E delay
         # 60ms for video analytics processing time on server side
       received_timestamp = float(time.time()) +  0.02063 
