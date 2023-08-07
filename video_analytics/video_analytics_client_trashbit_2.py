@@ -2,6 +2,7 @@ import socket
 import time
 import struct
 import os
+import sys
 import threading
 from datetime import datetime
 import pytz
@@ -17,13 +18,19 @@ def send_frames(client_socket,frame_sizes):
     frame_size = int(frame_sizes)
     
     # Create a video frame of the specified size
+    #data = b'0' * frame_size
+    #print(sys.getsizeof(data))
     data = bytearray(b'0' * frame_size)
+    #print(sys.getsizeof(data))
     timestamp = float(time.time())
     timestamp_packed = struct.pack('d', timestamp)
     frame_size_packed = struct.pack('L', frame_size)
     index_packed = struct.pack('i', 0)
     message = timestamp_packed + frame_size_packed + index_packed
+    #print("message_size is {}".format(sys.getsizeof(message)),len(message))
     data[:len(message)] = message
+    print(sys.getsizeof(data),len(data))
+    print(sys.getsizeof(bytes(data)),len(bytes(data)))
     c_wait_time = 1/frame_rate
     for i in range(frame_rate * duration):
         # Get current timestamp and save it
@@ -42,7 +49,11 @@ def send_frames(client_socket,frame_sizes):
         data[:len(message)] = message
 
         # Send the message to the client
-        client_socket.sendall(data[:frame_size+20])
+        #client_socket.sendall(bytes(data))
+        client_socket.sendall(data)
+
+        #client_socket.sendall(data[:frame_size+20])
+
         delayed_time = float(time.time()) - timestamp
         print('Sent frame', i+1, 'of size', frame_size, 'to the client')
         time.sleep(1/frame_rate)
@@ -77,7 +88,8 @@ def receive_frames(client_socket, frame_size):
 
       #print('Header', len(header_data))
       sent_timestamp, received_frame_size, idx = struct.unpack('dLi', header_data)
-      
+
+      frame_size -=20
       frame_data = b''
       while len(frame_data) < frame_size:
           chunk = client_socket.recv(frame_size - len(frame_data))
@@ -86,7 +98,7 @@ def receive_frames(client_socket, frame_size):
           frame_data += chunk
       if len(frame_data) < frame_size:
           break
-      
+
         # Calculate E2E delay
         # 60ms for video analytics processing time on server side
       received_timestamp = float(time.time()) +  0.02063 
@@ -139,10 +151,10 @@ except FileNotFoundError:
 send_frame_size = frame_sizes[3]
 threads = []
 # Define the frame rate (in frames per second)
-frame_rate = 30
+frame_rate = 3
 
 # Define the duration of the video transmission (in seconds)
-duration = 100
+duration = 10
 
 # Start threads for sending and receiving
 
