@@ -16,14 +16,14 @@
 #define MPTCP_ENABLED 42
 
 char filename[255], filename2[255];
-int send_frame_size;
+unsigned long send_frame_size;
 
 void* send_frames(void* arg) {
     int client_socket = *(int*)arg;
     int frame_size = send_frame_size;
     char data[frame_size];
     double timestamp;
-    int c_wait_time = 1 / FRAME_RATE;
+    double c_wait_time = 1 / FRAME_RATE;
 
     // Initialize data with '0'
     memset(data, '0', frame_size);
@@ -38,6 +38,15 @@ void* send_frames(void* arg) {
         timestamp = (double) time(NULL);
         
         // Assume packing functions are already implemented (you need to make these!)
+        
+        //unsigned long frame_size = /* some value */;
+        //int i = /* some value */;
+        //unsigned char buffer[16]; // 8 bytes for double, 4 bytes for long, 4 bytes for int
+
+        // Packing data into the buffer
+        memcpy(data, &timestamp, sizeof(double));
+        memcpy(data + sizeof(double), &send_frame_size, sizeof(unsigned long));
+        memcpy(data + sizeof(double) + sizeof(unsigned long), &i, sizeof(int));
         // pack_data(timestamp, frame_size, i+1, data);
         
         send(client_socket, data, frame_size, 0);
@@ -56,13 +65,16 @@ void* send_frames(void* arg) {
 void* receive_frames(void* arg) {
     int client_socket = *(int*)arg;
     while (1) {
-        char header_data[20];
-        recv(client_socket, header_data, 20, 0);
+        char header_data[16];
+        recv(client_socket, header_data, 16, 0);
         double sent_timestamp;
         long received_frame_size;
         int idx;
         
         // Unpacking functions need to be implemented
+        memcpy(&sent_timestamp, header_data, sizeof(double));
+        memcpy(&received_frame_size, header_data + sizeof(double), sizeof(unsigned long));
+        memcpy(&idx, header_data + sizeof(double) + sizeof(unsigned long), sizeof(int));
         // unpack_data(header_data, &sent_timestamp, &received_frame_size, &idx);
         
         double received_timestamp = (double) time(NULL) + 0.02063;
@@ -114,8 +126,9 @@ int main() {
     // send_frame_size = read_frame_sizes();
 
     pthread_t send_thread, receive_thread;
-    pthread_create(&send_thread, NULL, send_frames, &client_socket);
     pthread_create(&receive_thread, NULL, receive_frames, &client_socket);
+    pthread_create(&send_thread, NULL, send_frames, &client_socket);
+    
     
     pthread_join(send_thread, NULL);
     pthread_join(receive_thread, NULL);
