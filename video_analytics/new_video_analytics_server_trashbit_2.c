@@ -90,7 +90,10 @@ int main() {
     inet_ntop(AF_INET, &client_address.sin_addr, client_ip, INET_ADDRSTRLEN);
     printf("Accepted connection from: %s\n", client_ip);
 
-    mkdir("./logging", 0700);  // Ensure the logging directory exists
+    struct stat st = {0};
+    if (stat("./logging", &st) == -1) { 
+        mkdir("./logging", 0700);  // Ensure the logging directory exists
+    }
 
     FILE *file = fopen("./logging/video_analytics_server_log.txt", "a");
     if (file) {
