@@ -12,6 +12,12 @@
 #include <sys/stat.h>
 #include <unistd.h>
 
+#include <asm/byteorder.h>
+#include <linux/in.h>
+#include <linux/in6.h>
+#include <linux/socket.h>
+#include <linux/types.h>
+
 #define FRAME_SIZE 8192
 
 void receive_frame(int client_socket) {
