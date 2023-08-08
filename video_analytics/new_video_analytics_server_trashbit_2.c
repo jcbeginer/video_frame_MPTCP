@@ -8,6 +8,9 @@
 #include <netinet/in.h>
 #include <time.h>
 #include <arpa/inet.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <unistd.h>
 
 #define FRAME_SIZE 8192
 
