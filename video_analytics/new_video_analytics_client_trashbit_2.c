@@ -10,6 +10,7 @@
 #include <unistd.h>
 #include <arpa/inet.h>
 #include <sys/stat.h>
+#include <netinet/tcp.h>
 
 #include <asm/byteorder.h>
 #include <linux/in.h>
