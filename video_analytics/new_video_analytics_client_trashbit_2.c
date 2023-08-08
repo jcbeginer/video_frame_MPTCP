@@ -115,7 +115,7 @@ int main() {
     //setsockopt(client_socket, SOL_SOCKET, SO_REUSEADDR, &(int){1}, sizeof(int));
     //setsockopt(client_socket, IPPROTO_TCP, MPTCP_ENABLED, &(int){1}, sizeof(int));
     int enable =1;
-    ret = setsockopt(sock, SOL_TCP, MPTCP_ENABLED, &enable, sizeof(int));
+    int ret = setsockopt(sock, SOL_TCP, MPTCP_ENABLED, &enable, sizeof(int));
 	if(ret < 0){
 		perror("[server] setsockopt(MPTCP_ENABLED) ");
 		return -1;
