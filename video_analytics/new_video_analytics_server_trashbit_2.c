@@ -80,7 +80,7 @@ int main() {
     // Enable MPTCP (This might be different depending on your system)
     int enabled = 1;
     //setsockopt(server_socket, IPPROTO_TCP, 42, &mptcp_enabled, sizeof(mptcp_enabled));
-    int ret = setsockopt(server_socket, SOL_TCP, 42, &enable, sizeof(int));
+    int ret = setsockopt(server_socket, SOL_TCP, 42, &enabled, sizeof(int));
     if(ret < 0){
 	perror("[server] setsockopt() ");
 	return -1;
