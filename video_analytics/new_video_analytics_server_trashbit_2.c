@@ -69,11 +69,15 @@ void receive_frame(int client_socket) {
 int main() {
     int server_socket = socket(AF_INET, SOCK_STREAM, 0);
     int opt = 1;
-    setsockopt(server_socket, SOL_SOCKET, SO_REUSEADDR, &opt, sizeof(opt));
+    
     // Enable MPTCP (This might be different depending on your system)
-    int mptcp_enabled = 1;
-    setsockopt(server_socket, IPPROTO_TCP, 42, &mptcp_enabled, sizeof(mptcp_enabled));
-
+    int enabled = 1;
+    //setsockopt(server_socket, IPPROTO_TCP, 42, &mptcp_enabled, sizeof(mptcp_enabled));
+    ret = setsockopt(server_sock, SOL_TCP, 42, &enable, sizeof(int));
+	if(ret < 0){
+		perror("[server] setsockopt() ");
+		return -1;
+	}
     struct sockaddr_in server_address;
     server_address.sin_family = AF_INET;
     server_address.sin_port = htons(8888);
