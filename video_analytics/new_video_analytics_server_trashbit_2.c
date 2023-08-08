@@ -11,6 +11,7 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <unistd.h>
+#include <netinet/tcp.h>
 
 #include <asm/byteorder.h>
 #include <linux/in.h>
