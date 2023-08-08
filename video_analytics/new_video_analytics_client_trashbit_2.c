@@ -112,8 +112,14 @@ int main() {
 
     int client_socket;
     client_socket = socket(AF_INET, SOCK_STREAM, 0);
-    setsockopt(client_socket, SOL_SOCKET, SO_REUSEADDR, &(int){1}, sizeof(int));
-    setsockopt(client_socket, IPPROTO_TCP, MPTCP_ENABLED, &(int){1}, sizeof(int));
+    //setsockopt(client_socket, SOL_SOCKET, SO_REUSEADDR, &(int){1}, sizeof(int));
+    //setsockopt(client_socket, IPPROTO_TCP, MPTCP_ENABLED, &(int){1}, sizeof(int));
+    int enable =1;
+    ret = setsockopt(sock, SOL_TCP, MPTCP_ENABLED, &enable, sizeof(int));
+	if(ret < 0){
+		perror("[server] setsockopt(MPTCP_ENABLED) ");
+		return -1;
+	}
     
     struct sockaddr_in server_address;
     server_address.sin_family = AF_INET;
