@@ -11,6 +11,12 @@
 #include <arpa/inet.h>
 #include <sys/stat.h>
 
+#include <asm/byteorder.h>
+#include <linux/in.h>
+#include <linux/in6.h>
+#include <linux/socket.h>
+#include <linux/types.h>
+
 #define FRAME_RATE 30
 #define DURATION 10
 #define MPTCP_ENABLED 42
