@@ -86,7 +86,7 @@ void* receive_frames(void* arg) {
         timeinfo = localtime(&rawtime);
         FILE* f = fopen(filename, "a");
         if (f) {
-            fprintf(f, "packet_index ,%d, sent_timestamp ,%s,received-send delay ,%f, and size ,%d,\n", idx, asctime(timeinfo), received_send_delay, send_frame_size);
+            fprintf(f, "packet_index ,%d, sent_timestamp ,%s,received-send delay ,%f, and size ,%d,\n", idx, asctime(timeinfo), received_send_delay, int(received_frame_size));
             fclose(f);
         }
         usleep(1000); // Equivalent to time.sleep(0.001)
