@@ -21,8 +21,8 @@ void receive_frame(int client_socket) {
     while (1) {
         unsigned char header_data[20] = {0};
         int received = 0;
-        while (received < 20) {
-            int len = recv(client_socket, header_data + received, 20 - received, 0);
+        while (received < 16) {
+            int len = recv(client_socket, header_data + received, 16 - received, 0);
             if (len <= 0) {
                 return;  // Disconnect or error
             }
@@ -36,7 +36,7 @@ void receive_frame(int client_socket) {
         memcpy(&frame_size, header_data + sizeof(double), sizeof(unsigned long));
         memcpy(&idx, header_data + sizeof(double) + sizeof(unsigned long), sizeof(int));
 
-        frame_size -= 20;
+        frame_size -= 16;
         unsigned char received_data[frame_size];
         received = 0;
         while (received < frame_size) {
