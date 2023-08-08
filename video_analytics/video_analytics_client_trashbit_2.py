@@ -90,7 +90,7 @@ def receive_frames(client_socket, frame_size):
       timestamp_str = datetime.fromtimestamp(sent_timestamp, tz=kst).strftime('%y-%m-%d %H:%M:%S')
       with open(filename, 'a') as f:
           f.write('packet_index ,{}, sent_timestamp ,{},received-send delay ,{}, and size ,{},\n'.format(idx,timestamp_str,received_send_delay, send_frame_size))
-
+      time.sleep(0.001)
 if not os.path.exists('./logging'):
     os.makedirs('./logging')
 # Get the current date
