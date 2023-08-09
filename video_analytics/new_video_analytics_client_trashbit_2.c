@@ -1,5 +1,5 @@
 //this code is from video_analytics_client_trashbit_2.py of date 230808. 
-//for imporving speed, I have change .py -> .c
+//for improving speed, I have changed .py -> .c
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
