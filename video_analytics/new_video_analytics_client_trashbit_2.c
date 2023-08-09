@@ -30,9 +30,12 @@ void* send_frames(void* arg) {
     int client_socket = *(int*)arg;
     int frame_size = send_frame_size;
     char* data = (char*)malloc(sizeof(char)*frame_size);
-    unsigned long timestamp;
-    double c_wait_time = 1 / FRAME_RATE * 1000000; //[usec]
     struct timeval tv;
+    gettimeofday(&tv,NULL);
+    unsigned long timestamp = 1000000 * tv.tv_sec + tv.tv_usec;
+        
+    double c_wait_time = 1 / FRAME_RATE * 1000000; //[usec]
+    
     // Initialize data with '0'
     memset(data, '0', frame_size);
     
@@ -41,7 +44,7 @@ void* send_frames(void* arg) {
 	unsigned long tmp = 1000000 * tv.tv_sec + tv.tv_usec;
         FILE* f = fopen(filename2, "a");
         if (f) {
-            fprintf(f, "packet_index is %d and delayed_time is %f\n", i+1, tmp - timestamp - c_wait_time);
+            fprintf(f, "packet_index is %d and delayed_time is %ld [usec]\n", i+1, tmp - timestamp - c_wait_time);
             fclose(f);
         }
         gettimeofday(&tv,NULL);
