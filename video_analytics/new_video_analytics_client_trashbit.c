@@ -28,8 +28,8 @@
 
 int frame_sizes[8] = [15360,25600,30720,40960,71680,102400,133120,153600]; // # 15KB (index24), 25KB(index25), 30KB(index26), 40KB(index27), 70KB(index28), 100KB(index29), 130KB(index30), 150KB(index31)
 int send_frame_size = frame_sizes[3];
-
-
+struct timeval tv;
+struct tm* timeinfo;
 /**
  * 기존의 TCP Client는 { socket() -> connect() -> recv(), send() -> close() }순서로 흘러간다.
  * 여기서 TCP Socket을 MPTCP Socket으로 설정하기 위해서는 socket()과 connect()사이에 setsockopt()을 사용한다.
@@ -38,7 +38,6 @@ void* send_frames(void* arg) {
     int client_socket = *(int*)arg;
     int frame_size = send_frame_size;
     char* data = (char*)malloc(sizeof(char)*frame_size);
-    struct timeval tv;
     unsigned long timestamp;
     gettimeofday(&tv,NULL);
     timestamp = 1000000 * tv.tv_sec + tv.tv_usec;
@@ -84,6 +83,37 @@ void* send_frames(void* arg) {
         }
     }
     free(data)
+    return NULL;
+}
+void* receive_frames(void* arg) {
+    int client_socket = *(int*)arg;
+    while (1) {
+        char header_data[16];
+        recv(client_socket, header_data, 16, 0);
+        unsigned long sent_timestamp;
+        int received_frame_size;
+        int idx;
+        
+        // Unpacking
+        memcpy(&sent_timestamp, header_data, sizeof(unsigned long));
+        memcpy(&received_frame_size, header_data + sizeof(unsigned long), sizeof(int));
+        memcpy(&idx, header_data + sizeof(unsigned long) + sizeof(int), sizeof(int));
+        // unpack_data(header_data, &sent_timestamp, &received_frame_size, &idx);
+	gettimeofday(&tv,NULL);
+	unsigned long received_timestamp = 1000000 * tv.tv_sec + tv.tv_usec + 20630; //20.63ms maybe which is for inference time in server
+        //double received_timestamp = (double) time(NULL) + 0.02063;
+        unsigned long received_send_delay = received_timestamp - sent_timestamp; //[usec]
+        printf("packet_idx %d, received_send_delay %ld [usec]\n", idx, received_send_delay);
+        
+        time_t rawtime = (time_t)sent_timestamp/1000000;
+        timeinfo = localtime(&rawtime);
+        FILE* f = fopen(filename, "a");
+        if (f) {
+            fprintf(f, "packet_index ,%d, sent_timestamp ,%s,received-send delay ,%f, and size ,%d,\n", idx, asctime(timeinfo), received_send_delay, received_frame_size);
+            fclose(f);
+        }
+        usleep(1000); // Equivalent to time.sleep(0.001)
+    }
     return NULL;
 }
 
