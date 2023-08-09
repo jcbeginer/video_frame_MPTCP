@@ -5,6 +5,7 @@
 #include <string.h>
 #include <pthread.h>
 #include <time.h>
+#include <sys/time.h>
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <unistd.h>
@@ -23,49 +24,49 @@
 #define MPTCP_ENABLED 42
 
 char filename[255], filename2[255];
-unsigned long send_frame_size;
+int send_frame_size;
 
 void* send_frames(void* arg) {
     int client_socket = *(int*)arg;
     int frame_size = send_frame_size;
-    char data[frame_size];
-    double timestamp;
-    double c_wait_time = 1 / FRAME_RATE;
-
+    char* data = (char*)malloc(sizeof(char)*frame_size);
+    unsigned long timestamp;
+    double c_wait_time = 1 / FRAME_RATE * 1000000; //[usec]
+    struct timeval tv;
     // Initialize data with '0'
     memset(data, '0', frame_size);
-
+    
     for (int i = 0; i < FRAME_RATE * DURATION; i++) {
-        double tmp = (double) time(NULL);
+        gettimeofday(&tv,NULL);
+	unsigned long tmp = 1000000 * tv.tv_sec + tv.tv_usec;
         FILE* f = fopen(filename2, "a");
         if (f) {
             fprintf(f, "packet_index is %d and delayed_time is %f\n", i+1, tmp - timestamp - c_wait_time);
             fclose(f);
         }
-        timestamp = (double) time(NULL);
+        gettimeofday(&tv,NULL);
+    	timestamp = 1000000 * tv.tv_sec + tv.tv_usec;
         
-        // Assume packing functions are already implemented (you need to make these!)
-        
-        //unsigned long frame_size = /* some value */;
-        //int i = /* some value */;
-        //unsigned char buffer[16]; // 8 bytes for double, 4 bytes for long, 4 bytes for int
+        //unsigned char buffer[16]; // 8 bytes for unsigned long, 4 bytes for int, 4 bytes for int
 
         // Packing data into the buffer
-        memcpy(data, &timestamp, sizeof(double));
-        memcpy(data + sizeof(double), &send_frame_size, sizeof(unsigned long));
-        memcpy(data + sizeof(double) + sizeof(unsigned long), &i, sizeof(int));
+        memcpy(data, &timestamp, sizeof(unsigned long));
+        memcpy(data + sizeof(unsigned long), &send_frame_size, sizeof(int));
+        memcpy(data + sizeof(unsigned long) + sizeof(int), &i, sizeof(int));
         // pack_data(timestamp, frame_size, i+1, data);
         
         send(client_socket, data, frame_size, 0);
-
-        double delayed_time = (double) time(NULL) - timestamp;
+	gettimeofday(&tv,NULL);
+    	tmp = 1000000 * tv.tv_sec + tv.tv_usec;
+        unsigned long delayed_time = tmp - timestamp;
         if (delayed_time > c_wait_time) {
             continue;
         } else {
             int wait_time = c_wait_time - delayed_time;
-            sleep(wait_time);
+            usleep(wait_time);
         }
     }
+    free(data)
     return NULL;
 }
 
@@ -74,7 +75,7 @@ void* receive_frames(void* arg) {
     while (1) {
         char header_data[16];
         recv(client_socket, header_data, 16, 0);
-        double sent_timestamp;
+        unsigned long sent_timestamp;
         long received_frame_size;
         int idx;
         
