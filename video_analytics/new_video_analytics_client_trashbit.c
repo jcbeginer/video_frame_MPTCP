@@ -1,8 +1,8 @@
 /**
  * MPTCP Socket API Test App
- * File Sender(Client)
+ * video frame Sender(Client)
  * 
- * @date	: 2023-07-13
+ * @date	: 2023-08-09
  * @author	: Woosung(NETLAB)
  */
 
@@ -17,15 +17,76 @@
 #include <arpa/inet.h>
 #include <sys/stat.h>
 #include <time.h>
+#include <sys/time.h>
+#include <pthread.h>
+#include <time.h>
 
 #include "../header/mptcp.h"
 
-int get_fsize(FILE* file);
+#define FRAME_RATE 30
+#define DURATION 10
+
+int frame_sizes[8] = [15360,25600,30720,40960,71680,102400,133120,153600]; // # 15KB (index24), 25KB(index25), 30KB(index26), 40KB(index27), 70KB(index28), 100KB(index29), 130KB(index30), 150KB(index31)
+int send_frame_size = frame_sizes[3];
+
 
 /**
  * 기존의 TCP Client는 { socket() -> connect() -> recv(), send() -> close() }순서로 흘러간다.
  * 여기서 TCP Socket을 MPTCP Socket으로 설정하기 위해서는 socket()과 connect()사이에 setsockopt()을 사용한다.
  **/
+void* send_frames(void* arg) {
+    int client_socket = *(int*)arg;
+    int frame_size = send_frame_size;
+    char* data = (char*)malloc(sizeof(char)*frame_size);
+    struct timeval tv;
+    unsigned long timestamp;
+    gettimeofday(&tv,NULL);
+    timestamp = 1000000 * tv.tv_sec + tv.tv_usec;
+    double c_wait_time = 1 / FRAME_RATE * 1000000; //[usec]
+    
+    // Initialize data with '0'
+    memset(data, '0', frame_size);
+
+    for (int i = 0; i < FRAME_RATE * DURATION; i++) {
+        gettimeofday(&tv,NULL);
+	unsigned long tmp = 1000000 * tv.tv_sec + tv.tv_usec;
+        FILE* f = fopen(filename2, "a");
+        if (f) {
+            fprintf(f, "packet_index is %d and delayed_time is %ld [usec]\n", i+1, tmp - timestamp - c_wait_time);
+            fclose(f);
+        }
+	    
+        gettimeofday(&tv,NULL);
+    	timestamp = 1000000 * tv.tv_sec + tv.tv_usec;
+        
+        // Assume packing functions are already implemented (you need to make these!)
+        
+        
+        //unsigned char buffer[16]; // 8 bytes for double, 4 bytes for long, 4 bytes for int
+
+        // Packing data into the buffer
+        memcpy(data, &timestamp, sizeof(unsigned long));
+        memcpy(data + sizeof(unsigned long), &send_frame_size, sizeof(int));
+        memcpy(data + sizeof(unsigned long) + sizeof(int), &i, sizeof(int));
+        // pack_data(timestamp, frame_size, i+1, data);
+        
+        send(client_socket, data, frame_size, 0);
+
+        double delayed_time = (double) time(NULL) - timestamp;
+        gettimeofday(&tv,NULL);
+    	tmp = 1000000 * tv.tv_sec + tv.tv_usec;
+        unsigned long delayed_time = tmp - timestamp;
+        if (delayed_time > c_wait_time) {
+            continue;
+        } else {
+            int wait_time = c_wait_time - delayed_time;
+            usleep(wait_time);
+        }
+    }
+    free(data)
+    return NULL;
+}
+
 int main(int argc, char** argv)
 {
 	char* ADDR;
@@ -38,6 +99,7 @@ int main(int argc, char** argv)
 
 	FILE* file;
 	char send_buff[1024] = { '\0', };
+	
 	int fsize = 0, nsize = 0;
 
 	int enable = 1;
@@ -122,13 +184,3 @@ int main(int argc, char** argv)
 	return 0;
 }
 
-int get_fsize(FILE* file)
-{
-	int fsize;
-
-	fseek(file, 0, SEEK_END);
-	fsize=ftell(file);
-	fseek(file, 0, SEEK_SET);	
-
-	return fsize;
-}
