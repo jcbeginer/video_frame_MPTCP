@@ -16,6 +16,8 @@
 #include <netinet/in.h>
 #include <arpa/inet.h>
 #include <netinet/tcp.h>
+#include <time.h>
+#include <sys/time.h>
 
 #include "../header/mptcp.h"
 FILE *file = fopen("./logging/video_analytics_server_log.txt", "a");
@@ -27,54 +29,53 @@ FILE *file = fopen("./logging/video_analytics_server_log.txt", "a");
 
 #define FRAME_SIZE 8192
 char filename[255];
-
+struct timeval tv;
+struct tm* timeinfo;
 void receive_frame(int client_socket) {
-    unsigned char frame_data[FRAME_SIZE];
-    memset(frame_data, '0', FRAME_SIZE);
+    char data[FRAME_SIZE];
+    char header_data[16];
+    char received_data[FRAME_SIZE-16];
+    memset(data, '0', FRAME_SIZE);
+    unsigned long received_timestamp;
+    unsigned long sent_timestamp;
+    int received_frame_size;
+
+    int idx;
     
     while (1) {
-        unsigned char header_data[20] = {0};
-        int received = 0;
-        while (received < 16) {
-            int len = recv(client_socket, header_data + received, 16 - received, 0);
+        recv(client_socket, header_data, 16, 0);
+        
+        memcpy(&sent_timestamp, header_data, sizeof(unsigned long));
+        memcpy(&received_frame_size, header_data + sizeof(unsigned long), sizeof(int));
+        memcpy(&idx, header_data + sizeof(unsigned long) + sizeof(int), sizeof(int));
+
+	int received = 0;        
+        int check_frame_size = FRAME_SIZE - 16;
+        while (received < check_frame_size) {
+            int len = recv(client_socket, received_data + received, check_frame_size - received, 0);
             if (len <= 0) {
                 return;  // Disconnect or error
             }
             received += len;
         }
 
-        double timestamp;
-        unsigned long frame_size;
-        int idx;
-        memcpy(&timestamp, header_data, sizeof(double));
-        memcpy(&frame_size, header_data + sizeof(double), sizeof(unsigned long));
-        memcpy(&idx, header_data + sizeof(double) + sizeof(unsigned long), sizeof(int));
+	gettimeofday(&tv,NULL);
+    	received_timestamp = 1000000 * tv.tv_sec + tv.tv_usec;
+        double time_diff = received_timestamp - sent_timestamp;
 
-        frame_size -= 16;
-        unsigned char received_data[frame_size];
-        received = 0;
-        while (received < frame_size) {
-            int len = recv(client_socket, received_data + received, frame_size - received, 0);
-            if (len <= 0) {
-                return;  // Disconnect or error
-            }
-            received += len;
-        }
+        printf("idx: %d, one way delay: %lf [ms], and size: %lu\n", idx, time_diff/1000, received_frame_size);
 
-        double received_timestamp = (double)time(NULL);
-        double e2e_delay = received_timestamp - timestamp;
+        send(client_socket, header_data, 16, 0);
 
-        printf("idx: %d, E2E delay: %lf, and size: %lu\n", idx, e2e_delay, frame_size);
+	time_t rawtime = (time_t)sent_timestamp/1000000;
+        timeinfo = localtime(&rawtime);
+        
+        //snprintf(log_entry, sizeof(log_entry), "index of frame, %d, sender's timestamp, %d,sender's timestamp - received timestamp ,%lf,[ms], and size ,%lu,\n", 
+            timestamp, , time_diff, frame_size);
 
-        send(client_socket, header_data, 20, 0);
-
-        char log_entry[200];
-        snprintf(log_entry, sizeof(log_entry), "sender's timestamp ,%lf,received timestamp ,%lf, E2E delay ,%lf, and size ,%lu,\n", 
-            timestamp, received_timestamp, e2e_delay, frame_size);
-
-        FILE *file = fopen("./logging/video_analytics_server_log.txt", "a");
+        FILE *file = fopen(filename, "a");
         if (file) {
-            fputs(log_entry, file);
+            fprintf(f, "packet_index ,%d, sent_timestamp ,%s,received-send delay ,%f,[usec], and size ,%d,\n", idx, asctime(timeinfo), time_diff, received_frame_size);
             fclose(file);
         }
     }
@@ -84,19 +85,19 @@ void receive_frame(int client_socket) {
 int main(int argc, char** argv)
 {
   
-  //for logging
+  	//for logging
 	if (access("./logging", F_OK) != 0) {
         mkdir("./logging", 0700);
     	}
 	time_t t = time(NULL);
-  struct tm tm = *localtime(&t);
-  sprintf(filename, "./logging/video_analytics_server_log%02d%02d%02d_minRTT_40KB.txt", tm.tm_year % 100, tm.tm_mon + 1, tm.tm_mday);
+  	struct tm tm = *localtime(&t);
+  	sprintf(filename, "./logging/video_analytics_server_log%02d%02d%02d_minRTT_40KB.txt", tm.tm_year % 100, tm.tm_mon + 1, tm.tm_mday);
 
-  FILE* f = fopen(filename, "a");
-  if (f) {
-    fprintf(f, "start--------------------------------------------\n");
-    fclose(f);
-  }
+  	FILE* f = fopen(filename, "a");
+  	if (f) {
+    		fprintf(f, "start--------------------------------------------\n");
+    		fclose(f);
+  	}
 	int PORT;
 	//const char* FILE_NAME = "recv_file";
 
@@ -111,7 +112,7 @@ int main(int argc, char** argv)
 	int enable = 1;
 
 	//PORT = atoi(argv[1]);
-  PORT = atoi("8888");
+  	PORT = atoi("8888");
 
 	server_sock = socket(AF_INET, SOCK_STREAM, 0);
 	if(server_sock < 0){
@@ -151,7 +152,7 @@ int main(int argc, char** argv)
 	}
 	printf("[server] connected to client\n");
 
-  receive_frame(client_socket);
+  	receive_frame(client_socket);
   
 	close(client_sock);
 	close(server_sock);
