@@ -114,6 +114,8 @@ void* receive_frames(void* arg) {
             fprintf(f, "packet_index ,%d, sent_timestamp ,%s,received-send delay ,%ld,[usec] and size ,%d,\n", idx, asctime(timeinfo), received_send_delay, received_frame_size);
             fclose(f);
         }
+	if (idx==FRAME_RATE * DURATION){break;}
+		
         usleep(1); // Equivalent to time.sleep(0.001)
     }
     return NULL;
