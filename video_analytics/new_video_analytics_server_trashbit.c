@@ -113,7 +113,7 @@ int main(int argc, char** argv)
 		PORT = atoi("8888");
 	}
 	else{
-		PORT = atoi(argv[1]);
+		PORT = atoi(argv[0]);
 	}
   	
 
