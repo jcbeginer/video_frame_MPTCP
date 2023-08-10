@@ -20,7 +20,7 @@
 #include <sys/time.h>
 #include <pthread.h>
 
-#include "../header/mptcp.h"
+#include "./header/mptcp.h"
 
 #define FRAME_RATE 30
 #define DURATION 10
