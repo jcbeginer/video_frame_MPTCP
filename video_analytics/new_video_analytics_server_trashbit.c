@@ -33,7 +33,7 @@ struct tm* timeinfo;
 void receive_frame(int client_socket) {
     char data[FRAME_SIZE];
     char header_data[16];
-    char received_data[FRAME_SIZE-16];
+    
     memset(data, '0', FRAME_SIZE);
     unsigned long received_timestamp;
     unsigned long sent_timestamp;
@@ -47,9 +47,10 @@ void receive_frame(int client_socket) {
         memcpy(&sent_timestamp, header_data, sizeof(unsigned long));
         memcpy(&received_frame_size, header_data + sizeof(unsigned long), sizeof(int));
         memcpy(&idx, header_data + sizeof(unsigned long) + sizeof(int), sizeof(int));
-
+	int check_frame_size = received_frame_size - 16;
+	char received_data[check_frame_size];
 	int received = 0;        
-        int check_frame_size = FRAME_SIZE - 16;
+        
         while (received < check_frame_size) {
             int len = recv(client_socket, received_data + received, check_frame_size - received, 0);
             if (len <= 0) {
