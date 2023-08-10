@@ -104,14 +104,14 @@ void* receive_frames(void* arg) {
 	gettimeofday(&tv,NULL);
 	unsigned long received_timestamp = 1000000 * tv.tv_sec + tv.tv_usec + 20630; //20.63ms maybe which is for inference time in server
         //double received_timestamp = (double) time(NULL) + 0.02063;
-        unsigned long received_send_delay = received_timestamp - sent_timestamp; //[usec]
-        printf("packet_idx %d, received_send_delay %ld [usec]\n", idx, received_send_delay);
+        double received_send_delay = (received_timestamp - sent_timestamp)/1000; //[msec]
+        printf("packet_idx %d, received_send_delay %lf [msec]\n", idx, received_send_delay);
         
         time_t rawtime = (time_t)sent_timestamp/1000000;
         timeinfo = localtime(&rawtime);
         FILE* f = fopen(filename, "a");
         if (f) {
-            fprintf(f, "packet_index ,%d, sent_timestamp ,%s,received-send delay ,%ld,[usec] and size ,%d,\n", idx, asctime(timeinfo), received_send_delay, received_frame_size);
+            fprintf(f, "packet_index ,%d, sent_timestamp ,%s,received-send delay ,%lf,[msec] and size ,%d,\n", idx, asctime(timeinfo), received_send_delay, received_frame_size);
             fclose(f);
         }
 	if (idx==FRAME_RATE * DURATION){break;}
