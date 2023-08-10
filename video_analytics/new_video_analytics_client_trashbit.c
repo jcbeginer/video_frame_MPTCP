@@ -87,12 +87,13 @@ void* send_frames(void* arg) {
 void* receive_frames(void* arg) {
     int client_socket = *(int*)arg;
     char header_data[16];
+    unsigned long sent_timestamp;
+    int received_frame_size;
+    int idx;
     while (1) {
         
         recv(client_socket, header_data, 16, 0);
-        unsigned long sent_timestamp;
-        int received_frame_size;
-        int idx;
+        
         
         // Unpacking
         memcpy(&sent_timestamp, header_data, sizeof(unsigned long));
