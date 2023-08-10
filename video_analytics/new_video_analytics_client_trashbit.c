@@ -35,6 +35,8 @@ struct tm* timeinfo;
  **/
 void* send_frames(void* arg) {
     int client_socket = *(int*)arg;
+    //initialization
+    int send_frame_size = frame_sizes[3];
     int frame_size = send_frame_size;
     char* data = (char*)malloc(sizeof(char)*frame_size);
     unsigned long timestamp;
@@ -69,7 +71,7 @@ void* send_frames(void* arg) {
         // pack_data(timestamp, frame_size, i+1, data);
         
         send(client_socket, data, frame_size, 0);
-	printf("video_frame sending... packet_idx %d, frame_size %d \n", i, send_frame_size);
+	printf("video_frame sending... packet_idx %d, frame_size %d \n", i+1, send_frame_size);
         gettimeofday(&tv,NULL);
     	tmp = 1000000 * tv.tv_sec + tv.tv_usec;
         unsigned long delayed_time = tmp - timestamp;
@@ -119,8 +121,7 @@ void* receive_frames(void* arg) {
 
 int main(int argc, char** argv)
 {
-	//initialization
-	int send_frame_size = frame_sizes[3];
+	
 	//for logging
 	if (access("./logging", F_OK) != 0) {
         mkdir("./logging", 0700);
