@@ -63,19 +63,16 @@ void receive_frame(int client_socket) {
     	received_timestamp = 1000000 * tv.tv_sec + tv.tv_usec;
         double time_diff = received_timestamp - sent_timestamp;
 
-        printf("idx: %d, one way delay: %lf [ms], and size: %lu\n", idx, time_diff/1000, received_frame_size);
+        printf("idx: %d, one way delay: %lf [ms], and size: %d\n", idx, time_diff/1000, received_frame_size);
 
         send(client_socket, header_data, 16, 0);
 
 	time_t rawtime = (time_t)sent_timestamp/1000000;
         timeinfo = localtime(&rawtime);
         
-        //snprintf(log_entry, sizeof(log_entry), "index of frame, %d, sender's timestamp, %d,sender's timestamp - received timestamp ,%lf,[ms], and size ,%lu,\n", 
-            timestamp, , time_diff, frame_size);
-
         FILE *file = fopen(filename, "a");
         if (file) {
-            fprintf(f, "packet_index ,%d, sent_timestamp ,%s,received-send delay ,%f,[usec], and size ,%d,\n", idx, asctime(timeinfo), time_diff, received_frame_size);
+            fprintf(file, "packet_index ,%d, sent_timestamp ,%s,received-send delay ,%f,[usec], and size ,%d,\n", idx, asctime(timeinfo), time_diff, received_frame_size);
             fclose(file);
         }
     }
@@ -152,7 +149,7 @@ int main(int argc, char** argv)
 	}
 	printf("[server] connected to client\n");
 
-  	receive_frame(client_socket);
+  	receive_frame(client_sock);
   
 	close(client_sock);
 	close(server_sock);
