@@ -86,8 +86,9 @@ void* send_frames(void* arg) {
 }
 void* receive_frames(void* arg) {
     int client_socket = *(int*)arg;
+    char header_data[16];
     while (1) {
-        char header_data[16];
+        
         recv(client_socket, header_data, 16, 0);
         unsigned long sent_timestamp;
         int received_frame_size;
