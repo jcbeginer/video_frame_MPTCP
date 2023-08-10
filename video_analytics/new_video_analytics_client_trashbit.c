@@ -50,7 +50,7 @@ void* send_frames(void* arg) {
 	unsigned long tmp = 1000000 * tv.tv_sec + tv.tv_usec;
         FILE* f = fopen(filename2, "a");
         if (f) {
-            fprintf(f, "packet_index is %d and delayed_time is %ld [usec]\n", i+1, tmp - timestamp - c_wait_time);
+            fprintf(f, "packet_index is ,%d, and delayed_time is ,%lf, [usec]\n", i+1, tmp - timestamp - c_wait_time);
             fclose(f);
         }
 	    
