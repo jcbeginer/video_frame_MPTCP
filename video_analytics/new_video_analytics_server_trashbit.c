@@ -20,7 +20,6 @@
 #include <sys/time.h>
 
 #include "./header/mptcp.h"
-FILE *file = fopen("./logging/video_analytics_server_log.txt", "a");
 
 /**
  * 기존의 TCP Server는 { socket() -> bind() -> listen() -> accept() -> recv(), send() -> close() }순서로 흘러간다.
