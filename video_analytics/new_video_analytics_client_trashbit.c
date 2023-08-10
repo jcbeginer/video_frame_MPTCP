@@ -179,12 +179,7 @@ int main(int argc, char** argv)
 
 
 	
-	// Write log start entry
-	//fprintf(log_file, "start--------------------------------------------\n");
-	// capture start time
-	struct timespec start, end;
-    	clock_gettime(CLOCK_REALTIME, &start);
-
+	//pthread part
 	pthread_t send_thread, receive_thread;
     	pthread_create(&receive_thread, NULL, receive_frames, &sock);
     	pthread_create(&send_thread, NULL, send_frames, &sock);
