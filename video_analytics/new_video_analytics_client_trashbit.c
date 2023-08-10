@@ -69,7 +69,7 @@ void* send_frames(void* arg) {
         // pack_data(timestamp, frame_size, i+1, data);
         
         send(client_socket, data, frame_size, 0);
-
+	printf("video_frame sending... packet_idx %d, frame_size %d \n", i, send_frame_size);
         gettimeofday(&tv,NULL);
     	tmp = 1000000 * tv.tv_sec + tv.tv_usec;
         unsigned long delayed_time = tmp - timestamp;
