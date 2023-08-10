@@ -80,7 +80,7 @@ void* send_frames(void* arg) {
             usleep(wait_time);
         }
     }
-    free(data)
+    free(data);
     return NULL;
 }
 void* receive_frames(void* arg) {
