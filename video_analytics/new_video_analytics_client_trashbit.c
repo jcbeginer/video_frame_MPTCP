@@ -112,13 +112,28 @@ void* receive_frames(void* arg) {
             fprintf(f, "packet_index ,%d, sent_timestamp ,%s,received-send delay ,%f, and size ,%d,\n", idx, asctime(timeinfo), received_send_delay, received_frame_size);
             fclose(f);
         }
-        usleep(1000); // Equivalent to time.sleep(0.001)
+        usleep(1); // Equivalent to time.sleep(0.001)
     }
     return NULL;
 }
 
 int main(int argc, char** argv)
 {
+	//for logging
+	if (access("./logging", F_OK) != 0) {
+        mkdir("./logging", 0700);
+    	}
+	time_t t = time(NULL);
+    	struct tm tm = *localtime(&t);
+    	sprintf(filename, "./logging/video_analytics_client_log%02d%02d%02d_minRTT_40KB.txt", tm.tm_year % 100, tm.tm_mon + 1, tm.tm_mday);
+    	sprintf(filename2, "./logging/delayed_time_log%02d%02d%02d_2.txt", tm.tm_year % 100, tm.tm_mon + 1, tm.tm_mday);
+
+	FILE* f = fopen(filename, "a");
+    	if (f) {
+        	fprintf(f, "start--------------------------------------------\n");
+        	fclose(f);
+    	}
+	//for communication
 	char* ADDR;
 	int PORT;
 	char* FILE_PATH;
@@ -139,9 +154,8 @@ int main(int argc, char** argv)
 		fprintf(stderr, "usage: %s [host_address] [port_number] [file_path]\n", argv[0]);
 		return -1;
 	}
-	ADDR = argv[1];
-	PORT = atoi(argv[2]);
-	FILE_PATH = argv[3];
+	ADDR = "54.180.119.186";//argv[1];
+	PORT = atoi("8888"); //atoi(argv[2])
 
 	sock = socket(AF_INET, SOCK_STREAM, 0);
 	if(sock < 0){
@@ -168,48 +182,24 @@ int main(int argc, char** argv)
 	}
 	printf("[client] connected\n");
 
-	file = fopen(FILE_PATH, "rb");
-	if(file == NULL){
-		perror("[client] fopen() ");
-		return -1;
-	}
 
-	fsize = get_fsize(file);
-
-	printf("[client] sending file...(%s)\n", FILE_PATH); 
-	// Open log file
-   	char filename[1024] = "";
-    	time_t now = time(NULL);
-    	struct tm *t = localtime(&now);
-	strftime(filename, sizeof(filename)-1, "./logging/file_transfer_client_log_%Y%m%d_%H%M%S.txt", t);
-    	FILE *log_file = fopen(filename, "a");
-    	if (log_file == NULL) {
-        	printf("there is no file, so I make new one");
-  	}	
-
+	
 	// Write log start entry
 	//fprintf(log_file, "start--------------------------------------------\n");
 	// capture start time
 	struct timespec start, end;
     	clock_gettime(CLOCK_REALTIME, &start);
 
-	
-	while(nsize!=fsize){
-		int fpsize = fread(send_buff, 1, 1024, file);
-		nsize += fpsize;
-		printf("[client] file size %dB | send to %dB\n", fsize, nsize);
-		send(sock, send_buff, fpsize, 0);
-	}
-	// Capture end time
-    	clock_gettime(CLOCK_REALTIME, &end);
+	pthread_t send_thread, receive_thread;
+    	pthread_create(&receive_thread, NULL, receive_frames, &sock);
+    	pthread_create(&send_thread, NULL, send_frames, &sock);
     
-    	// Write packet information
-    	fprintf(log_file,"sent_timestamp: %ld.%ld, received_timestamp: %ld.%ld, received-send delay: %ld.%ld, size: %d\n", start.tv_sec, start.tv_nsec, end.tv_sec, end.tv_nsec, end.tv_sec-start.tv_sec,end.tv_nsec-start.tv_nsec, fsize);
+    
+    	pthread_join(send_thread, NULL);
+    	pthread_join(receive_thread, NULL);
 
-    //...
-	fclose(file);
-	fclose(log_file);
-	close(sock);
+    	close(sock);
+	
 
 	return 0;
 }
