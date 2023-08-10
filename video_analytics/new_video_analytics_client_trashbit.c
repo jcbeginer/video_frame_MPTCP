@@ -40,7 +40,7 @@ void* send_frames(void* arg) {
     unsigned long timestamp;
     gettimeofday(&tv,NULL);
     timestamp = 1000000 * tv.tv_sec + tv.tv_usec;
-    double c_wait_time = 1 / FRAME_RATE * 1000000; //[usec]
+    double c_wait_time = 1000000/ FRAME_RATE; //[usec]
     
     // Initialize data with '0'
     memset(data, '0', frame_size);
