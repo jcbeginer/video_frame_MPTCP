@@ -108,8 +108,14 @@ int main(int argc, char** argv)
 
 	int enable = 1;
 
-	//PORT = atoi(argv[1]);
-  	PORT = atoi("8888");
+	if(argc != 1){
+		printf("instead use 8888 as default port number");
+		PORT = atoi("8888");
+	}
+	else{
+		PORT = atoi(argv[1]);
+	}
+  	
 
 	server_sock = socket(AF_INET, SOCK_STREAM, 0);
 	if(server_sock < 0){
