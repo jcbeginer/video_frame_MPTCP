@@ -104,7 +104,7 @@ void* receive_frames(void* arg) {
 	gettimeofday(&tv,NULL);
 	unsigned long received_timestamp = 1000000 * tv.tv_sec + tv.tv_usec + 20630; //20.63ms maybe which is for inference time in server
         //double received_timestamp = (double) time(NULL) + 0.02063;
-        double received_send_delay = (received_timestamp - sent_timestamp)/1000; //[msec]
+        double received_send_delay = (double)(received_timestamp - sent_timestamp)/1000; //[msec]
         printf("packet_idx %d, received_send_delay %lf [msec]\n", idx, received_send_delay);
         
         time_t rawtime = (time_t)sent_timestamp/1000000;
