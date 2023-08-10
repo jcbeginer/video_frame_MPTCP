@@ -144,18 +144,11 @@ int main(int argc, char** argv)
 	struct sockaddr_in addr;
 	int ret;
 
-	FILE* file;
-	char send_buff[1024] = { '\0', };
 	
-	int fsize = 0, nsize = 0;
-
 	int enable = 1;
 	char* path_manager = "fullmesh";
 
-	if(argc != 4){
-		fprintf(stderr, "usage: %s [host_address] [port_number] [file_path]\n", argv[0]);
-		return -1;
-	}
+	
 	ADDR = "54.180.119.186";//argv[1];
 	PORT = atoi("8888"); //atoi(argv[2])
 
