@@ -151,8 +151,14 @@ int main(int argc, char** argv)
 
 	
 	ADDR = "54.180.119.186";//argv[1];
-	PORT = atoi("8888"); //atoi(argv[2])
-
+	if(argc != 1){
+		printf("instead use 8888 as default port number");
+		PORT = atoi("8888");
+	}
+	else{
+		PORT = atoi(argv[0]);
+	}
+	
 	sock = socket(AF_INET, SOCK_STREAM, 0);
 	if(sock < 0){
 		perror("[client] socket() ");
