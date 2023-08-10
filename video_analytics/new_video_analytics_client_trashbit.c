@@ -25,7 +25,7 @@
 
 #define FRAME_RATE 30
 #define DURATION 10
-
+char filename[255], filename2[255];
 int frame_sizes[8] = [15360,25600,30720,40960,71680,102400,133120,153600]; // # 15KB (index24), 25KB(index25), 30KB(index26), 40KB(index27), 70KB(index28), 100KB(index29), 130KB(index30), 150KB(index31)
 int send_frame_size = frame_sizes[3];
 struct timeval tv;
