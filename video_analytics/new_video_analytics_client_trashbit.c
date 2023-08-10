@@ -47,12 +47,12 @@ void* send_frames(void* arg) {
     // Initialize data with '0'
     memset(data, '0', frame_size);
 
-    for (int i = 0; i < FRAME_RATE * DURATION; i++) {
+    for (int i = 1; i <= FRAME_RATE * DURATION; i++) {
         gettimeofday(&tv,NULL);
 	unsigned long tmp = 1000000 * tv.tv_sec + tv.tv_usec;
         FILE* f = fopen(filename2, "a");
         if (f) {
-            fprintf(f, "packet_index is ,%d, and delayed_time is ,%lf, [usec]\n", i+1, tmp - timestamp - c_wait_time);
+            fprintf(f, "packet_index is ,%d, and delayed_time is ,%lf, [usec]\n", i, tmp - timestamp - c_wait_time);
             fclose(f);
         }
 	    
@@ -68,10 +68,10 @@ void* send_frames(void* arg) {
         memcpy(data, &timestamp, sizeof(unsigned long));
         memcpy(data + sizeof(unsigned long), &send_frame_size, sizeof(int));
         memcpy(data + sizeof(unsigned long) + sizeof(int), &i, sizeof(int));
-        // pack_data(timestamp, frame_size, i+1, data);
+        // pack_data(timestamp, frame_size, i, data);
         
         send(client_socket, data, frame_size, 0);
-	printf("video_frame sending... packet_idx %d, frame_size %d \n", i+1, send_frame_size);
+	printf("video_frame sending... packet_idx %d, frame_size %d \n", i, send_frame_size);
         gettimeofday(&tv,NULL);
     	tmp = 1000000 * tv.tv_sec + tv.tv_usec;
         unsigned long delayed_time = tmp - timestamp;
