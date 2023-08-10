@@ -71,7 +71,6 @@ void* send_frames(void* arg) {
         
         send(client_socket, data, frame_size, 0);
 
-        double delayed_time = (double) time(NULL) - timestamp;
         gettimeofday(&tv,NULL);
     	tmp = 1000000 * tv.tv_sec + tv.tv_usec;
         unsigned long delayed_time = tmp - timestamp;
