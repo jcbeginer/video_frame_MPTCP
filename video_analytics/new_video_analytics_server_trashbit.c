@@ -16,6 +16,7 @@
 #include <netinet/in.h>
 #include <arpa/inet.h>
 #include <netinet/tcp.h>
+#include <sys/stat.h>
 #include <time.h>
 #include <sys/time.h>
 
