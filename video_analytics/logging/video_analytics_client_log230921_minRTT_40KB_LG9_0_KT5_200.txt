@@ -1,0 +1,3005 @@
+start--------------------------------------------
+packet_index ,1, sent_timestamp ,Thu Sep 21 19:57:28 2023
+,received-send delay ,433.845000,[msec] and size ,40960,
+packet_index ,2, sent_timestamp ,Thu Sep 21 19:57:28 2023
+,received-send delay ,207.930000,[msec] and size ,40960,
+packet_index ,3, sent_timestamp ,Thu Sep 21 19:57:28 2023
+,received-send delay ,223.603000,[msec] and size ,40960,
+packet_index ,4, sent_timestamp ,Thu Sep 21 19:57:28 2023
+,received-send delay ,267.458000,[msec] and size ,40960,
+packet_index ,5, sent_timestamp ,Thu Sep 21 19:57:28 2023
+,received-send delay ,228.013000,[msec] and size ,40960,
+packet_index ,6, sent_timestamp ,Thu Sep 21 19:57:28 2023
+,received-send delay ,265.347000,[msec] and size ,40960,
+packet_index ,7, sent_timestamp ,Thu Sep 21 19:57:28 2023
+,received-send delay ,232.105000,[msec] and size ,40960,
+packet_index ,8, sent_timestamp ,Thu Sep 21 19:57:28 2023
+,received-send delay ,421.598000,[msec] and size ,40960,
+packet_index ,9, sent_timestamp ,Thu Sep 21 19:57:28 2023
+,received-send delay ,359.665000,[msec] and size ,40960,
+packet_index ,10, sent_timestamp ,Thu Sep 21 19:57:28 2023
+,received-send delay ,379.078000,[msec] and size ,40960,
+packet_index ,11, sent_timestamp ,Thu Sep 21 19:57:28 2023
+,received-send delay ,345.866000,[msec] and size ,40960,
+packet_index ,12, sent_timestamp ,Thu Sep 21 19:57:28 2023
+,received-send delay ,312.480000,[msec] and size ,40960,
+packet_index ,13, sent_timestamp ,Thu Sep 21 19:57:29 2023
+,received-send delay ,359.254000,[msec] and size ,40960,
+packet_index ,14, sent_timestamp ,Thu Sep 21 19:57:29 2023
+,received-send delay ,326.743000,[msec] and size ,40960,
+packet_index ,15, sent_timestamp ,Thu Sep 21 19:57:29 2023
+,received-send delay ,293.560000,[msec] and size ,40960,
+packet_index ,16, sent_timestamp ,Thu Sep 21 19:57:29 2023
+,received-send delay ,301.502000,[msec] and size ,40960,
+packet_index ,17, sent_timestamp ,Thu Sep 21 19:57:29 2023
+,received-send delay ,268.242000,[msec] and size ,40960,
+packet_index ,18, sent_timestamp ,Thu Sep 21 19:57:29 2023
+,received-send delay ,333.720000,[msec] and size ,40960,
+packet_index ,19, sent_timestamp ,Thu Sep 21 19:57:29 2023
+,received-send delay ,300.685000,[msec] and size ,40960,
+packet_index ,20, sent_timestamp ,Thu Sep 21 19:57:29 2023
+,received-send delay ,185.925000,[msec] and size ,40960,
+packet_index ,21, sent_timestamp ,Thu Sep 21 19:57:29 2023
+,received-send delay ,262.951000,[msec] and size ,40960,
+packet_index ,22, sent_timestamp ,Thu Sep 21 19:57:29 2023
+,received-send delay ,229.457000,[msec] and size ,40960,
+packet_index ,23, sent_timestamp ,Thu Sep 21 19:57:29 2023
+,received-send delay ,195.981000,[msec] and size ,40960,
+packet_index ,24, sent_timestamp ,Thu Sep 21 19:57:29 2023
+,received-send delay ,319.508000,[msec] and size ,40960,
+packet_index ,25, sent_timestamp ,Thu Sep 21 19:57:29 2023
+,received-send delay ,416.331000,[msec] and size ,40960,
+packet_index ,26, sent_timestamp ,Thu Sep 21 19:57:29 2023
+,received-send delay ,383.032000,[msec] and size ,40960,
+packet_index ,27, sent_timestamp ,Thu Sep 21 19:57:29 2023
+,received-send delay ,349.587000,[msec] and size ,40960,
+packet_index ,28, sent_timestamp ,Thu Sep 21 19:57:29 2023
+,received-send delay ,316.247000,[msec] and size ,40960,
+packet_index ,29, sent_timestamp ,Thu Sep 21 19:57:29 2023
+,received-send delay ,282.945000,[msec] and size ,40960,
+packet_index ,30, sent_timestamp ,Thu Sep 21 19:57:29 2023
+,received-send delay ,249.617000,[msec] and size ,40960,
+packet_index ,31, sent_timestamp ,Thu Sep 21 19:57:29 2023
+,received-send delay ,216.214000,[msec] and size ,40960,
+packet_index ,32, sent_timestamp ,Thu Sep 21 19:57:29 2023
+,received-send delay ,337.886000,[msec] and size ,40960,
+packet_index ,33, sent_timestamp ,Thu Sep 21 19:57:29 2023
+,received-send delay ,304.645000,[msec] and size ,40960,
+packet_index ,34, sent_timestamp ,Thu Sep 21 19:57:29 2023
+,received-send delay ,271.278000,[msec] and size ,40960,
+packet_index ,35, sent_timestamp ,Thu Sep 21 19:57:29 2023
+,received-send delay ,359.188000,[msec] and size ,40960,
+packet_index ,36, sent_timestamp ,Thu Sep 21 19:57:29 2023
+,received-send delay ,325.691000,[msec] and size ,40960,
+packet_index ,37, sent_timestamp ,Thu Sep 21 19:57:29 2023
+,received-send delay ,292.264000,[msec] and size ,40960,
+packet_index ,38, sent_timestamp ,Thu Sep 21 19:57:29 2023
+,received-send delay ,258.880000,[msec] and size ,40960,
+packet_index ,39, sent_timestamp ,Thu Sep 21 19:57:29 2023
+,received-send delay ,375.849000,[msec] and size ,40960,
+packet_index ,40, sent_timestamp ,Thu Sep 21 19:57:30 2023
+,received-send delay ,342.682000,[msec] and size ,40960,
+packet_index ,41, sent_timestamp ,Thu Sep 21 19:57:30 2023
+,received-send delay ,310.182000,[msec] and size ,40960,
+packet_index ,42, sent_timestamp ,Thu Sep 21 19:57:30 2023
+,received-send delay ,453.134000,[msec] and size ,40960,
+packet_index ,43, sent_timestamp ,Thu Sep 21 19:57:30 2023
+,received-send delay ,629.093000,[msec] and size ,40960,
+packet_index ,44, sent_timestamp ,Thu Sep 21 19:57:30 2023
+,received-send delay ,595.882000,[msec] and size ,40960,
+packet_index ,45, sent_timestamp ,Thu Sep 21 19:57:30 2023
+,received-send delay ,562.611000,[msec] and size ,40960,
+packet_index ,46, sent_timestamp ,Thu Sep 21 19:57:30 2023
+,received-send delay ,529.189000,[msec] and size ,40960,
+packet_index ,47, sent_timestamp ,Thu Sep 21 19:57:30 2023
+,received-send delay ,495.721000,[msec] and size ,40960,
+packet_index ,48, sent_timestamp ,Thu Sep 21 19:57:30 2023
+,received-send delay ,462.281000,[msec] and size ,40960,
+packet_index ,49, sent_timestamp ,Thu Sep 21 19:57:30 2023
+,received-send delay ,428.868000,[msec] and size ,40960,
+packet_index ,50, sent_timestamp ,Thu Sep 21 19:57:30 2023
+,received-send delay ,395.496000,[msec] and size ,40960,
+packet_index ,51, sent_timestamp ,Thu Sep 21 19:57:30 2023
+,received-send delay ,362.213000,[msec] and size ,40960,
+packet_index ,52, sent_timestamp ,Thu Sep 21 19:57:30 2023
+,received-send delay ,483.262000,[msec] and size ,40960,
+packet_index ,53, sent_timestamp ,Thu Sep 21 19:57:30 2023
+,received-send delay ,450.132000,[msec] and size ,40960,
+packet_index ,54, sent_timestamp ,Thu Sep 21 19:57:30 2023
+,received-send delay ,416.911000,[msec] and size ,40960,
+packet_index ,55, sent_timestamp ,Thu Sep 21 19:57:30 2023
+,received-send delay ,383.666000,[msec] and size ,40960,
+packet_index ,56, sent_timestamp ,Thu Sep 21 19:57:30 2023
+,received-send delay ,350.393000,[msec] and size ,40960,
+packet_index ,57, sent_timestamp ,Thu Sep 21 19:57:30 2023
+,received-send delay ,627.015000,[msec] and size ,40960,
+packet_index ,58, sent_timestamp ,Thu Sep 21 19:57:30 2023
+,received-send delay ,760.444000,[msec] and size ,40960,
+packet_index ,59, sent_timestamp ,Thu Sep 21 19:57:30 2023
+,received-send delay ,726.980000,[msec] and size ,40960,
+packet_index ,60, sent_timestamp ,Thu Sep 21 19:57:30 2023
+,received-send delay ,693.621000,[msec] and size ,40960,
+packet_index ,61, sent_timestamp ,Thu Sep 21 19:57:30 2023
+,received-send delay ,660.232000,[msec] and size ,40960,
+packet_index ,62, sent_timestamp ,Thu Sep 21 19:57:30 2023
+,received-send delay ,626.902000,[msec] and size ,40960,
+packet_index ,63, sent_timestamp ,Thu Sep 21 19:57:30 2023
+,received-send delay ,593.482000,[msec] and size ,40960,
+packet_index ,64, sent_timestamp ,Thu Sep 21 19:57:30 2023
+,received-send delay ,560.099000,[msec] and size ,40960,
+packet_index ,65, sent_timestamp ,Thu Sep 21 19:57:30 2023
+,received-send delay ,526.682000,[msec] and size ,40960,
+packet_index ,66, sent_timestamp ,Thu Sep 21 19:57:30 2023
+,received-send delay ,493.260000,[msec] and size ,40960,
+packet_index ,67, sent_timestamp ,Thu Sep 21 19:57:30 2023
+,received-send delay ,459.941000,[msec] and size ,40960,
+packet_index ,68, sent_timestamp ,Thu Sep 21 19:57:30 2023
+,received-send delay ,426.532000,[msec] and size ,40960,
+packet_index ,69, sent_timestamp ,Thu Sep 21 19:57:31 2023
+,received-send delay ,393.082000,[msec] and size ,40960,
+packet_index ,70, sent_timestamp ,Thu Sep 21 19:57:31 2023
+,received-send delay ,359.653000,[msec] and size ,40960,
+packet_index ,71, sent_timestamp ,Thu Sep 21 19:57:31 2023
+,received-send delay ,557.065000,[msec] and size ,40960,
+packet_index ,72, sent_timestamp ,Thu Sep 21 19:57:31 2023
+,received-send delay ,523.629000,[msec] and size ,40960,
+packet_index ,73, sent_timestamp ,Thu Sep 21 19:57:31 2023
+,received-send delay ,490.228000,[msec] and size ,40960,
+packet_index ,74, sent_timestamp ,Thu Sep 21 19:57:31 2023
+,received-send delay ,456.845000,[msec] and size ,40960,
+packet_index ,75, sent_timestamp ,Thu Sep 21 19:57:31 2023
+,received-send delay ,423.392000,[msec] and size ,40960,
+packet_index ,76, sent_timestamp ,Thu Sep 21 19:57:31 2023
+,received-send delay ,587.326000,[msec] and size ,40960,
+packet_index ,77, sent_timestamp ,Thu Sep 21 19:57:31 2023
+,received-send delay ,554.402000,[msec] and size ,40960,
+packet_index ,78, sent_timestamp ,Thu Sep 21 19:57:31 2023
+,received-send delay ,521.247000,[msec] and size ,40960,
+packet_index ,79, sent_timestamp ,Thu Sep 21 19:57:31 2023
+,received-send delay ,487.860000,[msec] and size ,40960,
+packet_index ,80, sent_timestamp ,Thu Sep 21 19:57:31 2023
+,received-send delay ,454.528000,[msec] and size ,40960,
+packet_index ,81, sent_timestamp ,Thu Sep 21 19:57:31 2023
+,received-send delay ,421.119000,[msec] and size ,40960,
+packet_index ,82, sent_timestamp ,Thu Sep 21 19:57:31 2023
+,received-send delay ,387.819000,[msec] and size ,40960,
+packet_index ,83, sent_timestamp ,Thu Sep 21 19:57:31 2023
+,received-send delay ,354.522000,[msec] and size ,40960,
+packet_index ,84, sent_timestamp ,Thu Sep 21 19:57:31 2023
+,received-send delay ,633.725000,[msec] and size ,40960,
+packet_index ,85, sent_timestamp ,Thu Sep 21 19:57:31 2023
+,received-send delay ,600.683000,[msec] and size ,40960,
+packet_index ,86, sent_timestamp ,Thu Sep 21 19:57:31 2023
+,received-send delay ,567.369000,[msec] and size ,40960,
+packet_index ,87, sent_timestamp ,Thu Sep 21 19:57:31 2023
+,received-send delay ,534.119000,[msec] and size ,40960,
+packet_index ,88, sent_timestamp ,Thu Sep 21 19:57:31 2023
+,received-send delay ,500.816000,[msec] and size ,40960,
+packet_index ,89, sent_timestamp ,Thu Sep 21 19:57:31 2023
+,received-send delay ,467.456000,[msec] and size ,40960,
+packet_index ,90, sent_timestamp ,Thu Sep 21 19:57:31 2023
+,received-send delay ,434.032000,[msec] and size ,40960,
+packet_index ,91, sent_timestamp ,Thu Sep 21 19:57:31 2023
+,received-send delay ,400.670000,[msec] and size ,40960,
+packet_index ,92, sent_timestamp ,Thu Sep 21 19:57:31 2023
+,received-send delay ,531.596000,[msec] and size ,40960,
+packet_index ,93, sent_timestamp ,Thu Sep 21 19:57:31 2023
+,received-send delay ,498.315000,[msec] and size ,40960,
+packet_index ,94, sent_timestamp ,Thu Sep 21 19:57:31 2023
+,received-send delay ,464.880000,[msec] and size ,40960,
+packet_index ,95, sent_timestamp ,Thu Sep 21 19:57:31 2023
+,received-send delay ,431.452000,[msec] and size ,40960,
+packet_index ,96, sent_timestamp ,Thu Sep 21 19:57:31 2023
+,received-send delay ,398.065000,[msec] and size ,40960,
+packet_index ,97, sent_timestamp ,Thu Sep 21 19:57:31 2023
+,received-send delay ,364.519000,[msec] and size ,40960,
+packet_index ,98, sent_timestamp ,Thu Sep 21 19:57:31 2023
+,received-send delay ,331.070000,[msec] and size ,40960,
+packet_index ,99, sent_timestamp ,Thu Sep 21 19:57:32 2023
+,received-send delay ,297.683000,[msec] and size ,40960,
+packet_index ,100, sent_timestamp ,Thu Sep 21 19:57:32 2023
+,received-send delay ,510.049000,[msec] and size ,40960,
+packet_index ,101, sent_timestamp ,Thu Sep 21 19:57:32 2023
+,received-send delay ,476.827000,[msec] and size ,40960,
+packet_index ,102, sent_timestamp ,Thu Sep 21 19:57:32 2023
+,received-send delay ,443.426000,[msec] and size ,40960,
+packet_index ,103, sent_timestamp ,Thu Sep 21 19:57:32 2023
+,received-send delay ,410.145000,[msec] and size ,40960,
+packet_index ,104, sent_timestamp ,Thu Sep 21 19:57:32 2023
+,received-send delay ,376.826000,[msec] and size ,40960,
+packet_index ,105, sent_timestamp ,Thu Sep 21 19:57:32 2023
+,received-send delay ,343.528000,[msec] and size ,40960,
+packet_index ,106, sent_timestamp ,Thu Sep 21 19:57:32 2023
+,received-send delay ,310.254000,[msec] and size ,40960,
+packet_index ,107, sent_timestamp ,Thu Sep 21 19:57:32 2023
+,received-send delay ,447.304000,[msec] and size ,40960,
+packet_index ,108, sent_timestamp ,Thu Sep 21 19:57:32 2023
+,received-send delay ,413.940000,[msec] and size ,40960,
+packet_index ,109, sent_timestamp ,Thu Sep 21 19:57:32 2023
+,received-send delay ,380.457000,[msec] and size ,40960,
+packet_index ,110, sent_timestamp ,Thu Sep 21 19:57:32 2023
+,received-send delay ,346.954000,[msec] and size ,40960,
+packet_index ,111, sent_timestamp ,Thu Sep 21 19:57:32 2023
+,received-send delay ,497.675000,[msec] and size ,40960,
+packet_index ,112, sent_timestamp ,Thu Sep 21 19:57:32 2023
+,received-send delay ,464.425000,[msec] and size ,40960,
+packet_index ,113, sent_timestamp ,Thu Sep 21 19:57:32 2023
+,received-send delay ,431.153000,[msec] and size ,40960,
+packet_index ,114, sent_timestamp ,Thu Sep 21 19:57:32 2023
+,received-send delay ,397.932000,[msec] and size ,40960,
+packet_index ,115, sent_timestamp ,Thu Sep 21 19:57:32 2023
+,received-send delay ,364.594000,[msec] and size ,40960,
+packet_index ,116, sent_timestamp ,Thu Sep 21 19:57:32 2023
+,received-send delay ,331.329000,[msec] and size ,40960,
+packet_index ,117, sent_timestamp ,Thu Sep 21 19:57:32 2023
+,received-send delay ,297.994000,[msec] and size ,40960,
+packet_index ,118, sent_timestamp ,Thu Sep 21 19:57:32 2023
+,received-send delay ,264.657000,[msec] and size ,40960,
+packet_index ,119, sent_timestamp ,Thu Sep 21 19:57:32 2023
+,received-send delay ,512.543000,[msec] and size ,40960,
+packet_index ,120, sent_timestamp ,Thu Sep 21 19:57:32 2023
+,received-send delay ,479.300000,[msec] and size ,40960,
+packet_index ,121, sent_timestamp ,Thu Sep 21 19:57:32 2023
+,received-send delay ,445.953000,[msec] and size ,40960,
+packet_index ,122, sent_timestamp ,Thu Sep 21 19:57:32 2023
+,received-send delay ,412.393000,[msec] and size ,40960,
+packet_index ,123, sent_timestamp ,Thu Sep 21 19:57:32 2023
+,received-send delay ,379.046000,[msec] and size ,40960,
+packet_index ,124, sent_timestamp ,Thu Sep 21 19:57:32 2023
+,received-send delay ,345.614000,[msec] and size ,40960,
+packet_index ,125, sent_timestamp ,Thu Sep 21 19:57:32 2023
+,received-send delay ,550.945000,[msec] and size ,40960,
+packet_index ,126, sent_timestamp ,Thu Sep 21 19:57:32 2023
+,received-send delay ,517.559000,[msec] and size ,40960,
+packet_index ,127, sent_timestamp ,Thu Sep 21 19:57:32 2023
+,received-send delay ,484.146000,[msec] and size ,40960,
+packet_index ,128, sent_timestamp ,Thu Sep 21 19:57:32 2023
+,received-send delay ,450.749000,[msec] and size ,40960,
+packet_index ,129, sent_timestamp ,Thu Sep 21 19:57:33 2023
+,received-send delay ,417.319000,[msec] and size ,40960,
+packet_index ,130, sent_timestamp ,Thu Sep 21 19:57:33 2023
+,received-send delay ,383.918000,[msec] and size ,40960,
+packet_index ,131, sent_timestamp ,Thu Sep 21 19:57:33 2023
+,received-send delay ,350.463000,[msec] and size ,40960,
+packet_index ,132, sent_timestamp ,Thu Sep 21 19:57:33 2023
+,received-send delay ,316.945000,[msec] and size ,40960,
+packet_index ,133, sent_timestamp ,Thu Sep 21 19:57:33 2023
+,received-send delay ,489.378000,[msec] and size ,40960,
+packet_index ,134, sent_timestamp ,Thu Sep 21 19:57:33 2023
+,received-send delay ,456.144000,[msec] and size ,40960,
+packet_index ,135, sent_timestamp ,Thu Sep 21 19:57:33 2023
+,received-send delay ,423.689000,[msec] and size ,40960,
+packet_index ,136, sent_timestamp ,Thu Sep 21 19:57:33 2023
+,received-send delay ,390.493000,[msec] and size ,40960,
+packet_index ,137, sent_timestamp ,Thu Sep 21 19:57:33 2023
+,received-send delay ,357.252000,[msec] and size ,40960,
+packet_index ,138, sent_timestamp ,Thu Sep 21 19:57:33 2023
+,received-send delay ,323.946000,[msec] and size ,40960,
+packet_index ,139, sent_timestamp ,Thu Sep 21 19:57:33 2023
+,received-send delay ,290.708000,[msec] and size ,40960,
+packet_index ,140, sent_timestamp ,Thu Sep 21 19:57:33 2023
+,received-send delay ,549.253000,[msec] and size ,40960,
+packet_index ,141, sent_timestamp ,Thu Sep 21 19:57:33 2023
+,received-send delay ,516.403000,[msec] and size ,40960,
+packet_index ,142, sent_timestamp ,Thu Sep 21 19:57:33 2023
+,received-send delay ,483.288000,[msec] and size ,40960,
+packet_index ,143, sent_timestamp ,Thu Sep 21 19:57:33 2023
+,received-send delay ,450.108000,[msec] and size ,40960,
+packet_index ,144, sent_timestamp ,Thu Sep 21 19:57:33 2023
+,received-send delay ,416.882000,[msec] and size ,40960,
+packet_index ,145, sent_timestamp ,Thu Sep 21 19:57:33 2023
+,received-send delay ,383.608000,[msec] and size ,40960,
+packet_index ,146, sent_timestamp ,Thu Sep 21 19:57:33 2023
+,received-send delay ,548.513000,[msec] and size ,40960,
+packet_index ,147, sent_timestamp ,Thu Sep 21 19:57:33 2023
+,received-send delay ,515.131000,[msec] and size ,40960,
+packet_index ,148, sent_timestamp ,Thu Sep 21 19:57:33 2023
+,received-send delay ,481.716000,[msec] and size ,40960,
+packet_index ,149, sent_timestamp ,Thu Sep 21 19:57:33 2023
+,received-send delay ,448.323000,[msec] and size ,40960,
+packet_index ,150, sent_timestamp ,Thu Sep 21 19:57:33 2023
+,received-send delay ,414.884000,[msec] and size ,40960,
+packet_index ,151, sent_timestamp ,Thu Sep 21 19:57:33 2023
+,received-send delay ,381.354000,[msec] and size ,40960,
+packet_index ,152, sent_timestamp ,Thu Sep 21 19:57:33 2023
+,received-send delay ,347.844000,[msec] and size ,40960,
+packet_index ,153, sent_timestamp ,Thu Sep 21 19:57:33 2023
+,received-send delay ,314.544000,[msec] and size ,40960,
+packet_index ,154, sent_timestamp ,Thu Sep 21 19:57:33 2023
+,received-send delay ,511.217000,[msec] and size ,40960,
+packet_index ,155, sent_timestamp ,Thu Sep 21 19:57:33 2023
+,received-send delay ,477.781000,[msec] and size ,40960,
+packet_index ,156, sent_timestamp ,Thu Sep 21 19:57:33 2023
+,received-send delay ,444.289000,[msec] and size ,40960,
+packet_index ,157, sent_timestamp ,Thu Sep 21 19:57:33 2023
+,received-send delay ,410.832000,[msec] and size ,40960,
+packet_index ,158, sent_timestamp ,Thu Sep 21 19:57:33 2023
+,received-send delay ,377.407000,[msec] and size ,40960,
+packet_index ,159, sent_timestamp ,Thu Sep 21 19:57:34 2023
+,received-send delay ,343.915000,[msec] and size ,40960,
+packet_index ,160, sent_timestamp ,Thu Sep 21 19:57:34 2023
+,received-send delay ,310.456000,[msec] and size ,40960,
+packet_index ,161, sent_timestamp ,Thu Sep 21 19:57:34 2023
+,received-send delay ,550.567000,[msec] and size ,40960,
+packet_index ,162, sent_timestamp ,Thu Sep 21 19:57:34 2023
+,received-send delay ,517.426000,[msec] and size ,40960,
+packet_index ,163, sent_timestamp ,Thu Sep 21 19:57:34 2023
+,received-send delay ,484.204000,[msec] and size ,40960,
+packet_index ,164, sent_timestamp ,Thu Sep 21 19:57:34 2023
+,received-send delay ,450.852000,[msec] and size ,40960,
+packet_index ,165, sent_timestamp ,Thu Sep 21 19:57:34 2023
+,received-send delay ,417.425000,[msec] and size ,40960,
+packet_index ,166, sent_timestamp ,Thu Sep 21 19:57:34 2023
+,received-send delay ,384.127000,[msec] and size ,40960,
+packet_index ,167, sent_timestamp ,Thu Sep 21 19:57:34 2023
+,received-send delay ,350.788000,[msec] and size ,40960,
+packet_index ,168, sent_timestamp ,Thu Sep 21 19:57:34 2023
+,received-send delay ,591.367000,[msec] and size ,40960,
+packet_index ,169, sent_timestamp ,Thu Sep 21 19:57:34 2023
+,received-send delay ,557.970000,[msec] and size ,40960,
+packet_index ,170, sent_timestamp ,Thu Sep 21 19:57:34 2023
+,received-send delay ,524.589000,[msec] and size ,40960,
+packet_index ,171, sent_timestamp ,Thu Sep 21 19:57:34 2023
+,received-send delay ,491.032000,[msec] and size ,40960,
+packet_index ,172, sent_timestamp ,Thu Sep 21 19:57:34 2023
+,received-send delay ,457.559000,[msec] and size ,40960,
+packet_index ,173, sent_timestamp ,Thu Sep 21 19:57:34 2023
+,received-send delay ,424.137000,[msec] and size ,40960,
+packet_index ,174, sent_timestamp ,Thu Sep 21 19:57:34 2023
+,received-send delay ,390.720000,[msec] and size ,40960,
+packet_index ,175, sent_timestamp ,Thu Sep 21 19:57:34 2023
+,received-send delay ,357.285000,[msec] and size ,40960,
+packet_index ,176, sent_timestamp ,Thu Sep 21 19:57:34 2023
+,received-send delay ,610.406000,[msec] and size ,40960,
+packet_index ,177, sent_timestamp ,Thu Sep 21 19:57:34 2023
+,received-send delay ,577.056000,[msec] and size ,40960,
+packet_index ,178, sent_timestamp ,Thu Sep 21 19:57:34 2023
+,received-send delay ,543.644000,[msec] and size ,40960,
+packet_index ,179, sent_timestamp ,Thu Sep 21 19:57:34 2023
+,received-send delay ,510.253000,[msec] and size ,40960,
+packet_index ,180, sent_timestamp ,Thu Sep 21 19:57:34 2023
+,received-send delay ,476.892000,[msec] and size ,40960,
+packet_index ,181, sent_timestamp ,Thu Sep 21 19:57:34 2023
+,received-send delay ,443.528000,[msec] and size ,40960,
+packet_index ,182, sent_timestamp ,Thu Sep 21 19:57:34 2023
+,received-send delay ,410.138000,[msec] and size ,40960,
+packet_index ,183, sent_timestamp ,Thu Sep 21 19:57:34 2023
+,received-send delay ,376.774000,[msec] and size ,40960,
+packet_index ,184, sent_timestamp ,Thu Sep 21 19:57:34 2023
+,received-send delay ,343.369000,[msec] and size ,40960,
+packet_index ,185, sent_timestamp ,Thu Sep 21 19:57:34 2023
+,received-send delay ,599.973000,[msec] and size ,40960,
+packet_index ,186, sent_timestamp ,Thu Sep 21 19:57:34 2023
+,received-send delay ,566.744000,[msec] and size ,40960,
+packet_index ,187, sent_timestamp ,Thu Sep 21 19:57:34 2023
+,received-send delay ,533.357000,[msec] and size ,40960,
+packet_index ,188, sent_timestamp ,Thu Sep 21 19:57:34 2023
+,received-send delay ,499.957000,[msec] and size ,40960,
+packet_index ,189, sent_timestamp ,Thu Sep 21 19:57:35 2023
+,received-send delay ,466.563000,[msec] and size ,40960,
+packet_index ,190, sent_timestamp ,Thu Sep 21 19:57:35 2023
+,received-send delay ,433.223000,[msec] and size ,40960,
+packet_index ,191, sent_timestamp ,Thu Sep 21 19:57:35 2023
+,received-send delay ,399.771000,[msec] and size ,40960,
+packet_index ,192, sent_timestamp ,Thu Sep 21 19:57:35 2023
+,received-send delay ,366.397000,[msec] and size ,40960,
+packet_index ,193, sent_timestamp ,Thu Sep 21 19:57:35 2023
+,received-send delay ,629.567000,[msec] and size ,40960,
+packet_index ,194, sent_timestamp ,Thu Sep 21 19:57:35 2023
+,received-send delay ,596.254000,[msec] and size ,40960,
+packet_index ,195, sent_timestamp ,Thu Sep 21 19:57:35 2023
+,received-send delay ,562.929000,[msec] and size ,40960,
+packet_index ,196, sent_timestamp ,Thu Sep 21 19:57:35 2023
+,received-send delay ,529.461000,[msec] and size ,40960,
+packet_index ,197, sent_timestamp ,Thu Sep 21 19:57:35 2023
+,received-send delay ,496.095000,[msec] and size ,40960,
+packet_index ,198, sent_timestamp ,Thu Sep 21 19:57:35 2023
+,received-send delay ,462.755000,[msec] and size ,40960,
+packet_index ,199, sent_timestamp ,Thu Sep 21 19:57:35 2023
+,received-send delay ,429.376000,[msec] and size ,40960,
+packet_index ,200, sent_timestamp ,Thu Sep 21 19:57:35 2023
+,received-send delay ,395.857000,[msec] and size ,40960,
+packet_index ,201, sent_timestamp ,Thu Sep 21 19:57:35 2023
+,received-send delay ,362.552000,[msec] and size ,40960,
+packet_index ,202, sent_timestamp ,Thu Sep 21 19:57:35 2023
+,received-send delay ,517.878000,[msec] and size ,40960,
+packet_index ,203, sent_timestamp ,Thu Sep 21 19:57:35 2023
+,received-send delay ,484.676000,[msec] and size ,40960,
+packet_index ,204, sent_timestamp ,Thu Sep 21 19:57:35 2023
+,received-send delay ,451.340000,[msec] and size ,40960,
+packet_index ,205, sent_timestamp ,Thu Sep 21 19:57:35 2023
+,received-send delay ,417.935000,[msec] and size ,40960,
+packet_index ,206, sent_timestamp ,Thu Sep 21 19:57:35 2023
+,received-send delay ,384.539000,[msec] and size ,40960,
+packet_index ,207, sent_timestamp ,Thu Sep 21 19:57:35 2023
+,received-send delay ,351.176000,[msec] and size ,40960,
+packet_index ,208, sent_timestamp ,Thu Sep 21 19:57:35 2023
+,received-send delay ,317.904000,[msec] and size ,40960,
+packet_index ,209, sent_timestamp ,Thu Sep 21 19:57:35 2023
+,received-send delay ,519.725000,[msec] and size ,40960,
+packet_index ,210, sent_timestamp ,Thu Sep 21 19:57:35 2023
+,received-send delay ,486.427000,[msec] and size ,40960,
+packet_index ,211, sent_timestamp ,Thu Sep 21 19:57:35 2023
+,received-send delay ,452.984000,[msec] and size ,40960,
+packet_index ,212, sent_timestamp ,Thu Sep 21 19:57:35 2023
+,received-send delay ,419.694000,[msec] and size ,40960,
+packet_index ,213, sent_timestamp ,Thu Sep 21 19:57:35 2023
+,received-send delay ,386.265000,[msec] and size ,40960,
+packet_index ,214, sent_timestamp ,Thu Sep 21 19:57:35 2023
+,received-send delay ,352.913000,[msec] and size ,40960,
+packet_index ,215, sent_timestamp ,Thu Sep 21 19:57:35 2023
+,received-send delay ,319.507000,[msec] and size ,40960,
+packet_index ,216, sent_timestamp ,Thu Sep 21 19:57:35 2023
+,received-send delay ,535.019000,[msec] and size ,40960,
+packet_index ,217, sent_timestamp ,Thu Sep 21 19:57:35 2023
+,received-send delay ,501.638000,[msec] and size ,40960,
+packet_index ,218, sent_timestamp ,Thu Sep 21 19:57:36 2023
+,received-send delay ,468.195000,[msec] and size ,40960,
+packet_index ,219, sent_timestamp ,Thu Sep 21 19:57:36 2023
+,received-send delay ,434.681000,[msec] and size ,40960,
+packet_index ,220, sent_timestamp ,Thu Sep 21 19:57:36 2023
+,received-send delay ,401.278000,[msec] and size ,40960,
+packet_index ,221, sent_timestamp ,Thu Sep 21 19:57:36 2023
+,received-send delay ,367.730000,[msec] and size ,40960,
+packet_index ,222, sent_timestamp ,Thu Sep 21 19:57:36 2023
+,received-send delay ,334.236000,[msec] and size ,40960,
+packet_index ,223, sent_timestamp ,Thu Sep 21 19:57:36 2023
+,received-send delay ,636.321000,[msec] and size ,40960,
+packet_index ,224, sent_timestamp ,Thu Sep 21 19:57:36 2023
+,received-send delay ,603.223000,[msec] and size ,40960,
+packet_index ,225, sent_timestamp ,Thu Sep 21 19:57:36 2023
+,received-send delay ,570.059000,[msec] and size ,40960,
+packet_index ,226, sent_timestamp ,Thu Sep 21 19:57:36 2023
+,received-send delay ,536.974000,[msec] and size ,40960,
+packet_index ,227, sent_timestamp ,Thu Sep 21 19:57:36 2023
+,received-send delay ,503.663000,[msec] and size ,40960,
+packet_index ,228, sent_timestamp ,Thu Sep 21 19:57:36 2023
+,received-send delay ,470.298000,[msec] and size ,40960,
+packet_index ,229, sent_timestamp ,Thu Sep 21 19:57:36 2023
+,received-send delay ,436.947000,[msec] and size ,40960,
+packet_index ,230, sent_timestamp ,Thu Sep 21 19:57:36 2023
+,received-send delay ,403.693000,[msec] and size ,40960,
+packet_index ,231, sent_timestamp ,Thu Sep 21 19:57:36 2023
+,received-send delay ,659.747000,[msec] and size ,40960,
+packet_index ,232, sent_timestamp ,Thu Sep 21 19:57:36 2023
+,received-send delay ,627.783000,[msec] and size ,40960,
+packet_index ,233, sent_timestamp ,Thu Sep 21 19:57:36 2023
+,received-send delay ,594.498000,[msec] and size ,40960,
+packet_index ,234, sent_timestamp ,Thu Sep 21 19:57:36 2023
+,received-send delay ,561.142000,[msec] and size ,40960,
+packet_index ,235, sent_timestamp ,Thu Sep 21 19:57:36 2023
+,received-send delay ,527.700000,[msec] and size ,40960,
+packet_index ,236, sent_timestamp ,Thu Sep 21 19:57:36 2023
+,received-send delay ,494.294000,[msec] and size ,40960,
+packet_index ,237, sent_timestamp ,Thu Sep 21 19:57:36 2023
+,received-send delay ,460.820000,[msec] and size ,40960,
+packet_index ,238, sent_timestamp ,Thu Sep 21 19:57:36 2023
+,received-send delay ,427.459000,[msec] and size ,40960,
+packet_index ,239, sent_timestamp ,Thu Sep 21 19:57:36 2023
+,received-send delay ,394.072000,[msec] and size ,40960,
+packet_index ,240, sent_timestamp ,Thu Sep 21 19:57:36 2023
+,received-send delay ,360.760000,[msec] and size ,40960,
+packet_index ,241, sent_timestamp ,Thu Sep 21 19:57:36 2023
+,received-send delay ,580.307000,[msec] and size ,40960,
+packet_index ,242, sent_timestamp ,Thu Sep 21 19:57:36 2023
+,received-send delay ,546.895000,[msec] and size ,40960,
+packet_index ,243, sent_timestamp ,Thu Sep 21 19:57:36 2023
+,received-send delay ,513.482000,[msec] and size ,40960,
+packet_index ,244, sent_timestamp ,Thu Sep 21 19:57:36 2023
+,received-send delay ,480.055000,[msec] and size ,40960,
+packet_index ,245, sent_timestamp ,Thu Sep 21 19:57:36 2023
+,received-send delay ,446.674000,[msec] and size ,40960,
+packet_index ,246, sent_timestamp ,Thu Sep 21 19:57:36 2023
+,received-send delay ,413.211000,[msec] and size ,40960,
+packet_index ,247, sent_timestamp ,Thu Sep 21 19:57:36 2023
+,received-send delay ,379.773000,[msec] and size ,40960,
+packet_index ,248, sent_timestamp ,Thu Sep 21 19:57:37 2023
+,received-send delay ,346.289000,[msec] and size ,40960,
+packet_index ,249, sent_timestamp ,Thu Sep 21 19:57:37 2023
+,received-send delay ,565.858000,[msec] and size ,40960,
+packet_index ,250, sent_timestamp ,Thu Sep 21 19:57:37 2023
+,received-send delay ,532.584000,[msec] and size ,40960,
+packet_index ,251, sent_timestamp ,Thu Sep 21 19:57:37 2023
+,received-send delay ,499.242000,[msec] and size ,40960,
+packet_index ,252, sent_timestamp ,Thu Sep 21 19:57:37 2023
+,received-send delay ,465.959000,[msec] and size ,40960,
+packet_index ,253, sent_timestamp ,Thu Sep 21 19:57:37 2023
+,received-send delay ,432.690000,[msec] and size ,40960,
+packet_index ,254, sent_timestamp ,Thu Sep 21 19:57:37 2023
+,received-send delay ,399.346000,[msec] and size ,40960,
+packet_index ,255, sent_timestamp ,Thu Sep 21 19:57:37 2023
+,received-send delay ,365.923000,[msec] and size ,40960,
+packet_index ,256, sent_timestamp ,Thu Sep 21 19:57:37 2023
+,received-send delay ,332.613000,[msec] and size ,40960,
+packet_index ,257, sent_timestamp ,Thu Sep 21 19:57:37 2023
+,received-send delay ,600.269000,[msec] and size ,40960,
+packet_index ,258, sent_timestamp ,Thu Sep 21 19:57:37 2023
+,received-send delay ,566.750000,[msec] and size ,40960,
+packet_index ,259, sent_timestamp ,Thu Sep 21 19:57:37 2023
+,received-send delay ,533.318000,[msec] and size ,40960,
+packet_index ,260, sent_timestamp ,Thu Sep 21 19:57:37 2023
+,received-send delay ,499.928000,[msec] and size ,40960,
+packet_index ,261, sent_timestamp ,Thu Sep 21 19:57:37 2023
+,received-send delay ,466.438000,[msec] and size ,40960,
+packet_index ,262, sent_timestamp ,Thu Sep 21 19:57:37 2023
+,received-send delay ,433.041000,[msec] and size ,40960,
+packet_index ,263, sent_timestamp ,Thu Sep 21 19:57:37 2023
+,received-send delay ,399.633000,[msec] and size ,40960,
+packet_index ,264, sent_timestamp ,Thu Sep 21 19:57:37 2023
+,received-send delay ,366.267000,[msec] and size ,40960,
+packet_index ,265, sent_timestamp ,Thu Sep 21 19:57:37 2023
+,received-send delay ,332.845000,[msec] and size ,40960,
+packet_index ,266, sent_timestamp ,Thu Sep 21 19:57:37 2023
+,received-send delay ,581.424000,[msec] and size ,40960,
+packet_index ,267, sent_timestamp ,Thu Sep 21 19:57:37 2023
+,received-send delay ,548.007000,[msec] and size ,40960,
+packet_index ,268, sent_timestamp ,Thu Sep 21 19:57:37 2023
+,received-send delay ,514.498000,[msec] and size ,40960,
+packet_index ,269, sent_timestamp ,Thu Sep 21 19:57:37 2023
+,received-send delay ,480.971000,[msec] and size ,40960,
+packet_index ,270, sent_timestamp ,Thu Sep 21 19:57:37 2023
+,received-send delay ,447.487000,[msec] and size ,40960,
+packet_index ,271, sent_timestamp ,Thu Sep 21 19:57:37 2023
+,received-send delay ,414.088000,[msec] and size ,40960,
+packet_index ,272, sent_timestamp ,Thu Sep 21 19:57:37 2023
+,received-send delay ,380.603000,[msec] and size ,40960,
+packet_index ,273, sent_timestamp ,Thu Sep 21 19:57:37 2023
+,received-send delay ,593.793000,[msec] and size ,40960,
+packet_index ,274, sent_timestamp ,Thu Sep 21 19:57:37 2023
+,received-send delay ,560.378000,[msec] and size ,40960,
+packet_index ,275, sent_timestamp ,Thu Sep 21 19:57:37 2023
+,received-send delay ,527.021000,[msec] and size ,40960,
+packet_index ,276, sent_timestamp ,Thu Sep 21 19:57:37 2023
+,received-send delay ,493.637000,[msec] and size ,40960,
+packet_index ,277, sent_timestamp ,Thu Sep 21 19:57:37 2023
+,received-send delay ,460.171000,[msec] and size ,40960,
+packet_index ,278, sent_timestamp ,Thu Sep 21 19:57:38 2023
+,received-send delay ,426.670000,[msec] and size ,40960,
+packet_index ,279, sent_timestamp ,Thu Sep 21 19:57:38 2023
+,received-send delay ,393.269000,[msec] and size ,40960,
+packet_index ,280, sent_timestamp ,Thu Sep 21 19:57:38 2023
+,received-send delay ,359.859000,[msec] and size ,40960,
+packet_index ,281, sent_timestamp ,Thu Sep 21 19:57:38 2023
+,received-send delay ,326.408000,[msec] and size ,40960,
+packet_index ,282, sent_timestamp ,Thu Sep 21 19:57:38 2023
+,received-send delay ,587.668000,[msec] and size ,40960,
+packet_index ,283, sent_timestamp ,Thu Sep 21 19:57:38 2023
+,received-send delay ,554.371000,[msec] and size ,40960,
+packet_index ,284, sent_timestamp ,Thu Sep 21 19:57:38 2023
+,received-send delay ,521.197000,[msec] and size ,40960,
+packet_index ,285, sent_timestamp ,Thu Sep 21 19:57:38 2023
+,received-send delay ,487.875000,[msec] and size ,40960,
+packet_index ,286, sent_timestamp ,Thu Sep 21 19:57:38 2023
+,received-send delay ,454.492000,[msec] and size ,40960,
+packet_index ,287, sent_timestamp ,Thu Sep 21 19:57:38 2023
+,received-send delay ,421.077000,[msec] and size ,40960,
+packet_index ,288, sent_timestamp ,Thu Sep 21 19:57:38 2023
+,received-send delay ,387.656000,[msec] and size ,40960,
+packet_index ,289, sent_timestamp ,Thu Sep 21 19:57:38 2023
+,received-send delay ,575.279000,[msec] and size ,40960,
+packet_index ,290, sent_timestamp ,Thu Sep 21 19:57:38 2023
+,received-send delay ,541.932000,[msec] and size ,40960,
+packet_index ,291, sent_timestamp ,Thu Sep 21 19:57:38 2023
+,received-send delay ,508.594000,[msec] and size ,40960,
+packet_index ,292, sent_timestamp ,Thu Sep 21 19:57:38 2023
+,received-send delay ,475.154000,[msec] and size ,40960,
+packet_index ,293, sent_timestamp ,Thu Sep 21 19:57:38 2023
+,received-send delay ,441.882000,[msec] and size ,40960,
+packet_index ,294, sent_timestamp ,Thu Sep 21 19:57:38 2023
+,received-send delay ,408.440000,[msec] and size ,40960,
+packet_index ,295, sent_timestamp ,Thu Sep 21 19:57:38 2023
+,received-send delay ,374.969000,[msec] and size ,40960,
+packet_index ,296, sent_timestamp ,Thu Sep 21 19:57:38 2023
+,received-send delay ,341.671000,[msec] and size ,40960,
+packet_index ,297, sent_timestamp ,Thu Sep 21 19:57:38 2023
+,received-send delay ,376.915000,[msec] and size ,40960,
+packet_index ,298, sent_timestamp ,Thu Sep 21 19:57:38 2023
+,received-send delay ,343.523000,[msec] and size ,40960,
+packet_index ,299, sent_timestamp ,Thu Sep 21 19:57:38 2023
+,received-send delay ,310.143000,[msec] and size ,40960,
+packet_index ,300, sent_timestamp ,Thu Sep 21 19:57:38 2023
+,received-send delay ,383.283000,[msec] and size ,40960,
+start--------------------------------------------
+packet_index ,1, sent_timestamp ,Thu Sep 21 19:58:03 2023
+,received-send delay ,374.184000,[msec] and size ,40960,
+packet_index ,2, sent_timestamp ,Thu Sep 21 19:58:03 2023
+,received-send delay ,240.950000,[msec] and size ,40960,
+packet_index ,3, sent_timestamp ,Thu Sep 21 19:58:03 2023
+,received-send delay ,213.746000,[msec] and size ,40960,
+packet_index ,4, sent_timestamp ,Thu Sep 21 19:58:03 2023
+,received-send delay ,208.678000,[msec] and size ,40960,
+packet_index ,5, sent_timestamp ,Thu Sep 21 19:58:04 2023
+,received-send delay ,230.158000,[msec] and size ,40960,
+packet_index ,6, sent_timestamp ,Thu Sep 21 19:58:04 2023
+,received-send delay ,170.669000,[msec] and size ,40960,
+packet_index ,7, sent_timestamp ,Thu Sep 21 19:58:04 2023
+,received-send delay ,174.316000,[msec] and size ,40960,
+packet_index ,8, sent_timestamp ,Thu Sep 21 19:58:04 2023
+,received-send delay ,217.923000,[msec] and size ,40960,
+packet_index ,9, sent_timestamp ,Thu Sep 21 19:58:04 2023
+,received-send delay ,224.143000,[msec] and size ,40960,
+packet_index ,10, sent_timestamp ,Thu Sep 21 19:58:04 2023
+,received-send delay ,179.388000,[msec] and size ,40960,
+packet_index ,11, sent_timestamp ,Thu Sep 21 19:58:04 2023
+,received-send delay ,198.904000,[msec] and size ,40960,
+packet_index ,12, sent_timestamp ,Thu Sep 21 19:58:04 2023
+,received-send delay ,206.057000,[msec] and size ,40960,
+packet_index ,13, sent_timestamp ,Thu Sep 21 19:58:04 2023
+,received-send delay ,134.443000,[msec] and size ,40960,
+packet_index ,14, sent_timestamp ,Thu Sep 21 19:58:04 2023
+,received-send delay ,161.830000,[msec] and size ,40960,
+packet_index ,15, sent_timestamp ,Thu Sep 21 19:58:04 2023
+,received-send delay ,207.185000,[msec] and size ,40960,
+packet_index ,16, sent_timestamp ,Thu Sep 21 19:58:04 2023
+,received-send delay ,170.868000,[msec] and size ,40960,
+packet_index ,17, sent_timestamp ,Thu Sep 21 19:58:04 2023
+,received-send delay ,214.983000,[msec] and size ,40960,
+packet_index ,18, sent_timestamp ,Thu Sep 21 19:58:04 2023
+,received-send delay ,181.769000,[msec] and size ,40960,
+packet_index ,19, sent_timestamp ,Thu Sep 21 19:58:04 2023
+,received-send delay ,202.957000,[msec] and size ,40960,
+packet_index ,20, sent_timestamp ,Thu Sep 21 19:58:04 2023
+,received-send delay ,161.127000,[msec] and size ,40960,
+packet_index ,21, sent_timestamp ,Thu Sep 21 19:58:04 2023
+,received-send delay ,254.445000,[msec] and size ,40960,
+packet_index ,22, sent_timestamp ,Thu Sep 21 19:58:04 2023
+,received-send delay ,203.046000,[msec] and size ,40960,
+packet_index ,23, sent_timestamp ,Thu Sep 21 19:58:04 2023
+,received-send delay ,243.670000,[msec] and size ,40960,
+packet_index ,24, sent_timestamp ,Thu Sep 21 19:58:04 2023
+,received-send delay ,210.469000,[msec] and size ,40960,
+packet_index ,25, sent_timestamp ,Thu Sep 21 19:58:04 2023
+,received-send delay ,272.248000,[msec] and size ,40960,
+packet_index ,26, sent_timestamp ,Thu Sep 21 19:58:04 2023
+,received-send delay ,238.945000,[msec] and size ,40960,
+packet_index ,27, sent_timestamp ,Thu Sep 21 19:58:04 2023
+,received-send delay ,272.756000,[msec] and size ,40960,
+packet_index ,28, sent_timestamp ,Thu Sep 21 19:58:04 2023
+,received-send delay ,198.540000,[msec] and size ,40960,
+packet_index ,29, sent_timestamp ,Thu Sep 21 19:58:05 2023
+,received-send delay ,261.275000,[msec] and size ,40960,
+packet_index ,30, sent_timestamp ,Thu Sep 21 19:58:05 2023
+,received-send delay ,227.918000,[msec] and size ,40960,
+packet_index ,31, sent_timestamp ,Thu Sep 21 19:58:05 2023
+,received-send delay ,654.046000,[msec] and size ,40960,
+packet_index ,32, sent_timestamp ,Thu Sep 21 19:58:05 2023
+,received-send delay ,670.236000,[msec] and size ,40960,
+packet_index ,33, sent_timestamp ,Thu Sep 21 19:58:05 2023
+,received-send delay ,636.835000,[msec] and size ,40960,
+packet_index ,34, sent_timestamp ,Thu Sep 21 19:58:05 2023
+,received-send delay ,603.386000,[msec] and size ,40960,
+packet_index ,35, sent_timestamp ,Thu Sep 21 19:58:05 2023
+,received-send delay ,569.932000,[msec] and size ,40960,
+packet_index ,36, sent_timestamp ,Thu Sep 21 19:58:05 2023
+,received-send delay ,536.544000,[msec] and size ,40960,
+packet_index ,37, sent_timestamp ,Thu Sep 21 19:58:05 2023
+,received-send delay ,503.156000,[msec] and size ,40960,
+packet_index ,38, sent_timestamp ,Thu Sep 21 19:58:05 2023
+,received-send delay ,469.850000,[msec] and size ,40960,
+packet_index ,39, sent_timestamp ,Thu Sep 21 19:58:05 2023
+,received-send delay ,436.454000,[msec] and size ,40960,
+packet_index ,40, sent_timestamp ,Thu Sep 21 19:58:05 2023
+,received-send delay ,403.040000,[msec] and size ,40960,
+packet_index ,41, sent_timestamp ,Thu Sep 21 19:58:05 2023
+,received-send delay ,369.521000,[msec] and size ,40960,
+packet_index ,42, sent_timestamp ,Thu Sep 21 19:58:05 2023
+,received-send delay ,336.081000,[msec] and size ,40960,
+packet_index ,43, sent_timestamp ,Thu Sep 21 19:58:05 2023
+,received-send delay ,847.134000,[msec] and size ,40960,
+packet_index ,44, sent_timestamp ,Thu Sep 21 19:58:05 2023
+,received-send delay ,873.665000,[msec] and size ,40960,
+packet_index ,45, sent_timestamp ,Thu Sep 21 19:58:05 2023
+,received-send delay ,840.249000,[msec] and size ,40960,
+packet_index ,46, sent_timestamp ,Thu Sep 21 19:58:05 2023
+,received-send delay ,806.891000,[msec] and size ,40960,
+packet_index ,47, sent_timestamp ,Thu Sep 21 19:58:05 2023
+,received-send delay ,773.419000,[msec] and size ,40960,
+packet_index ,48, sent_timestamp ,Thu Sep 21 19:58:05 2023
+,received-send delay ,739.985000,[msec] and size ,40960,
+packet_index ,49, sent_timestamp ,Thu Sep 21 19:58:05 2023
+,received-send delay ,706.545000,[msec] and size ,40960,
+packet_index ,50, sent_timestamp ,Thu Sep 21 19:58:05 2023
+,received-send delay ,673.130000,[msec] and size ,40960,
+packet_index ,51, sent_timestamp ,Thu Sep 21 19:58:05 2023
+,received-send delay ,639.727000,[msec] and size ,40960,
+packet_index ,52, sent_timestamp ,Thu Sep 21 19:58:05 2023
+,received-send delay ,606.438000,[msec] and size ,40960,
+packet_index ,53, sent_timestamp ,Thu Sep 21 19:58:05 2023
+,received-send delay ,573.071000,[msec] and size ,40960,
+packet_index ,54, sent_timestamp ,Thu Sep 21 19:58:05 2023
+,received-send delay ,539.683000,[msec] and size ,40960,
+packet_index ,55, sent_timestamp ,Thu Sep 21 19:58:05 2023
+,received-send delay ,506.248000,[msec] and size ,40960,
+packet_index ,56, sent_timestamp ,Thu Sep 21 19:58:05 2023
+,received-send delay ,610.143000,[msec] and size ,40960,
+packet_index ,57, sent_timestamp ,Thu Sep 21 19:58:05 2023
+,received-send delay ,576.722000,[msec] and size ,40960,
+packet_index ,58, sent_timestamp ,Thu Sep 21 19:58:05 2023
+,received-send delay ,699.473000,[msec] and size ,40960,
+packet_index ,59, sent_timestamp ,Thu Sep 21 19:58:06 2023
+,received-send delay ,666.126000,[msec] and size ,40960,
+packet_index ,60, sent_timestamp ,Thu Sep 21 19:58:06 2023
+,received-send delay ,632.729000,[msec] and size ,40960,
+packet_index ,61, sent_timestamp ,Thu Sep 21 19:58:06 2023
+,received-send delay ,599.316000,[msec] and size ,40960,
+packet_index ,62, sent_timestamp ,Thu Sep 21 19:58:06 2023
+,received-send delay ,565.998000,[msec] and size ,40960,
+packet_index ,63, sent_timestamp ,Thu Sep 21 19:58:06 2023
+,received-send delay ,532.601000,[msec] and size ,40960,
+packet_index ,64, sent_timestamp ,Thu Sep 21 19:58:06 2023
+,received-send delay ,657.355000,[msec] and size ,40960,
+packet_index ,65, sent_timestamp ,Thu Sep 21 19:58:06 2023
+,received-send delay ,624.009000,[msec] and size ,40960,
+packet_index ,66, sent_timestamp ,Thu Sep 21 19:58:06 2023
+,received-send delay ,754.094000,[msec] and size ,40960,
+packet_index ,67, sent_timestamp ,Thu Sep 21 19:58:06 2023
+,received-send delay ,720.777000,[msec] and size ,40960,
+packet_index ,68, sent_timestamp ,Thu Sep 21 19:58:06 2023
+,received-send delay ,687.531000,[msec] and size ,40960,
+packet_index ,69, sent_timestamp ,Thu Sep 21 19:58:06 2023
+,received-send delay ,654.165000,[msec] and size ,40960,
+packet_index ,70, sent_timestamp ,Thu Sep 21 19:58:06 2023
+,received-send delay ,620.725000,[msec] and size ,40960,
+packet_index ,71, sent_timestamp ,Thu Sep 21 19:58:06 2023
+,received-send delay ,587.430000,[msec] and size ,40960,
+packet_index ,72, sent_timestamp ,Thu Sep 21 19:58:06 2023
+,received-send delay ,554.142000,[msec] and size ,40960,
+packet_index ,73, sent_timestamp ,Thu Sep 21 19:58:06 2023
+,received-send delay ,695.802000,[msec] and size ,40960,
+packet_index ,74, sent_timestamp ,Thu Sep 21 19:58:06 2023
+,received-send delay ,662.557000,[msec] and size ,40960,
+packet_index ,75, sent_timestamp ,Thu Sep 21 19:58:06 2023
+,received-send delay ,629.016000,[msec] and size ,40960,
+packet_index ,76, sent_timestamp ,Thu Sep 21 19:58:06 2023
+,received-send delay ,595.723000,[msec] and size ,40960,
+packet_index ,77, sent_timestamp ,Thu Sep 21 19:58:06 2023
+,received-send delay ,742.587000,[msec] and size ,40960,
+packet_index ,78, sent_timestamp ,Thu Sep 21 19:58:06 2023
+,received-send delay ,709.300000,[msec] and size ,40960,
+packet_index ,79, sent_timestamp ,Thu Sep 21 19:58:06 2023
+,received-send delay ,675.959000,[msec] and size ,40960,
+packet_index ,80, sent_timestamp ,Thu Sep 21 19:58:06 2023
+,received-send delay ,856.622000,[msec] and size ,40960,
+packet_index ,81, sent_timestamp ,Thu Sep 21 19:58:06 2023
+,received-send delay ,823.223000,[msec] and size ,40960,
+packet_index ,82, sent_timestamp ,Thu Sep 21 19:58:06 2023
+,received-send delay ,789.832000,[msec] and size ,40960,
+packet_index ,83, sent_timestamp ,Thu Sep 21 19:58:06 2023
+,received-send delay ,756.474000,[msec] and size ,40960,
+packet_index ,84, sent_timestamp ,Thu Sep 21 19:58:06 2023
+,received-send delay ,722.986000,[msec] and size ,40960,
+packet_index ,85, sent_timestamp ,Thu Sep 21 19:58:06 2023
+,received-send delay ,689.523000,[msec] and size ,40960,
+packet_index ,86, sent_timestamp ,Thu Sep 21 19:58:06 2023
+,received-send delay ,656.241000,[msec] and size ,40960,
+packet_index ,87, sent_timestamp ,Thu Sep 21 19:58:06 2023
+,received-send delay ,804.061000,[msec] and size ,40960,
+packet_index ,88, sent_timestamp ,Thu Sep 21 19:58:06 2023
+,received-send delay ,770.801000,[msec] and size ,40960,
+packet_index ,89, sent_timestamp ,Thu Sep 21 19:58:07 2023
+,received-send delay ,737.383000,[msec] and size ,40960,
+packet_index ,90, sent_timestamp ,Thu Sep 21 19:58:07 2023
+,received-send delay ,703.874000,[msec] and size ,40960,
+packet_index ,91, sent_timestamp ,Thu Sep 21 19:58:07 2023
+,received-send delay ,670.349000,[msec] and size ,40960,
+packet_index ,92, sent_timestamp ,Thu Sep 21 19:58:07 2023
+,received-send delay ,636.850000,[msec] and size ,40960,
+packet_index ,93, sent_timestamp ,Thu Sep 21 19:58:07 2023
+,received-send delay ,815.493000,[msec] and size ,40960,
+packet_index ,94, sent_timestamp ,Thu Sep 21 19:58:07 2023
+,received-send delay ,782.387000,[msec] and size ,40960,
+packet_index ,95, sent_timestamp ,Thu Sep 21 19:58:07 2023
+,received-send delay ,748.971000,[msec] and size ,40960,
+packet_index ,96, sent_timestamp ,Thu Sep 21 19:58:07 2023
+,received-send delay ,715.658000,[msec] and size ,40960,
+packet_index ,97, sent_timestamp ,Thu Sep 21 19:58:07 2023
+,received-send delay ,682.335000,[msec] and size ,40960,
+packet_index ,98, sent_timestamp ,Thu Sep 21 19:58:07 2023
+,received-send delay ,896.293000,[msec] and size ,40960,
+packet_index ,99, sent_timestamp ,Thu Sep 21 19:58:07 2023
+,received-send delay ,863.041000,[msec] and size ,40960,
+packet_index ,100, sent_timestamp ,Thu Sep 21 19:58:07 2023
+,received-send delay ,829.762000,[msec] and size ,40960,
+packet_index ,101, sent_timestamp ,Thu Sep 21 19:58:07 2023
+,received-send delay ,796.458000,[msec] and size ,40960,
+packet_index ,102, sent_timestamp ,Thu Sep 21 19:58:07 2023
+,received-send delay ,762.995000,[msec] and size ,40960,
+packet_index ,103, sent_timestamp ,Thu Sep 21 19:58:07 2023
+,received-send delay ,729.555000,[msec] and size ,40960,
+packet_index ,104, sent_timestamp ,Thu Sep 21 19:58:07 2023
+,received-send delay ,909.133000,[msec] and size ,40960,
+packet_index ,105, sent_timestamp ,Thu Sep 21 19:58:07 2023
+,received-send delay ,875.816000,[msec] and size ,40960,
+packet_index ,106, sent_timestamp ,Thu Sep 21 19:58:07 2023
+,received-send delay ,842.439000,[msec] and size ,40960,
+packet_index ,107, sent_timestamp ,Thu Sep 21 19:58:07 2023
+,received-send delay ,808.998000,[msec] and size ,40960,
+packet_index ,108, sent_timestamp ,Thu Sep 21 19:58:07 2023
+,received-send delay ,775.532000,[msec] and size ,40960,
+packet_index ,109, sent_timestamp ,Thu Sep 21 19:58:07 2023
+,received-send delay ,979.476000,[msec] and size ,40960,
+packet_index ,110, sent_timestamp ,Thu Sep 21 19:58:07 2023
+,received-send delay ,946.159000,[msec] and size ,40960,
+packet_index ,111, sent_timestamp ,Thu Sep 21 19:58:07 2023
+,received-send delay ,912.798000,[msec] and size ,40960,
+packet_index ,112, sent_timestamp ,Thu Sep 21 19:58:07 2023
+,received-send delay ,879.263000,[msec] and size ,40960,
+packet_index ,113, sent_timestamp ,Thu Sep 21 19:58:07 2023
+,received-send delay ,845.861000,[msec] and size ,40960,
+packet_index ,114, sent_timestamp ,Thu Sep 21 19:58:07 2023
+,received-send delay ,812.409000,[msec] and size ,40960,
+packet_index ,115, sent_timestamp ,Thu Sep 21 19:58:07 2023
+,received-send delay ,779.123000,[msec] and size ,40960,
+packet_index ,116, sent_timestamp ,Thu Sep 21 19:58:07 2023
+,received-send delay ,745.680000,[msec] and size ,40960,
+packet_index ,117, sent_timestamp ,Thu Sep 21 19:58:07 2023
+,received-send delay ,988.049000,[msec] and size ,40960,
+packet_index ,118, sent_timestamp ,Thu Sep 21 19:58:08 2023
+,received-send delay ,954.875000,[msec] and size ,40960,
+packet_index ,119, sent_timestamp ,Thu Sep 21 19:58:08 2023
+,received-send delay ,921.406000,[msec] and size ,40960,
+packet_index ,120, sent_timestamp ,Thu Sep 21 19:58:08 2023
+,received-send delay ,887.967000,[msec] and size ,40960,
+packet_index ,121, sent_timestamp ,Thu Sep 21 19:58:08 2023
+,received-send delay ,854.558000,[msec] and size ,40960,
+packet_index ,122, sent_timestamp ,Thu Sep 21 19:58:08 2023
+,received-send delay ,821.066000,[msec] and size ,40960,
+packet_index ,123, sent_timestamp ,Thu Sep 21 19:58:08 2023
+,received-send delay ,787.742000,[msec] and size ,40960,
+packet_index ,124, sent_timestamp ,Thu Sep 21 19:58:08 2023
+,received-send delay ,1001.037000,[msec] and size ,40960,
+packet_index ,125, sent_timestamp ,Thu Sep 21 19:58:08 2023
+,received-send delay ,967.661000,[msec] and size ,40960,
+packet_index ,126, sent_timestamp ,Thu Sep 21 19:58:08 2023
+,received-send delay ,933.953000,[msec] and size ,40960,
+packet_index ,127, sent_timestamp ,Thu Sep 21 19:58:08 2023
+,received-send delay ,900.456000,[msec] and size ,40960,
+packet_index ,128, sent_timestamp ,Thu Sep 21 19:58:08 2023
+,received-send delay ,867.100000,[msec] and size ,40960,
+packet_index ,129, sent_timestamp ,Thu Sep 21 19:58:08 2023
+,received-send delay ,833.691000,[msec] and size ,40960,
+packet_index ,130, sent_timestamp ,Thu Sep 21 19:58:08 2023
+,received-send delay ,800.288000,[msec] and size ,40960,
+packet_index ,131, sent_timestamp ,Thu Sep 21 19:58:08 2023
+,received-send delay ,1071.811000,[msec] and size ,40960,
+packet_index ,132, sent_timestamp ,Thu Sep 21 19:58:08 2023
+,received-send delay ,1038.470000,[msec] and size ,40960,
+packet_index ,133, sent_timestamp ,Thu Sep 21 19:58:08 2023
+,received-send delay ,1004.771000,[msec] and size ,40960,
+packet_index ,134, sent_timestamp ,Thu Sep 21 19:58:08 2023
+,received-send delay ,971.393000,[msec] and size ,40960,
+packet_index ,135, sent_timestamp ,Thu Sep 21 19:58:08 2023
+,received-send delay ,938.018000,[msec] and size ,40960,
+packet_index ,136, sent_timestamp ,Thu Sep 21 19:58:08 2023
+,received-send delay ,904.612000,[msec] and size ,40960,
+packet_index ,137, sent_timestamp ,Thu Sep 21 19:58:08 2023
+,received-send delay ,1081.193000,[msec] and size ,40960,
+packet_index ,138, sent_timestamp ,Thu Sep 21 19:58:08 2023
+,received-send delay ,1047.790000,[msec] and size ,40960,
+packet_index ,139, sent_timestamp ,Thu Sep 21 19:58:08 2023
+,received-send delay ,1014.303000,[msec] and size ,40960,
+packet_index ,140, sent_timestamp ,Thu Sep 21 19:58:08 2023
+,received-send delay ,980.832000,[msec] and size ,40960,
+packet_index ,141, sent_timestamp ,Thu Sep 21 19:58:08 2023
+,received-send delay ,947.350000,[msec] and size ,40960,
+packet_index ,142, sent_timestamp ,Thu Sep 21 19:58:08 2023
+,received-send delay ,913.883000,[msec] and size ,40960,
+packet_index ,143, sent_timestamp ,Thu Sep 21 19:58:08 2023
+,received-send delay ,880.372000,[msec] and size ,40960,
+packet_index ,144, sent_timestamp ,Thu Sep 21 19:58:08 2023
+,received-send delay ,1115.567000,[msec] and size ,40960,
+packet_index ,145, sent_timestamp ,Thu Sep 21 19:58:08 2023
+,received-send delay ,1082.260000,[msec] and size ,40960,
+packet_index ,146, sent_timestamp ,Thu Sep 21 19:58:08 2023
+,received-send delay ,1048.951000,[msec] and size ,40960,
+packet_index ,147, sent_timestamp ,Thu Sep 21 19:58:08 2023
+,received-send delay ,1015.362000,[msec] and size ,40960,
+packet_index ,148, sent_timestamp ,Thu Sep 21 19:58:09 2023
+,received-send delay ,981.908000,[msec] and size ,40960,
+packet_index ,149, sent_timestamp ,Thu Sep 21 19:58:09 2023
+,received-send delay ,948.368000,[msec] and size ,40960,
+packet_index ,150, sent_timestamp ,Thu Sep 21 19:58:09 2023
+,received-send delay ,914.778000,[msec] and size ,40960,
+packet_index ,151, sent_timestamp ,Thu Sep 21 19:58:09 2023
+,received-send delay ,1141.020000,[msec] and size ,40960,
+packet_index ,152, sent_timestamp ,Thu Sep 21 19:58:09 2023
+,received-send delay ,1107.806000,[msec] and size ,40960,
+packet_index ,153, sent_timestamp ,Thu Sep 21 19:58:09 2023
+,received-send delay ,1074.568000,[msec] and size ,40960,
+packet_index ,154, sent_timestamp ,Thu Sep 21 19:58:09 2023
+,received-send delay ,1041.229000,[msec] and size ,40960,
+packet_index ,155, sent_timestamp ,Thu Sep 21 19:58:09 2023
+,received-send delay ,1008.173000,[msec] and size ,40960,
+packet_index ,156, sent_timestamp ,Thu Sep 21 19:58:09 2023
+,received-send delay ,975.004000,[msec] and size ,40960,
+packet_index ,157, sent_timestamp ,Thu Sep 21 19:58:09 2023
+,received-send delay ,941.823000,[msec] and size ,40960,
+packet_index ,158, sent_timestamp ,Thu Sep 21 19:58:09 2023
+,received-send delay ,908.600000,[msec] and size ,40960,
+packet_index ,159, sent_timestamp ,Thu Sep 21 19:58:09 2023
+,received-send delay ,1124.264000,[msec] and size ,40960,
+packet_index ,160, sent_timestamp ,Thu Sep 21 19:58:09 2023
+,received-send delay ,1090.961000,[msec] and size ,40960,
+packet_index ,161, sent_timestamp ,Thu Sep 21 19:58:09 2023
+,received-send delay ,1057.539000,[msec] and size ,40960,
+packet_index ,162, sent_timestamp ,Thu Sep 21 19:58:09 2023
+,received-send delay ,1024.109000,[msec] and size ,40960,
+packet_index ,163, sent_timestamp ,Thu Sep 21 19:58:09 2023
+,received-send delay ,990.735000,[msec] and size ,40960,
+packet_index ,164, sent_timestamp ,Thu Sep 21 19:58:09 2023
+,received-send delay ,957.357000,[msec] and size ,40960,
+packet_index ,165, sent_timestamp ,Thu Sep 21 19:58:09 2023
+,received-send delay ,1205.023000,[msec] and size ,40960,
+packet_index ,166, sent_timestamp ,Thu Sep 21 19:58:09 2023
+,received-send delay ,1171.736000,[msec] and size ,40960,
+packet_index ,167, sent_timestamp ,Thu Sep 21 19:58:09 2023
+,received-send delay ,1138.408000,[msec] and size ,40960,
+packet_index ,168, sent_timestamp ,Thu Sep 21 19:58:09 2023
+,received-send delay ,1105.079000,[msec] and size ,40960,
+packet_index ,169, sent_timestamp ,Thu Sep 21 19:58:09 2023
+,received-send delay ,1071.729000,[msec] and size ,40960,
+packet_index ,170, sent_timestamp ,Thu Sep 21 19:58:09 2023
+,received-send delay ,1038.402000,[msec] and size ,40960,
+packet_index ,171, sent_timestamp ,Thu Sep 21 19:58:09 2023
+,received-send delay ,1005.030000,[msec] and size ,40960,
+packet_index ,172, sent_timestamp ,Thu Sep 21 19:58:09 2023
+,received-send delay ,971.709000,[msec] and size ,40960,
+packet_index ,173, sent_timestamp ,Thu Sep 21 19:58:09 2023
+,received-send delay ,1243.484000,[msec] and size ,40960,
+packet_index ,174, sent_timestamp ,Thu Sep 21 19:58:09 2023
+,received-send delay ,1210.144000,[msec] and size ,40960,
+packet_index ,175, sent_timestamp ,Thu Sep 21 19:58:09 2023
+,received-send delay ,1176.738000,[msec] and size ,40960,
+packet_index ,176, sent_timestamp ,Thu Sep 21 19:58:09 2023
+,received-send delay ,1143.451000,[msec] and size ,40960,
+packet_index ,177, sent_timestamp ,Thu Sep 21 19:58:09 2023
+,received-send delay ,1110.154000,[msec] and size ,40960,
+packet_index ,178, sent_timestamp ,Thu Sep 21 19:58:10 2023
+,received-send delay ,1076.799000,[msec] and size ,40960,
+packet_index ,179, sent_timestamp ,Thu Sep 21 19:58:10 2023
+,received-send delay ,1043.426000,[msec] and size ,40960,
+packet_index ,180, sent_timestamp ,Thu Sep 21 19:58:10 2023
+,received-send delay ,1010.116000,[msec] and size ,40960,
+packet_index ,181, sent_timestamp ,Thu Sep 21 19:58:10 2023
+,received-send delay ,1259.301000,[msec] and size ,40960,
+packet_index ,182, sent_timestamp ,Thu Sep 21 19:58:10 2023
+,received-send delay ,1225.984000,[msec] and size ,40960,
+packet_index ,183, sent_timestamp ,Thu Sep 21 19:58:10 2023
+,received-send delay ,1192.559000,[msec] and size ,40960,
+packet_index ,184, sent_timestamp ,Thu Sep 21 19:58:10 2023
+,received-send delay ,1159.107000,[msec] and size ,40960,
+packet_index ,185, sent_timestamp ,Thu Sep 21 19:58:10 2023
+,received-send delay ,1125.548000,[msec] and size ,40960,
+packet_index ,186, sent_timestamp ,Thu Sep 21 19:58:10 2023
+,received-send delay ,1092.197000,[msec] and size ,40960,
+packet_index ,187, sent_timestamp ,Thu Sep 21 19:58:10 2023
+,received-send delay ,1058.614000,[msec] and size ,40960,
+packet_index ,188, sent_timestamp ,Thu Sep 21 19:58:10 2023
+,received-send delay ,1278.244000,[msec] and size ,40960,
+packet_index ,189, sent_timestamp ,Thu Sep 21 19:58:10 2023
+,received-send delay ,1244.885000,[msec] and size ,40960,
+packet_index ,190, sent_timestamp ,Thu Sep 21 19:58:10 2023
+,received-send delay ,1211.443000,[msec] and size ,40960,
+packet_index ,191, sent_timestamp ,Thu Sep 21 19:58:10 2023
+,received-send delay ,1178.043000,[msec] and size ,40960,
+packet_index ,192, sent_timestamp ,Thu Sep 21 19:58:10 2023
+,received-send delay ,1144.617000,[msec] and size ,40960,
+packet_index ,193, sent_timestamp ,Thu Sep 21 19:58:10 2023
+,received-send delay ,1111.211000,[msec] and size ,40960,
+packet_index ,194, sent_timestamp ,Thu Sep 21 19:58:10 2023
+,received-send delay ,1077.753000,[msec] and size ,40960,
+packet_index ,195, sent_timestamp ,Thu Sep 21 19:58:10 2023
+,received-send delay ,1044.314000,[msec] and size ,40960,
+packet_index ,196, sent_timestamp ,Thu Sep 21 19:58:10 2023
+,received-send delay ,1385.205000,[msec] and size ,40960,
+packet_index ,197, sent_timestamp ,Thu Sep 21 19:58:10 2023
+,received-send delay ,1352.044000,[msec] and size ,40960,
+packet_index ,198, sent_timestamp ,Thu Sep 21 19:58:10 2023
+,received-send delay ,1318.725000,[msec] and size ,40960,
+packet_index ,199, sent_timestamp ,Thu Sep 21 19:58:10 2023
+,received-send delay ,1285.376000,[msec] and size ,40960,
+packet_index ,200, sent_timestamp ,Thu Sep 21 19:58:10 2023
+,received-send delay ,1251.935000,[msec] and size ,40960,
+packet_index ,201, sent_timestamp ,Thu Sep 21 19:58:10 2023
+,received-send delay ,1218.540000,[msec] and size ,40960,
+packet_index ,202, sent_timestamp ,Thu Sep 21 19:58:10 2023
+,received-send delay ,1185.362000,[msec] and size ,40960,
+packet_index ,203, sent_timestamp ,Thu Sep 21 19:58:10 2023
+,received-send delay ,1151.946000,[msec] and size ,40960,
+packet_index ,204, sent_timestamp ,Thu Sep 21 19:58:10 2023
+,received-send delay ,1118.538000,[msec] and size ,40960,
+packet_index ,205, sent_timestamp ,Thu Sep 21 19:58:10 2023
+,received-send delay ,1320.966000,[msec] and size ,40960,
+packet_index ,206, sent_timestamp ,Thu Sep 21 19:58:10 2023
+,received-send delay ,1287.682000,[msec] and size ,40960,
+packet_index ,207, sent_timestamp ,Thu Sep 21 19:58:10 2023
+,received-send delay ,1254.208000,[msec] and size ,40960,
+packet_index ,208, sent_timestamp ,Thu Sep 21 19:58:11 2023
+,received-send delay ,1221.701000,[msec] and size ,40960,
+packet_index ,209, sent_timestamp ,Thu Sep 21 19:58:11 2023
+,received-send delay ,1188.324000,[msec] and size ,40960,
+packet_index ,210, sent_timestamp ,Thu Sep 21 19:58:11 2023
+,received-send delay ,1154.925000,[msec] and size ,40960,
+packet_index ,211, sent_timestamp ,Thu Sep 21 19:58:11 2023
+,received-send delay ,1121.555000,[msec] and size ,40960,
+packet_index ,212, sent_timestamp ,Thu Sep 21 19:58:11 2023
+,received-send delay ,1088.136000,[msec] and size ,40960,
+packet_index ,213, sent_timestamp ,Thu Sep 21 19:58:11 2023
+,received-send delay ,1054.752000,[msec] and size ,40960,
+packet_index ,214, sent_timestamp ,Thu Sep 21 19:58:11 2023
+,received-send delay ,1021.396000,[msec] and size ,40960,
+packet_index ,215, sent_timestamp ,Thu Sep 21 19:58:11 2023
+,received-send delay ,1219.522000,[msec] and size ,40960,
+packet_index ,216, sent_timestamp ,Thu Sep 21 19:58:11 2023
+,received-send delay ,1186.421000,[msec] and size ,40960,
+packet_index ,217, sent_timestamp ,Thu Sep 21 19:58:11 2023
+,received-send delay ,1153.117000,[msec] and size ,40960,
+packet_index ,218, sent_timestamp ,Thu Sep 21 19:58:11 2023
+,received-send delay ,1119.784000,[msec] and size ,40960,
+packet_index ,219, sent_timestamp ,Thu Sep 21 19:58:11 2023
+,received-send delay ,1086.380000,[msec] and size ,40960,
+packet_index ,220, sent_timestamp ,Thu Sep 21 19:58:11 2023
+,received-send delay ,1052.997000,[msec] and size ,40960,
+packet_index ,221, sent_timestamp ,Thu Sep 21 19:58:11 2023
+,received-send delay ,1261.081000,[msec] and size ,40960,
+packet_index ,222, sent_timestamp ,Thu Sep 21 19:58:11 2023
+,received-send delay ,1227.711000,[msec] and size ,40960,
+packet_index ,223, sent_timestamp ,Thu Sep 21 19:58:11 2023
+,received-send delay ,1194.335000,[msec] and size ,40960,
+packet_index ,224, sent_timestamp ,Thu Sep 21 19:58:11 2023
+,received-send delay ,1160.958000,[msec] and size ,40960,
+packet_index ,225, sent_timestamp ,Thu Sep 21 19:58:11 2023
+,received-send delay ,1127.416000,[msec] and size ,40960,
+packet_index ,226, sent_timestamp ,Thu Sep 21 19:58:11 2023
+,received-send delay ,1094.003000,[msec] and size ,40960,
+packet_index ,227, sent_timestamp ,Thu Sep 21 19:58:11 2023
+,received-send delay ,1060.629000,[msec] and size ,40960,
+packet_index ,228, sent_timestamp ,Thu Sep 21 19:58:11 2023
+,received-send delay ,1264.530000,[msec] and size ,40960,
+packet_index ,229, sent_timestamp ,Thu Sep 21 19:58:11 2023
+,received-send delay ,1231.260000,[msec] and size ,40960,
+packet_index ,230, sent_timestamp ,Thu Sep 21 19:58:11 2023
+,received-send delay ,1197.813000,[msec] and size ,40960,
+packet_index ,231, sent_timestamp ,Thu Sep 21 19:58:11 2023
+,received-send delay ,1164.514000,[msec] and size ,40960,
+packet_index ,232, sent_timestamp ,Thu Sep 21 19:58:11 2023
+,received-send delay ,1131.166000,[msec] and size ,40960,
+packet_index ,233, sent_timestamp ,Thu Sep 21 19:58:11 2023
+,received-send delay ,1097.748000,[msec] and size ,40960,
+packet_index ,234, sent_timestamp ,Thu Sep 21 19:58:11 2023
+,received-send delay ,1064.366000,[msec] and size ,40960,
+packet_index ,235, sent_timestamp ,Thu Sep 21 19:58:11 2023
+,received-send delay ,1030.898000,[msec] and size ,40960,
+packet_index ,236, sent_timestamp ,Thu Sep 21 19:58:11 2023
+,received-send delay ,1254.052000,[msec] and size ,40960,
+packet_index ,237, sent_timestamp ,Thu Sep 21 19:58:11 2023
+,received-send delay ,1220.793000,[msec] and size ,40960,
+packet_index ,238, sent_timestamp ,Thu Sep 21 19:58:12 2023
+,received-send delay ,1187.465000,[msec] and size ,40960,
+packet_index ,239, sent_timestamp ,Thu Sep 21 19:58:12 2023
+,received-send delay ,1153.885000,[msec] and size ,40960,
+packet_index ,240, sent_timestamp ,Thu Sep 21 19:58:12 2023
+,received-send delay ,1120.343000,[msec] and size ,40960,
+packet_index ,241, sent_timestamp ,Thu Sep 21 19:58:12 2023
+,received-send delay ,1086.917000,[msec] and size ,40960,
+packet_index ,242, sent_timestamp ,Thu Sep 21 19:58:12 2023
+,received-send delay ,1053.407000,[msec] and size ,40960,
+packet_index ,243, sent_timestamp ,Thu Sep 21 19:58:12 2023
+,received-send delay ,1019.993000,[msec] and size ,40960,
+packet_index ,244, sent_timestamp ,Thu Sep 21 19:58:12 2023
+,received-send delay ,1237.085000,[msec] and size ,40960,
+packet_index ,245, sent_timestamp ,Thu Sep 21 19:58:12 2023
+,received-send delay ,1203.704000,[msec] and size ,40960,
+packet_index ,246, sent_timestamp ,Thu Sep 21 19:58:12 2023
+,received-send delay ,1170.393000,[msec] and size ,40960,
+packet_index ,247, sent_timestamp ,Thu Sep 21 19:58:12 2023
+,received-send delay ,1136.947000,[msec] and size ,40960,
+packet_index ,248, sent_timestamp ,Thu Sep 21 19:58:12 2023
+,received-send delay ,1103.496000,[msec] and size ,40960,
+packet_index ,249, sent_timestamp ,Thu Sep 21 19:58:12 2023
+,received-send delay ,1070.035000,[msec] and size ,40960,
+packet_index ,250, sent_timestamp ,Thu Sep 21 19:58:12 2023
+,received-send delay ,1036.625000,[msec] and size ,40960,
+packet_index ,251, sent_timestamp ,Thu Sep 21 19:58:12 2023
+,received-send delay ,1003.224000,[msec] and size ,40960,
+packet_index ,252, sent_timestamp ,Thu Sep 21 19:58:12 2023
+,received-send delay ,1215.182000,[msec] and size ,40960,
+packet_index ,253, sent_timestamp ,Thu Sep 21 19:58:12 2023
+,received-send delay ,1181.872000,[msec] and size ,40960,
+packet_index ,254, sent_timestamp ,Thu Sep 21 19:58:12 2023
+,received-send delay ,1148.421000,[msec] and size ,40960,
+packet_index ,255, sent_timestamp ,Thu Sep 21 19:58:12 2023
+,received-send delay ,1115.020000,[msec] and size ,40960,
+packet_index ,256, sent_timestamp ,Thu Sep 21 19:58:12 2023
+,received-send delay ,1081.567000,[msec] and size ,40960,
+packet_index ,257, sent_timestamp ,Thu Sep 21 19:58:12 2023
+,received-send delay ,1048.128000,[msec] and size ,40960,
+packet_index ,258, sent_timestamp ,Thu Sep 21 19:58:12 2023
+,received-send delay ,1014.803000,[msec] and size ,40960,
+packet_index ,259, sent_timestamp ,Thu Sep 21 19:58:12 2023
+,received-send delay ,981.279000,[msec] and size ,40960,
+packet_index ,260, sent_timestamp ,Thu Sep 21 19:58:12 2023
+,received-send delay ,1202.281000,[msec] and size ,40960,
+packet_index ,261, sent_timestamp ,Thu Sep 21 19:58:12 2023
+,received-send delay ,1168.869000,[msec] and size ,40960,
+packet_index ,262, sent_timestamp ,Thu Sep 21 19:58:12 2023
+,received-send delay ,1135.502000,[msec] and size ,40960,
+packet_index ,263, sent_timestamp ,Thu Sep 21 19:58:12 2023
+,received-send delay ,1102.014000,[msec] and size ,40960,
+packet_index ,264, sent_timestamp ,Thu Sep 21 19:58:12 2023
+,received-send delay ,1068.590000,[msec] and size ,40960,
+packet_index ,265, sent_timestamp ,Thu Sep 21 19:58:12 2023
+,received-send delay ,1035.133000,[msec] and size ,40960,
+packet_index ,266, sent_timestamp ,Thu Sep 21 19:58:12 2023
+,received-send delay ,1001.828000,[msec] and size ,40960,
+packet_index ,267, sent_timestamp ,Thu Sep 21 19:58:13 2023
+,received-send delay ,968.399000,[msec] and size ,40960,
+packet_index ,268, sent_timestamp ,Thu Sep 21 19:58:13 2023
+,received-send delay ,1186.570000,[msec] and size ,40960,
+packet_index ,269, sent_timestamp ,Thu Sep 21 19:58:13 2023
+,received-send delay ,1153.382000,[msec] and size ,40960,
+packet_index ,270, sent_timestamp ,Thu Sep 21 19:58:13 2023
+,received-send delay ,1119.994000,[msec] and size ,40960,
+packet_index ,271, sent_timestamp ,Thu Sep 21 19:58:13 2023
+,received-send delay ,1086.687000,[msec] and size ,40960,
+packet_index ,272, sent_timestamp ,Thu Sep 21 19:58:13 2023
+,received-send delay ,1053.300000,[msec] and size ,40960,
+packet_index ,273, sent_timestamp ,Thu Sep 21 19:58:13 2023
+,received-send delay ,1019.903000,[msec] and size ,40960,
+packet_index ,274, sent_timestamp ,Thu Sep 21 19:58:13 2023
+,received-send delay ,986.500000,[msec] and size ,40960,
+packet_index ,275, sent_timestamp ,Thu Sep 21 19:58:13 2023
+,received-send delay ,953.132000,[msec] and size ,40960,
+packet_index ,276, sent_timestamp ,Thu Sep 21 19:58:13 2023
+,received-send delay ,919.785000,[msec] and size ,40960,
+packet_index ,277, sent_timestamp ,Thu Sep 21 19:58:13 2023
+,received-send delay ,886.387000,[msec] and size ,40960,
+packet_index ,278, sent_timestamp ,Thu Sep 21 19:58:13 2023
+,received-send delay ,852.959000,[msec] and size ,40960,
+packet_index ,279, sent_timestamp ,Thu Sep 21 19:58:13 2023
+,received-send delay ,1079.464000,[msec] and size ,40960,
+packet_index ,280, sent_timestamp ,Thu Sep 21 19:58:13 2023
+,received-send delay ,1046.121000,[msec] and size ,40960,
+packet_index ,281, sent_timestamp ,Thu Sep 21 19:58:13 2023
+,received-send delay ,1012.868000,[msec] and size ,40960,
+packet_index ,282, sent_timestamp ,Thu Sep 21 19:58:13 2023
+,received-send delay ,979.625000,[msec] and size ,40960,
+packet_index ,283, sent_timestamp ,Thu Sep 21 19:58:13 2023
+,received-send delay ,946.299000,[msec] and size ,40960,
+packet_index ,284, sent_timestamp ,Thu Sep 21 19:58:13 2023
+,received-send delay ,913.032000,[msec] and size ,40960,
+packet_index ,285, sent_timestamp ,Thu Sep 21 19:58:13 2023
+,received-send delay ,879.570000,[msec] and size ,40960,
+packet_index ,286, sent_timestamp ,Thu Sep 21 19:58:13 2023
+,received-send delay ,846.212000,[msec] and size ,40960,
+packet_index ,287, sent_timestamp ,Thu Sep 21 19:58:13 2023
+,received-send delay ,812.854000,[msec] and size ,40960,
+packet_index ,288, sent_timestamp ,Thu Sep 21 19:58:13 2023
+,received-send delay ,1058.634000,[msec] and size ,40960,
+packet_index ,289, sent_timestamp ,Thu Sep 21 19:58:13 2023
+,received-send delay ,1025.225000,[msec] and size ,40960,
+packet_index ,290, sent_timestamp ,Thu Sep 21 19:58:13 2023
+,received-send delay ,991.829000,[msec] and size ,40960,
+packet_index ,291, sent_timestamp ,Thu Sep 21 19:58:13 2023
+,received-send delay ,958.394000,[msec] and size ,40960,
+packet_index ,292, sent_timestamp ,Thu Sep 21 19:58:13 2023
+,received-send delay ,924.969000,[msec] and size ,40960,
+packet_index ,293, sent_timestamp ,Thu Sep 21 19:58:13 2023
+,received-send delay ,891.517000,[msec] and size ,40960,
+packet_index ,294, sent_timestamp ,Thu Sep 21 19:58:13 2023
+,received-send delay ,858.185000,[msec] and size ,40960,
+packet_index ,295, sent_timestamp ,Thu Sep 21 19:58:13 2023
+,received-send delay ,824.833000,[msec] and size ,40960,
+packet_index ,296, sent_timestamp ,Thu Sep 21 19:58:13 2023
+,received-send delay ,791.435000,[msec] and size ,40960,
+packet_index ,297, sent_timestamp ,Thu Sep 21 19:58:14 2023
+,received-send delay ,757.955000,[msec] and size ,40960,
+packet_index ,298, sent_timestamp ,Thu Sep 21 19:58:14 2023
+,received-send delay ,724.316000,[msec] and size ,40960,
+packet_index ,299, sent_timestamp ,Thu Sep 21 19:58:14 2023
+,received-send delay ,690.965000,[msec] and size ,40960,
+packet_index ,300, sent_timestamp ,Thu Sep 21 19:58:14 2023
+,received-send delay ,1090.288000,[msec] and size ,40960,
+start--------------------------------------------
+packet_index ,1, sent_timestamp ,Thu Sep 21 19:58:52 2023
+,received-send delay ,534.484000,[msec] and size ,40960,
+packet_index ,2, sent_timestamp ,Thu Sep 21 19:58:53 2023
+,received-send delay ,220.636000,[msec] and size ,40960,
+packet_index ,3, sent_timestamp ,Thu Sep 21 19:58:53 2023
+,received-send delay ,195.957000,[msec] and size ,40960,
+packet_index ,4, sent_timestamp ,Thu Sep 21 19:58:53 2023
+,received-send delay ,209.813000,[msec] and size ,40960,
+packet_index ,5, sent_timestamp ,Thu Sep 21 19:58:53 2023
+,received-send delay ,273.757000,[msec] and size ,40960,
+packet_index ,6, sent_timestamp ,Thu Sep 21 19:58:53 2023
+,received-send delay ,185.980000,[msec] and size ,40960,
+packet_index ,7, sent_timestamp ,Thu Sep 21 19:58:53 2023
+,received-send delay ,231.975000,[msec] and size ,40960,
+packet_index ,8, sent_timestamp ,Thu Sep 21 19:58:53 2023
+,received-send delay ,233.650000,[msec] and size ,40960,
+packet_index ,9, sent_timestamp ,Thu Sep 21 19:58:53 2023
+,received-send delay ,167.546000,[msec] and size ,40960,
+packet_index ,10, sent_timestamp ,Thu Sep 21 19:58:53 2023
+,received-send delay ,208.517000,[msec] and size ,40960,
+packet_index ,11, sent_timestamp ,Thu Sep 21 19:58:53 2023
+,received-send delay ,168.869000,[msec] and size ,40960,
+packet_index ,12, sent_timestamp ,Thu Sep 21 19:58:53 2023
+,received-send delay ,196.169000,[msec] and size ,40960,
+packet_index ,13, sent_timestamp ,Thu Sep 21 19:58:53 2023
+,received-send delay ,162.862000,[msec] and size ,40960,
+packet_index ,14, sent_timestamp ,Thu Sep 21 19:58:53 2023
+,received-send delay ,209.217000,[msec] and size ,40960,
+packet_index ,15, sent_timestamp ,Thu Sep 21 19:58:53 2023
+,received-send delay ,175.892000,[msec] and size ,40960,
+packet_index ,16, sent_timestamp ,Thu Sep 21 19:58:53 2023
+,received-send delay ,259.410000,[msec] and size ,40960,
+packet_index ,17, sent_timestamp ,Thu Sep 21 19:58:53 2023
+,received-send delay ,218.230000,[msec] and size ,40960,
+packet_index ,18, sent_timestamp ,Thu Sep 21 19:58:54 2023
+,received-send delay ,218.102000,[msec] and size ,40960,
+packet_index ,19, sent_timestamp ,Thu Sep 21 19:58:54 2023
+,received-send delay ,184.809000,[msec] and size ,40960,
+packet_index ,20, sent_timestamp ,Thu Sep 21 19:58:54 2023
+,received-send delay ,245.843000,[msec] and size ,40960,
+packet_index ,21, sent_timestamp ,Thu Sep 21 19:58:54 2023
+,received-send delay ,169.140000,[msec] and size ,40960,
+packet_index ,22, sent_timestamp ,Thu Sep 21 19:58:54 2023
+,received-send delay ,227.631000,[msec] and size ,40960,
+packet_index ,23, sent_timestamp ,Thu Sep 21 19:58:54 2023
+,received-send delay ,414.438000,[msec] and size ,40960,
+packet_index ,24, sent_timestamp ,Thu Sep 21 19:58:54 2023
+,received-send delay ,517.945000,[msec] and size ,40960,
+packet_index ,25, sent_timestamp ,Thu Sep 21 19:58:54 2023
+,received-send delay ,484.677000,[msec] and size ,40960,
+packet_index ,26, sent_timestamp ,Thu Sep 21 19:58:54 2023
+,received-send delay ,451.326000,[msec] and size ,40960,
+packet_index ,27, sent_timestamp ,Thu Sep 21 19:58:54 2023
+,received-send delay ,417.938000,[msec] and size ,40960,
+packet_index ,28, sent_timestamp ,Thu Sep 21 19:58:54 2023
+,received-send delay ,384.540000,[msec] and size ,40960,
+packet_index ,29, sent_timestamp ,Thu Sep 21 19:58:54 2023
+,received-send delay ,351.145000,[msec] and size ,40960,
+packet_index ,30, sent_timestamp ,Thu Sep 21 19:58:54 2023
+,received-send delay ,317.779000,[msec] and size ,40960,
+packet_index ,31, sent_timestamp ,Thu Sep 21 19:58:54 2023
+,received-send delay ,284.423000,[msec] and size ,40960,
+packet_index ,32, sent_timestamp ,Thu Sep 21 19:58:54 2023
+,received-send delay ,251.063000,[msec] and size ,40960,
+packet_index ,33, sent_timestamp ,Thu Sep 21 19:58:54 2023
+,received-send delay ,347.937000,[msec] and size ,40960,
+packet_index ,34, sent_timestamp ,Thu Sep 21 19:58:54 2023
+,received-send delay ,314.709000,[msec] and size ,40960,
+packet_index ,35, sent_timestamp ,Thu Sep 21 19:58:54 2023
+,received-send delay ,281.332000,[msec] and size ,40960,
+packet_index ,36, sent_timestamp ,Thu Sep 21 19:58:54 2023
+,received-send delay ,320.703000,[msec] and size ,40960,
+packet_index ,37, sent_timestamp ,Thu Sep 21 19:58:54 2023
+,received-send delay ,287.559000,[msec] and size ,40960,
+packet_index ,38, sent_timestamp ,Thu Sep 21 19:58:54 2023
+,received-send delay ,254.436000,[msec] and size ,40960,
+packet_index ,39, sent_timestamp ,Thu Sep 21 19:58:54 2023
+,received-send delay ,339.957000,[msec] and size ,40960,
+packet_index ,40, sent_timestamp ,Thu Sep 21 19:58:54 2023
+,received-send delay ,306.729000,[msec] and size ,40960,
+packet_index ,41, sent_timestamp ,Thu Sep 21 19:58:54 2023
+,received-send delay ,273.377000,[msec] and size ,40960,
+packet_index ,42, sent_timestamp ,Thu Sep 21 19:58:54 2023
+,received-send delay ,376.992000,[msec] and size ,40960,
+packet_index ,43, sent_timestamp ,Thu Sep 21 19:58:54 2023
+,received-send delay ,593.353000,[msec] and size ,40960,
+packet_index ,44, sent_timestamp ,Thu Sep 21 19:58:54 2023
+,received-send delay ,659.516000,[msec] and size ,40960,
+packet_index ,45, sent_timestamp ,Thu Sep 21 19:58:54 2023
+,received-send delay ,626.103000,[msec] and size ,40960,
+packet_index ,46, sent_timestamp ,Thu Sep 21 19:58:55 2023
+,received-send delay ,592.721000,[msec] and size ,40960,
+packet_index ,47, sent_timestamp ,Thu Sep 21 19:58:55 2023
+,received-send delay ,559.109000,[msec] and size ,40960,
+packet_index ,48, sent_timestamp ,Thu Sep 21 19:58:55 2023
+,received-send delay ,525.646000,[msec] and size ,40960,
+packet_index ,49, sent_timestamp ,Thu Sep 21 19:58:55 2023
+,received-send delay ,492.106000,[msec] and size ,40960,
+packet_index ,50, sent_timestamp ,Thu Sep 21 19:58:55 2023
+,received-send delay ,458.696000,[msec] and size ,40960,
+packet_index ,51, sent_timestamp ,Thu Sep 21 19:58:55 2023
+,received-send delay ,425.308000,[msec] and size ,40960,
+packet_index ,52, sent_timestamp ,Thu Sep 21 19:58:55 2023
+,received-send delay ,391.955000,[msec] and size ,40960,
+packet_index ,53, sent_timestamp ,Thu Sep 21 19:58:55 2023
+,received-send delay ,512.712000,[msec] and size ,40960,
+packet_index ,54, sent_timestamp ,Thu Sep 21 19:58:55 2023
+,received-send delay ,479.271000,[msec] and size ,40960,
+packet_index ,55, sent_timestamp ,Thu Sep 21 19:58:55 2023
+,received-send delay ,445.863000,[msec] and size ,40960,
+packet_index ,56, sent_timestamp ,Thu Sep 21 19:58:55 2023
+,received-send delay ,412.421000,[msec] and size ,40960,
+packet_index ,57, sent_timestamp ,Thu Sep 21 19:58:55 2023
+,received-send delay ,378.998000,[msec] and size ,40960,
+packet_index ,58, sent_timestamp ,Thu Sep 21 19:58:55 2023
+,received-send delay ,345.503000,[msec] and size ,40960,
+packet_index ,59, sent_timestamp ,Thu Sep 21 19:58:55 2023
+,received-send delay ,312.003000,[msec] and size ,40960,
+packet_index ,60, sent_timestamp ,Thu Sep 21 19:58:55 2023
+,received-send delay ,615.704000,[msec] and size ,40960,
+packet_index ,61, sent_timestamp ,Thu Sep 21 19:58:55 2023
+,received-send delay ,726.677000,[msec] and size ,40960,
+packet_index ,62, sent_timestamp ,Thu Sep 21 19:58:55 2023
+,received-send delay ,693.123000,[msec] and size ,40960,
+packet_index ,63, sent_timestamp ,Thu Sep 21 19:58:55 2023
+,received-send delay ,659.523000,[msec] and size ,40960,
+packet_index ,64, sent_timestamp ,Thu Sep 21 19:58:55 2023
+,received-send delay ,625.992000,[msec] and size ,40960,
+packet_index ,65, sent_timestamp ,Thu Sep 21 19:58:55 2023
+,received-send delay ,592.519000,[msec] and size ,40960,
+packet_index ,66, sent_timestamp ,Thu Sep 21 19:58:55 2023
+,received-send delay ,559.060000,[msec] and size ,40960,
+packet_index ,67, sent_timestamp ,Thu Sep 21 19:58:55 2023
+,received-send delay ,525.589000,[msec] and size ,40960,
+packet_index ,68, sent_timestamp ,Thu Sep 21 19:58:55 2023
+,received-send delay ,492.151000,[msec] and size ,40960,
+packet_index ,69, sent_timestamp ,Thu Sep 21 19:58:55 2023
+,received-send delay ,458.647000,[msec] and size ,40960,
+packet_index ,70, sent_timestamp ,Thu Sep 21 19:58:55 2023
+,received-send delay ,425.196000,[msec] and size ,40960,
+packet_index ,71, sent_timestamp ,Thu Sep 21 19:58:55 2023
+,received-send delay ,391.759000,[msec] and size ,40960,
+packet_index ,72, sent_timestamp ,Thu Sep 21 19:58:55 2023
+,received-send delay ,550.271000,[msec] and size ,40960,
+packet_index ,73, sent_timestamp ,Thu Sep 21 19:58:55 2023
+,received-send delay ,516.970000,[msec] and size ,40960,
+packet_index ,74, sent_timestamp ,Thu Sep 21 19:58:55 2023
+,received-send delay ,483.586000,[msec] and size ,40960,
+packet_index ,75, sent_timestamp ,Thu Sep 21 19:58:55 2023
+,received-send delay ,450.300000,[msec] and size ,40960,
+packet_index ,76, sent_timestamp ,Thu Sep 21 19:58:56 2023
+,received-send delay ,416.925000,[msec] and size ,40960,
+packet_index ,77, sent_timestamp ,Thu Sep 21 19:58:56 2023
+,received-send delay ,383.511000,[msec] and size ,40960,
+packet_index ,78, sent_timestamp ,Thu Sep 21 19:58:56 2023
+,received-send delay ,350.164000,[msec] and size ,40960,
+packet_index ,79, sent_timestamp ,Thu Sep 21 19:58:56 2023
+,received-send delay ,512.726000,[msec] and size ,40960,
+packet_index ,80, sent_timestamp ,Thu Sep 21 19:58:56 2023
+,received-send delay ,479.391000,[msec] and size ,40960,
+packet_index ,81, sent_timestamp ,Thu Sep 21 19:58:56 2023
+,received-send delay ,446.077000,[msec] and size ,40960,
+packet_index ,82, sent_timestamp ,Thu Sep 21 19:58:56 2023
+,received-send delay ,412.749000,[msec] and size ,40960,
+packet_index ,83, sent_timestamp ,Thu Sep 21 19:58:56 2023
+,received-send delay ,615.771000,[msec] and size ,40960,
+packet_index ,84, sent_timestamp ,Thu Sep 21 19:58:56 2023
+,received-send delay ,582.394000,[msec] and size ,40960,
+packet_index ,85, sent_timestamp ,Thu Sep 21 19:58:56 2023
+,received-send delay ,548.994000,[msec] and size ,40960,
+packet_index ,86, sent_timestamp ,Thu Sep 21 19:58:56 2023
+,received-send delay ,515.606000,[msec] and size ,40960,
+packet_index ,87, sent_timestamp ,Thu Sep 21 19:58:56 2023
+,received-send delay ,482.561000,[msec] and size ,40960,
+packet_index ,88, sent_timestamp ,Thu Sep 21 19:58:56 2023
+,received-send delay ,449.240000,[msec] and size ,40960,
+packet_index ,89, sent_timestamp ,Thu Sep 21 19:58:56 2023
+,received-send delay ,415.821000,[msec] and size ,40960,
+packet_index ,90, sent_timestamp ,Thu Sep 21 19:58:56 2023
+,received-send delay ,572.513000,[msec] and size ,40960,
+packet_index ,91, sent_timestamp ,Thu Sep 21 19:58:56 2023
+,received-send delay ,539.263000,[msec] and size ,40960,
+packet_index ,92, sent_timestamp ,Thu Sep 21 19:58:56 2023
+,received-send delay ,505.842000,[msec] and size ,40960,
+packet_index ,93, sent_timestamp ,Thu Sep 21 19:58:56 2023
+,received-send delay ,472.364000,[msec] and size ,40960,
+packet_index ,94, sent_timestamp ,Thu Sep 21 19:58:56 2023
+,received-send delay ,438.996000,[msec] and size ,40960,
+packet_index ,95, sent_timestamp ,Thu Sep 21 19:58:56 2023
+,received-send delay ,405.680000,[msec] and size ,40960,
+packet_index ,96, sent_timestamp ,Thu Sep 21 19:58:56 2023
+,received-send delay ,372.403000,[msec] and size ,40960,
+packet_index ,97, sent_timestamp ,Thu Sep 21 19:58:56 2023
+,received-send delay ,566.269000,[msec] and size ,40960,
+packet_index ,98, sent_timestamp ,Thu Sep 21 19:58:56 2023
+,received-send delay ,532.782000,[msec] and size ,40960,
+packet_index ,99, sent_timestamp ,Thu Sep 21 19:58:56 2023
+,received-send delay ,498.864000,[msec] and size ,40960,
+packet_index ,100, sent_timestamp ,Thu Sep 21 19:58:56 2023
+,received-send delay ,465.338000,[msec] and size ,40960,
+packet_index ,101, sent_timestamp ,Thu Sep 21 19:58:56 2023
+,received-send delay ,431.959000,[msec] and size ,40960,
+packet_index ,102, sent_timestamp ,Thu Sep 21 19:58:56 2023
+,received-send delay ,398.408000,[msec] and size ,40960,
+packet_index ,103, sent_timestamp ,Thu Sep 21 19:58:56 2023
+,received-send delay ,601.295000,[msec] and size ,40960,
+packet_index ,104, sent_timestamp ,Thu Sep 21 19:58:56 2023
+,received-send delay ,567.884000,[msec] and size ,40960,
+packet_index ,105, sent_timestamp ,Thu Sep 21 19:58:56 2023
+,received-send delay ,534.559000,[msec] and size ,40960,
+packet_index ,106, sent_timestamp ,Thu Sep 21 19:58:57 2023
+,received-send delay ,501.105000,[msec] and size ,40960,
+packet_index ,107, sent_timestamp ,Thu Sep 21 19:58:57 2023
+,received-send delay ,467.699000,[msec] and size ,40960,
+packet_index ,108, sent_timestamp ,Thu Sep 21 19:58:57 2023
+,received-send delay ,434.304000,[msec] and size ,40960,
+packet_index ,109, sent_timestamp ,Thu Sep 21 19:58:57 2023
+,received-send delay ,400.886000,[msec] and size ,40960,
+packet_index ,110, sent_timestamp ,Thu Sep 21 19:58:57 2023
+,received-send delay ,607.639000,[msec] and size ,40960,
+packet_index ,111, sent_timestamp ,Thu Sep 21 19:58:57 2023
+,received-send delay ,574.352000,[msec] and size ,40960,
+packet_index ,112, sent_timestamp ,Thu Sep 21 19:58:57 2023
+,received-send delay ,541.048000,[msec] and size ,40960,
+packet_index ,113, sent_timestamp ,Thu Sep 21 19:58:57 2023
+,received-send delay ,507.555000,[msec] and size ,40960,
+packet_index ,114, sent_timestamp ,Thu Sep 21 19:58:57 2023
+,received-send delay ,474.232000,[msec] and size ,40960,
+packet_index ,115, sent_timestamp ,Thu Sep 21 19:58:57 2023
+,received-send delay ,440.808000,[msec] and size ,40960,
+packet_index ,116, sent_timestamp ,Thu Sep 21 19:58:57 2023
+,received-send delay ,407.335000,[msec] and size ,40960,
+packet_index ,117, sent_timestamp ,Thu Sep 21 19:58:57 2023
+,received-send delay ,373.886000,[msec] and size ,40960,
+packet_index ,118, sent_timestamp ,Thu Sep 21 19:58:57 2023
+,received-send delay ,593.485000,[msec] and size ,40960,
+packet_index ,119, sent_timestamp ,Thu Sep 21 19:58:57 2023
+,received-send delay ,560.094000,[msec] and size ,40960,
+packet_index ,120, sent_timestamp ,Thu Sep 21 19:58:57 2023
+,received-send delay ,526.697000,[msec] and size ,40960,
+packet_index ,121, sent_timestamp ,Thu Sep 21 19:58:57 2023
+,received-send delay ,493.200000,[msec] and size ,40960,
+packet_index ,122, sent_timestamp ,Thu Sep 21 19:58:57 2023
+,received-send delay ,459.781000,[msec] and size ,40960,
+packet_index ,123, sent_timestamp ,Thu Sep 21 19:58:57 2023
+,received-send delay ,426.319000,[msec] and size ,40960,
+packet_index ,124, sent_timestamp ,Thu Sep 21 19:58:57 2023
+,received-send delay ,392.888000,[msec] and size ,40960,
+packet_index ,125, sent_timestamp ,Thu Sep 21 19:58:57 2023
+,received-send delay ,596.410000,[msec] and size ,40960,
+packet_index ,126, sent_timestamp ,Thu Sep 21 19:58:57 2023
+,received-send delay ,563.007000,[msec] and size ,40960,
+packet_index ,127, sent_timestamp ,Thu Sep 21 19:58:57 2023
+,received-send delay ,529.616000,[msec] and size ,40960,
+packet_index ,128, sent_timestamp ,Thu Sep 21 19:58:57 2023
+,received-send delay ,496.250000,[msec] and size ,40960,
+packet_index ,129, sent_timestamp ,Thu Sep 21 19:58:57 2023
+,received-send delay ,462.952000,[msec] and size ,40960,
+packet_index ,130, sent_timestamp ,Thu Sep 21 19:58:57 2023
+,received-send delay ,429.499000,[msec] and size ,40960,
+packet_index ,131, sent_timestamp ,Thu Sep 21 19:58:57 2023
+,received-send delay ,396.031000,[msec] and size ,40960,
+packet_index ,132, sent_timestamp ,Thu Sep 21 19:58:57 2023
+,received-send delay ,362.656000,[msec] and size ,40960,
+packet_index ,133, sent_timestamp ,Thu Sep 21 19:58:57 2023
+,received-send delay ,575.743000,[msec] and size ,40960,
+packet_index ,134, sent_timestamp ,Thu Sep 21 19:58:57 2023
+,received-send delay ,542.356000,[msec] and size ,40960,
+packet_index ,135, sent_timestamp ,Thu Sep 21 19:58:57 2023
+,received-send delay ,509.022000,[msec] and size ,40960,
+packet_index ,136, sent_timestamp ,Thu Sep 21 19:58:58 2023
+,received-send delay ,475.571000,[msec] and size ,40960,
+packet_index ,137, sent_timestamp ,Thu Sep 21 19:58:58 2023
+,received-send delay ,442.237000,[msec] and size ,40960,
+packet_index ,138, sent_timestamp ,Thu Sep 21 19:58:58 2023
+,received-send delay ,408.725000,[msec] and size ,40960,
+packet_index ,139, sent_timestamp ,Thu Sep 21 19:58:58 2023
+,received-send delay ,375.228000,[msec] and size ,40960,
+packet_index ,140, sent_timestamp ,Thu Sep 21 19:58:58 2023
+,received-send delay ,600.861000,[msec] and size ,40960,
+packet_index ,141, sent_timestamp ,Thu Sep 21 19:58:58 2023
+,received-send delay ,567.506000,[msec] and size ,40960,
+packet_index ,142, sent_timestamp ,Thu Sep 21 19:58:58 2023
+,received-send delay ,534.197000,[msec] and size ,40960,
+packet_index ,143, sent_timestamp ,Thu Sep 21 19:58:58 2023
+,received-send delay ,500.862000,[msec] and size ,40960,
+packet_index ,144, sent_timestamp ,Thu Sep 21 19:58:58 2023
+,received-send delay ,467.333000,[msec] and size ,40960,
+packet_index ,145, sent_timestamp ,Thu Sep 21 19:58:58 2023
+,received-send delay ,433.935000,[msec] and size ,40960,
+packet_index ,146, sent_timestamp ,Thu Sep 21 19:58:58 2023
+,received-send delay ,400.548000,[msec] and size ,40960,
+packet_index ,147, sent_timestamp ,Thu Sep 21 19:58:58 2023
+,received-send delay ,646.355000,[msec] and size ,40960,
+packet_index ,148, sent_timestamp ,Thu Sep 21 19:58:58 2023
+,received-send delay ,613.206000,[msec] and size ,40960,
+packet_index ,149, sent_timestamp ,Thu Sep 21 19:58:58 2023
+,received-send delay ,579.952000,[msec] and size ,40960,
+packet_index ,150, sent_timestamp ,Thu Sep 21 19:58:58 2023
+,received-send delay ,546.675000,[msec] and size ,40960,
+packet_index ,151, sent_timestamp ,Thu Sep 21 19:58:58 2023
+,received-send delay ,513.302000,[msec] and size ,40960,
+packet_index ,152, sent_timestamp ,Thu Sep 21 19:58:58 2023
+,received-send delay ,480.002000,[msec] and size ,40960,
+packet_index ,153, sent_timestamp ,Thu Sep 21 19:58:58 2023
+,received-send delay ,446.614000,[msec] and size ,40960,
+packet_index ,154, sent_timestamp ,Thu Sep 21 19:58:58 2023
+,received-send delay ,413.306000,[msec] and size ,40960,
+packet_index ,155, sent_timestamp ,Thu Sep 21 19:58:58 2023
+,received-send delay ,379.905000,[msec] and size ,40960,
+packet_index ,156, sent_timestamp ,Thu Sep 21 19:58:58 2023
+,received-send delay ,346.590000,[msec] and size ,40960,
+packet_index ,157, sent_timestamp ,Thu Sep 21 19:58:58 2023
+,received-send delay ,572.066000,[msec] and size ,40960,
+packet_index ,158, sent_timestamp ,Thu Sep 21 19:58:58 2023
+,received-send delay ,538.827000,[msec] and size ,40960,
+packet_index ,159, sent_timestamp ,Thu Sep 21 19:58:58 2023
+,received-send delay ,505.527000,[msec] and size ,40960,
+packet_index ,160, sent_timestamp ,Thu Sep 21 19:58:58 2023
+,received-send delay ,472.034000,[msec] and size ,40960,
+packet_index ,161, sent_timestamp ,Thu Sep 21 19:58:58 2023
+,received-send delay ,438.681000,[msec] and size ,40960,
+packet_index ,162, sent_timestamp ,Thu Sep 21 19:58:58 2023
+,received-send delay ,405.250000,[msec] and size ,40960,
+packet_index ,163, sent_timestamp ,Thu Sep 21 19:58:58 2023
+,received-send delay ,371.891000,[msec] and size ,40960,
+packet_index ,164, sent_timestamp ,Thu Sep 21 19:58:58 2023
+,received-send delay ,338.545000,[msec] and size ,40960,
+packet_index ,165, sent_timestamp ,Thu Sep 21 19:58:59 2023
+,received-send delay ,557.810000,[msec] and size ,40960,
+packet_index ,166, sent_timestamp ,Thu Sep 21 19:58:59 2023
+,received-send delay ,524.499000,[msec] and size ,40960,
+packet_index ,167, sent_timestamp ,Thu Sep 21 19:58:59 2023
+,received-send delay ,491.040000,[msec] and size ,40960,
+packet_index ,168, sent_timestamp ,Thu Sep 21 19:58:59 2023
+,received-send delay ,457.527000,[msec] and size ,40960,
+packet_index ,169, sent_timestamp ,Thu Sep 21 19:58:59 2023
+,received-send delay ,424.083000,[msec] and size ,40960,
+packet_index ,170, sent_timestamp ,Thu Sep 21 19:58:59 2023
+,received-send delay ,390.461000,[msec] and size ,40960,
+packet_index ,171, sent_timestamp ,Thu Sep 21 19:58:59 2023
+,received-send delay ,356.860000,[msec] and size ,40960,
+packet_index ,172, sent_timestamp ,Thu Sep 21 19:58:59 2023
+,received-send delay ,601.835000,[msec] and size ,40960,
+packet_index ,173, sent_timestamp ,Thu Sep 21 19:58:59 2023
+,received-send delay ,568.548000,[msec] and size ,40960,
+packet_index ,174, sent_timestamp ,Thu Sep 21 19:58:59 2023
+,received-send delay ,535.209000,[msec] and size ,40960,
+packet_index ,175, sent_timestamp ,Thu Sep 21 19:58:59 2023
+,received-send delay ,502.026000,[msec] and size ,40960,
+packet_index ,176, sent_timestamp ,Thu Sep 21 19:58:59 2023
+,received-send delay ,468.685000,[msec] and size ,40960,
+packet_index ,177, sent_timestamp ,Thu Sep 21 19:58:59 2023
+,received-send delay ,435.237000,[msec] and size ,40960,
+packet_index ,178, sent_timestamp ,Thu Sep 21 19:58:59 2023
+,received-send delay ,401.779000,[msec] and size ,40960,
+packet_index ,179, sent_timestamp ,Thu Sep 21 19:58:59 2023
+,received-send delay ,368.321000,[msec] and size ,40960,
+packet_index ,180, sent_timestamp ,Thu Sep 21 19:58:59 2023
+,received-send delay ,334.836000,[msec] and size ,40960,
+packet_index ,181, sent_timestamp ,Thu Sep 21 19:58:59 2023
+,received-send delay ,556.378000,[msec] and size ,40960,
+packet_index ,182, sent_timestamp ,Thu Sep 21 19:58:59 2023
+,received-send delay ,523.158000,[msec] and size ,40960,
+packet_index ,183, sent_timestamp ,Thu Sep 21 19:58:59 2023
+,received-send delay ,489.717000,[msec] and size ,40960,
+packet_index ,184, sent_timestamp ,Thu Sep 21 19:58:59 2023
+,received-send delay ,456.335000,[msec] and size ,40960,
+packet_index ,185, sent_timestamp ,Thu Sep 21 19:58:59 2023
+,received-send delay ,422.816000,[msec] and size ,40960,
+packet_index ,186, sent_timestamp ,Thu Sep 21 19:58:59 2023
+,received-send delay ,389.225000,[msec] and size ,40960,
+packet_index ,187, sent_timestamp ,Thu Sep 21 19:58:59 2023
+,received-send delay ,355.746000,[msec] and size ,40960,
+packet_index ,188, sent_timestamp ,Thu Sep 21 19:58:59 2023
+,received-send delay ,322.258000,[msec] and size ,40960,
+packet_index ,189, sent_timestamp ,Thu Sep 21 19:58:59 2023
+,received-send delay ,486.914000,[msec] and size ,40960,
+packet_index ,190, sent_timestamp ,Thu Sep 21 19:58:59 2023
+,received-send delay ,453.670000,[msec] and size ,40960,
+packet_index ,191, sent_timestamp ,Thu Sep 21 19:58:59 2023
+,received-send delay ,420.327000,[msec] and size ,40960,
+packet_index ,192, sent_timestamp ,Thu Sep 21 19:58:59 2023
+,received-send delay ,386.931000,[msec] and size ,40960,
+packet_index ,193, sent_timestamp ,Thu Sep 21 19:58:59 2023
+,received-send delay ,353.482000,[msec] and size ,40960,
+packet_index ,194, sent_timestamp ,Thu Sep 21 19:58:59 2023
+,received-send delay ,320.070000,[msec] and size ,40960,
+packet_index ,195, sent_timestamp ,Thu Sep 21 19:59:00 2023
+,received-send delay ,521.707000,[msec] and size ,40960,
+packet_index ,196, sent_timestamp ,Thu Sep 21 19:59:00 2023
+,received-send delay ,488.473000,[msec] and size ,40960,
+packet_index ,197, sent_timestamp ,Thu Sep 21 19:59:00 2023
+,received-send delay ,455.213000,[msec] and size ,40960,
+packet_index ,198, sent_timestamp ,Thu Sep 21 19:59:00 2023
+,received-send delay ,421.746000,[msec] and size ,40960,
+packet_index ,199, sent_timestamp ,Thu Sep 21 19:59:00 2023
+,received-send delay ,388.336000,[msec] and size ,40960,
+packet_index ,200, sent_timestamp ,Thu Sep 21 19:59:00 2023
+,received-send delay ,354.983000,[msec] and size ,40960,
+packet_index ,201, sent_timestamp ,Thu Sep 21 19:59:00 2023
+,received-send delay ,321.600000,[msec] and size ,40960,
+packet_index ,202, sent_timestamp ,Thu Sep 21 19:59:00 2023
+,received-send delay ,535.688000,[msec] and size ,40960,
+packet_index ,203, sent_timestamp ,Thu Sep 21 19:59:00 2023
+,received-send delay ,502.505000,[msec] and size ,40960,
+packet_index ,204, sent_timestamp ,Thu Sep 21 19:59:00 2023
+,received-send delay ,469.149000,[msec] and size ,40960,
+packet_index ,205, sent_timestamp ,Thu Sep 21 19:59:00 2023
+,received-send delay ,435.868000,[msec] and size ,40960,
+packet_index ,206, sent_timestamp ,Thu Sep 21 19:59:00 2023
+,received-send delay ,402.372000,[msec] and size ,40960,
+packet_index ,207, sent_timestamp ,Thu Sep 21 19:59:00 2023
+,received-send delay ,369.133000,[msec] and size ,40960,
+packet_index ,208, sent_timestamp ,Thu Sep 21 19:59:00 2023
+,received-send delay ,335.738000,[msec] and size ,40960,
+packet_index ,209, sent_timestamp ,Thu Sep 21 19:59:00 2023
+,received-send delay ,552.333000,[msec] and size ,40960,
+packet_index ,210, sent_timestamp ,Thu Sep 21 19:59:00 2023
+,received-send delay ,518.986000,[msec] and size ,40960,
+packet_index ,211, sent_timestamp ,Thu Sep 21 19:59:00 2023
+,received-send delay ,485.505000,[msec] and size ,40960,
+packet_index ,212, sent_timestamp ,Thu Sep 21 19:59:00 2023
+,received-send delay ,452.006000,[msec] and size ,40960,
+packet_index ,213, sent_timestamp ,Thu Sep 21 19:59:00 2023
+,received-send delay ,418.654000,[msec] and size ,40960,
+packet_index ,214, sent_timestamp ,Thu Sep 21 19:59:00 2023
+,received-send delay ,385.251000,[msec] and size ,40960,
+packet_index ,215, sent_timestamp ,Thu Sep 21 19:59:00 2023
+,received-send delay ,351.859000,[msec] and size ,40960,
+packet_index ,216, sent_timestamp ,Thu Sep 21 19:59:00 2023
+,received-send delay ,318.400000,[msec] and size ,40960,
+packet_index ,217, sent_timestamp ,Thu Sep 21 19:59:00 2023
+,received-send delay ,563.212000,[msec] and size ,40960,
+packet_index ,218, sent_timestamp ,Thu Sep 21 19:59:00 2023
+,received-send delay ,530.073000,[msec] and size ,40960,
+packet_index ,219, sent_timestamp ,Thu Sep 21 19:59:00 2023
+,received-send delay ,496.966000,[msec] and size ,40960,
+packet_index ,220, sent_timestamp ,Thu Sep 21 19:59:00 2023
+,received-send delay ,463.749000,[msec] and size ,40960,
+packet_index ,221, sent_timestamp ,Thu Sep 21 19:59:00 2023
+,received-send delay ,430.597000,[msec] and size ,40960,
+packet_index ,222, sent_timestamp ,Thu Sep 21 19:59:00 2023
+,received-send delay ,397.343000,[msec] and size ,40960,
+packet_index ,223, sent_timestamp ,Thu Sep 21 19:59:00 2023
+,received-send delay ,365.722000,[msec] and size ,40960,
+packet_index ,224, sent_timestamp ,Thu Sep 21 19:59:00 2023
+,received-send delay ,612.049000,[msec] and size ,40960,
+packet_index ,225, sent_timestamp ,Thu Sep 21 19:59:01 2023
+,received-send delay ,578.797000,[msec] and size ,40960,
+packet_index ,226, sent_timestamp ,Thu Sep 21 19:59:01 2023
+,received-send delay ,545.346000,[msec] and size ,40960,
+packet_index ,227, sent_timestamp ,Thu Sep 21 19:59:01 2023
+,received-send delay ,511.973000,[msec] and size ,40960,
+packet_index ,228, sent_timestamp ,Thu Sep 21 19:59:01 2023
+,received-send delay ,478.574000,[msec] and size ,40960,
+packet_index ,229, sent_timestamp ,Thu Sep 21 19:59:01 2023
+,received-send delay ,445.200000,[msec] and size ,40960,
+packet_index ,230, sent_timestamp ,Thu Sep 21 19:59:01 2023
+,received-send delay ,411.769000,[msec] and size ,40960,
+packet_index ,231, sent_timestamp ,Thu Sep 21 19:59:01 2023
+,received-send delay ,378.293000,[msec] and size ,40960,
+packet_index ,232, sent_timestamp ,Thu Sep 21 19:59:01 2023
+,received-send delay ,344.868000,[msec] and size ,40960,
+packet_index ,233, sent_timestamp ,Thu Sep 21 19:59:01 2023
+,received-send delay ,601.341000,[msec] and size ,40960,
+packet_index ,234, sent_timestamp ,Thu Sep 21 19:59:01 2023
+,received-send delay ,568.067000,[msec] and size ,40960,
+packet_index ,235, sent_timestamp ,Thu Sep 21 19:59:01 2023
+,received-send delay ,534.808000,[msec] and size ,40960,
+packet_index ,236, sent_timestamp ,Thu Sep 21 19:59:01 2023
+,received-send delay ,501.578000,[msec] and size ,40960,
+packet_index ,237, sent_timestamp ,Thu Sep 21 19:59:01 2023
+,received-send delay ,468.296000,[msec] and size ,40960,
+packet_index ,238, sent_timestamp ,Thu Sep 21 19:59:01 2023
+,received-send delay ,434.924000,[msec] and size ,40960,
+packet_index ,239, sent_timestamp ,Thu Sep 21 19:59:01 2023
+,received-send delay ,401.641000,[msec] and size ,40960,
+packet_index ,240, sent_timestamp ,Thu Sep 21 19:59:01 2023
+,received-send delay ,642.037000,[msec] and size ,40960,
+packet_index ,241, sent_timestamp ,Thu Sep 21 19:59:01 2023
+,received-send delay ,608.906000,[msec] and size ,40960,
+packet_index ,242, sent_timestamp ,Thu Sep 21 19:59:01 2023
+,received-send delay ,575.723000,[msec] and size ,40960,
+packet_index ,243, sent_timestamp ,Thu Sep 21 19:59:01 2023
+,received-send delay ,542.506000,[msec] and size ,40960,
+packet_index ,244, sent_timestamp ,Thu Sep 21 19:59:01 2023
+,received-send delay ,509.214000,[msec] and size ,40960,
+packet_index ,245, sent_timestamp ,Thu Sep 21 19:59:01 2023
+,received-send delay ,475.825000,[msec] and size ,40960,
+packet_index ,246, sent_timestamp ,Thu Sep 21 19:59:01 2023
+,received-send delay ,442.480000,[msec] and size ,40960,
+packet_index ,247, sent_timestamp ,Thu Sep 21 19:59:01 2023
+,received-send delay ,409.112000,[msec] and size ,40960,
+packet_index ,248, sent_timestamp ,Thu Sep 21 19:59:01 2023
+,received-send delay ,375.640000,[msec] and size ,40960,
+packet_index ,249, sent_timestamp ,Thu Sep 21 19:59:01 2023
+,received-send delay ,342.305000,[msec] and size ,40960,
+packet_index ,250, sent_timestamp ,Thu Sep 21 19:59:01 2023
+,received-send delay ,570.310000,[msec] and size ,40960,
+packet_index ,251, sent_timestamp ,Thu Sep 21 19:59:01 2023
+,received-send delay ,536.968000,[msec] and size ,40960,
+packet_index ,252, sent_timestamp ,Thu Sep 21 19:59:01 2023
+,received-send delay ,503.389000,[msec] and size ,40960,
+packet_index ,253, sent_timestamp ,Thu Sep 21 19:59:01 2023
+,received-send delay ,469.944000,[msec] and size ,40960,
+packet_index ,254, sent_timestamp ,Thu Sep 21 19:59:01 2023
+,received-send delay ,436.534000,[msec] and size ,40960,
+packet_index ,255, sent_timestamp ,Thu Sep 21 19:59:02 2023
+,received-send delay ,403.063000,[msec] and size ,40960,
+packet_index ,256, sent_timestamp ,Thu Sep 21 19:59:02 2023
+,received-send delay ,369.614000,[msec] and size ,40960,
+packet_index ,257, sent_timestamp ,Thu Sep 21 19:59:02 2023
+,received-send delay ,336.236000,[msec] and size ,40960,
+packet_index ,258, sent_timestamp ,Thu Sep 21 19:59:02 2023
+,received-send delay ,622.551000,[msec] and size ,40960,
+packet_index ,259, sent_timestamp ,Thu Sep 21 19:59:02 2023
+,received-send delay ,589.291000,[msec] and size ,40960,
+packet_index ,260, sent_timestamp ,Thu Sep 21 19:59:02 2023
+,received-send delay ,555.917000,[msec] and size ,40960,
+packet_index ,261, sent_timestamp ,Thu Sep 21 19:59:02 2023
+,received-send delay ,522.537000,[msec] and size ,40960,
+packet_index ,262, sent_timestamp ,Thu Sep 21 19:59:02 2023
+,received-send delay ,489.146000,[msec] and size ,40960,
+packet_index ,263, sent_timestamp ,Thu Sep 21 19:59:02 2023
+,received-send delay ,455.842000,[msec] and size ,40960,
+packet_index ,264, sent_timestamp ,Thu Sep 21 19:59:02 2023
+,received-send delay ,422.495000,[msec] and size ,40960,
+packet_index ,265, sent_timestamp ,Thu Sep 21 19:59:02 2023
+,received-send delay ,389.005000,[msec] and size ,40960,
+packet_index ,266, sent_timestamp ,Thu Sep 21 19:59:02 2023
+,received-send delay ,585.834000,[msec] and size ,40960,
+packet_index ,267, sent_timestamp ,Thu Sep 21 19:59:02 2023
+,received-send delay ,552.507000,[msec] and size ,40960,
+packet_index ,268, sent_timestamp ,Thu Sep 21 19:59:02 2023
+,received-send delay ,518.972000,[msec] and size ,40960,
+packet_index ,269, sent_timestamp ,Thu Sep 21 19:59:02 2023
+,received-send delay ,485.512000,[msec] and size ,40960,
+packet_index ,270, sent_timestamp ,Thu Sep 21 19:59:02 2023
+,received-send delay ,451.959000,[msec] and size ,40960,
+packet_index ,271, sent_timestamp ,Thu Sep 21 19:59:02 2023
+,received-send delay ,418.520000,[msec] and size ,40960,
+packet_index ,272, sent_timestamp ,Thu Sep 21 19:59:02 2023
+,received-send delay ,385.097000,[msec] and size ,40960,
+packet_index ,273, sent_timestamp ,Thu Sep 21 19:59:02 2023
+,received-send delay ,351.625000,[msec] and size ,40960,
+packet_index ,274, sent_timestamp ,Thu Sep 21 19:59:02 2023
+,received-send delay ,315.671000,[msec] and size ,40960,
+packet_index ,275, sent_timestamp ,Thu Sep 21 19:59:02 2023
+,received-send delay ,565.959000,[msec] and size ,40960,
+packet_index ,276, sent_timestamp ,Thu Sep 21 19:59:02 2023
+,received-send delay ,532.633000,[msec] and size ,40960,
+packet_index ,277, sent_timestamp ,Thu Sep 21 19:59:02 2023
+,received-send delay ,499.066000,[msec] and size ,40960,
+packet_index ,278, sent_timestamp ,Thu Sep 21 19:59:02 2023
+,received-send delay ,465.757000,[msec] and size ,40960,
+packet_index ,279, sent_timestamp ,Thu Sep 21 19:59:02 2023
+,received-send delay ,432.393000,[msec] and size ,40960,
+packet_index ,280, sent_timestamp ,Thu Sep 21 19:59:02 2023
+,received-send delay ,398.989000,[msec] and size ,40960,
+packet_index ,281, sent_timestamp ,Thu Sep 21 19:59:02 2023
+,received-send delay ,365.712000,[msec] and size ,40960,
+packet_index ,282, sent_timestamp ,Thu Sep 21 19:59:02 2023
+,received-send delay ,619.666000,[msec] and size ,40960,
+packet_index ,283, sent_timestamp ,Thu Sep 21 19:59:02 2023
+,received-send delay ,586.309000,[msec] and size ,40960,
+packet_index ,284, sent_timestamp ,Thu Sep 21 19:59:02 2023
+,received-send delay ,552.873000,[msec] and size ,40960,
+packet_index ,285, sent_timestamp ,Thu Sep 21 19:59:03 2023
+,received-send delay ,519.423000,[msec] and size ,40960,
+packet_index ,286, sent_timestamp ,Thu Sep 21 19:59:03 2023
+,received-send delay ,486.020000,[msec] and size ,40960,
+packet_index ,287, sent_timestamp ,Thu Sep 21 19:59:03 2023
+,received-send delay ,452.529000,[msec] and size ,40960,
+packet_index ,288, sent_timestamp ,Thu Sep 21 19:59:03 2023
+,received-send delay ,419.054000,[msec] and size ,40960,
+packet_index ,289, sent_timestamp ,Thu Sep 21 19:59:03 2023
+,received-send delay ,385.536000,[msec] and size ,40960,
+packet_index ,290, sent_timestamp ,Thu Sep 21 19:59:03 2023
+,received-send delay ,352.083000,[msec] and size ,40960,
+packet_index ,291, sent_timestamp ,Thu Sep 21 19:59:03 2023
+,received-send delay ,557.406000,[msec] and size ,40960,
+packet_index ,292, sent_timestamp ,Thu Sep 21 19:59:03 2023
+,received-send delay ,524.054000,[msec] and size ,40960,
+packet_index ,293, sent_timestamp ,Thu Sep 21 19:59:03 2023
+,received-send delay ,490.797000,[msec] and size ,40960,
+packet_index ,294, sent_timestamp ,Thu Sep 21 19:59:03 2023
+,received-send delay ,457.321000,[msec] and size ,40960,
+packet_index ,295, sent_timestamp ,Thu Sep 21 19:59:03 2023
+,received-send delay ,423.939000,[msec] and size ,40960,
+packet_index ,296, sent_timestamp ,Thu Sep 21 19:59:03 2023
+,received-send delay ,390.563000,[msec] and size ,40960,
+packet_index ,297, sent_timestamp ,Thu Sep 21 19:59:03 2023
+,received-send delay ,357.206000,[msec] and size ,40960,
+packet_index ,298, sent_timestamp ,Thu Sep 21 19:59:03 2023
+,received-send delay ,452.632000,[msec] and size ,40960,
+packet_index ,299, sent_timestamp ,Thu Sep 21 19:59:03 2023
+,received-send delay ,419.317000,[msec] and size ,40960,
+packet_index ,300, sent_timestamp ,Thu Sep 21 19:59:03 2023
+,received-send delay ,714.733000,[msec] and size ,40960,
+start--------------------------------------------
+packet_index ,1, sent_timestamp ,Thu Sep 21 19:59:33 2023
+,received-send delay ,351.946000,[msec] and size ,40960,
+packet_index ,2, sent_timestamp ,Thu Sep 21 19:59:34 2023
+,received-send delay ,206.550000,[msec] and size ,40960,
+packet_index ,3, sent_timestamp ,Thu Sep 21 19:59:34 2023
+,received-send delay ,174.381000,[msec] and size ,40960,
+packet_index ,4, sent_timestamp ,Thu Sep 21 19:59:34 2023
+,received-send delay ,224.140000,[msec] and size ,40960,
+packet_index ,5, sent_timestamp ,Thu Sep 21 19:59:34 2023
+,received-send delay ,227.284000,[msec] and size ,40960,
+packet_index ,6, sent_timestamp ,Thu Sep 21 19:59:34 2023
+,received-send delay ,230.705000,[msec] and size ,40960,
+packet_index ,7, sent_timestamp ,Thu Sep 21 19:59:34 2023
+,received-send delay ,169.207000,[msec] and size ,40960,
+packet_index ,8, sent_timestamp ,Thu Sep 21 19:59:34 2023
+,received-send delay ,185.225000,[msec] and size ,40960,
+packet_index ,9, sent_timestamp ,Thu Sep 21 19:59:34 2023
+,received-send delay ,210.742000,[msec] and size ,40960,
+packet_index ,10, sent_timestamp ,Thu Sep 21 19:59:34 2023
+,received-send delay ,189.809000,[msec] and size ,40960,
+packet_index ,11, sent_timestamp ,Thu Sep 21 19:59:34 2023
+,received-send delay ,156.507000,[msec] and size ,40960,
+packet_index ,12, sent_timestamp ,Thu Sep 21 19:59:34 2023
+,received-send delay ,181.955000,[msec] and size ,40960,
+packet_index ,13, sent_timestamp ,Thu Sep 21 19:59:34 2023
+,received-send delay ,215.270000,[msec] and size ,40960,
+packet_index ,14, sent_timestamp ,Thu Sep 21 19:59:34 2023
+,received-send delay ,162.991000,[msec] and size ,40960,
+packet_index ,15, sent_timestamp ,Thu Sep 21 19:59:34 2023
+,received-send delay ,191.399000,[msec] and size ,40960,
+packet_index ,16, sent_timestamp ,Thu Sep 21 19:59:34 2023
+,received-send delay ,219.847000,[msec] and size ,40960,
+packet_index ,17, sent_timestamp ,Thu Sep 21 19:59:34 2023
+,received-send delay ,186.629000,[msec] and size ,40960,
+packet_index ,18, sent_timestamp ,Thu Sep 21 19:59:34 2023
+,received-send delay ,214.791000,[msec] and size ,40960,
+packet_index ,19, sent_timestamp ,Thu Sep 21 19:59:34 2023
+,received-send delay ,176.351000,[msec] and size ,40960,
+packet_index ,20, sent_timestamp ,Thu Sep 21 19:59:34 2023
+,received-send delay ,207.817000,[msec] and size ,40960,
+packet_index ,21, sent_timestamp ,Thu Sep 21 19:59:34 2023
+,received-send delay ,161.153000,[msec] and size ,40960,
+packet_index ,22, sent_timestamp ,Thu Sep 21 19:59:34 2023
+,received-send delay ,254.121000,[msec] and size ,40960,
+packet_index ,23, sent_timestamp ,Thu Sep 21 19:59:34 2023
+,received-send delay ,212.945000,[msec] and size ,40960,
+packet_index ,24, sent_timestamp ,Thu Sep 21 19:59:35 2023
+,received-send delay ,222.954000,[msec] and size ,40960,
+packet_index ,25, sent_timestamp ,Thu Sep 21 19:59:35 2023
+,received-send delay ,189.537000,[msec] and size ,40960,
+packet_index ,26, sent_timestamp ,Thu Sep 21 19:59:35 2023
+,received-send delay ,228.229000,[msec] and size ,40960,
+packet_index ,27, sent_timestamp ,Thu Sep 21 19:59:35 2023
+,received-send delay ,194.927000,[msec] and size ,40960,
+packet_index ,28, sent_timestamp ,Thu Sep 21 19:59:35 2023
+,received-send delay ,240.408000,[msec] and size ,40960,
+packet_index ,29, sent_timestamp ,Thu Sep 21 19:59:35 2023
+,received-send delay ,197.155000,[msec] and size ,40960,
+packet_index ,30, sent_timestamp ,Thu Sep 21 19:59:35 2023
+,received-send delay ,263.173000,[msec] and size ,40960,
+packet_index ,31, sent_timestamp ,Thu Sep 21 19:59:35 2023
+,received-send delay ,224.631000,[msec] and size ,40960,
+packet_index ,32, sent_timestamp ,Thu Sep 21 19:59:35 2023
+,received-send delay ,191.291000,[msec] and size ,40960,
+packet_index ,33, sent_timestamp ,Thu Sep 21 19:59:35 2023
+,received-send delay ,247.161000,[msec] and size ,40960,
+packet_index ,34, sent_timestamp ,Thu Sep 21 19:59:35 2023
+,received-send delay ,213.795000,[msec] and size ,40960,
+packet_index ,35, sent_timestamp ,Thu Sep 21 19:59:35 2023
+,received-send delay ,273.516000,[msec] and size ,40960,
+packet_index ,36, sent_timestamp ,Thu Sep 21 19:59:35 2023
+,received-send delay ,227.925000,[msec] and size ,40960,
+packet_index ,37, sent_timestamp ,Thu Sep 21 19:59:35 2023
+,received-send delay ,194.699000,[msec] and size ,40960,
+packet_index ,38, sent_timestamp ,Thu Sep 21 19:59:35 2023
+,received-send delay ,299.262000,[msec] and size ,40960,
+packet_index ,39, sent_timestamp ,Thu Sep 21 19:59:35 2023
+,received-send delay ,260.152000,[msec] and size ,40960,
+packet_index ,40, sent_timestamp ,Thu Sep 21 19:59:35 2023
+,received-send delay ,321.640000,[msec] and size ,40960,
+packet_index ,41, sent_timestamp ,Thu Sep 21 19:59:35 2023
+,received-send delay ,738.433000,[msec] and size ,40960,
+packet_index ,42, sent_timestamp ,Thu Sep 21 19:59:35 2023
+,received-send delay ,768.302000,[msec] and size ,40960,
+packet_index ,43, sent_timestamp ,Thu Sep 21 19:59:35 2023
+,received-send delay ,696.497000,[msec] and size ,40960,
+packet_index ,44, sent_timestamp ,Thu Sep 21 19:59:35 2023
+,received-send delay ,663.072000,[msec] and size ,40960,
+packet_index ,45, sent_timestamp ,Thu Sep 21 19:59:35 2023
+,received-send delay ,629.683000,[msec] and size ,40960,
+packet_index ,46, sent_timestamp ,Thu Sep 21 19:59:35 2023
+,received-send delay ,596.269000,[msec] and size ,40960,
+packet_index ,47, sent_timestamp ,Thu Sep 21 19:59:35 2023
+,received-send delay ,562.862000,[msec] and size ,40960,
+packet_index ,48, sent_timestamp ,Thu Sep 21 19:59:35 2023
+,received-send delay ,529.453000,[msec] and size ,40960,
+packet_index ,49, sent_timestamp ,Thu Sep 21 19:59:35 2023
+,received-send delay ,496.017000,[msec] and size ,40960,
+packet_index ,50, sent_timestamp ,Thu Sep 21 19:59:35 2023
+,received-send delay ,462.366000,[msec] and size ,40960,
+packet_index ,51, sent_timestamp ,Thu Sep 21 19:59:36 2023
+,received-send delay ,428.968000,[msec] and size ,40960,
+packet_index ,52, sent_timestamp ,Thu Sep 21 19:59:36 2023
+,received-send delay ,395.562000,[msec] and size ,40960,
+packet_index ,53, sent_timestamp ,Thu Sep 21 19:59:36 2023
+,received-send delay ,362.208000,[msec] and size ,40960,
+packet_index ,54, sent_timestamp ,Thu Sep 21 19:59:36 2023
+,received-send delay ,876.919000,[msec] and size ,40960,
+packet_index ,55, sent_timestamp ,Thu Sep 21 19:59:36 2023
+,received-send delay ,941.988000,[msec] and size ,40960,
+packet_index ,56, sent_timestamp ,Thu Sep 21 19:59:36 2023
+,received-send delay ,908.569000,[msec] and size ,40960,
+packet_index ,57, sent_timestamp ,Thu Sep 21 19:59:36 2023
+,received-send delay ,875.133000,[msec] and size ,40960,
+packet_index ,58, sent_timestamp ,Thu Sep 21 19:59:36 2023
+,received-send delay ,841.705000,[msec] and size ,40960,
+packet_index ,59, sent_timestamp ,Thu Sep 21 19:59:36 2023
+,received-send delay ,808.338000,[msec] and size ,40960,
+packet_index ,60, sent_timestamp ,Thu Sep 21 19:59:36 2023
+,received-send delay ,774.911000,[msec] and size ,40960,
+packet_index ,61, sent_timestamp ,Thu Sep 21 19:59:36 2023
+,received-send delay ,741.439000,[msec] and size ,40960,
+packet_index ,62, sent_timestamp ,Thu Sep 21 19:59:36 2023
+,received-send delay ,708.014000,[msec] and size ,40960,
+packet_index ,63, sent_timestamp ,Thu Sep 21 19:59:36 2023
+,received-send delay ,674.550000,[msec] and size ,40960,
+packet_index ,64, sent_timestamp ,Thu Sep 21 19:59:36 2023
+,received-send delay ,641.000000,[msec] and size ,40960,
+packet_index ,65, sent_timestamp ,Thu Sep 21 19:59:36 2023
+,received-send delay ,607.650000,[msec] and size ,40960,
+packet_index ,66, sent_timestamp ,Thu Sep 21 19:59:36 2023
+,received-send delay ,574.142000,[msec] and size ,40960,
+packet_index ,67, sent_timestamp ,Thu Sep 21 19:59:36 2023
+,received-send delay ,540.768000,[msec] and size ,40960,
+packet_index ,68, sent_timestamp ,Thu Sep 21 19:59:36 2023
+,received-send delay ,643.570000,[msec] and size ,40960,
+packet_index ,69, sent_timestamp ,Thu Sep 21 19:59:36 2023
+,received-send delay ,610.377000,[msec] and size ,40960,
+packet_index ,70, sent_timestamp ,Thu Sep 21 19:59:36 2023
+,received-send delay ,752.728000,[msec] and size ,40960,
+packet_index ,71, sent_timestamp ,Thu Sep 21 19:59:36 2023
+,received-send delay ,719.449000,[msec] and size ,40960,
+packet_index ,72, sent_timestamp ,Thu Sep 21 19:59:36 2023
+,received-send delay ,686.097000,[msec] and size ,40960,
+packet_index ,73, sent_timestamp ,Thu Sep 21 19:59:36 2023
+,received-send delay ,652.774000,[msec] and size ,40960,
+packet_index ,74, sent_timestamp ,Thu Sep 21 19:59:36 2023
+,received-send delay ,619.407000,[msec] and size ,40960,
+packet_index ,75, sent_timestamp ,Thu Sep 21 19:59:36 2023
+,received-send delay ,586.056000,[msec] and size ,40960,
+packet_index ,76, sent_timestamp ,Thu Sep 21 19:59:36 2023
+,received-send delay ,552.711000,[msec] and size ,40960,
+packet_index ,77, sent_timestamp ,Thu Sep 21 19:59:36 2023
+,received-send delay ,519.171000,[msec] and size ,40960,
+packet_index ,78, sent_timestamp ,Thu Sep 21 19:59:36 2023
+,received-send delay ,666.546000,[msec] and size ,40960,
+packet_index ,79, sent_timestamp ,Thu Sep 21 19:59:36 2023
+,received-send delay ,633.145000,[msec] and size ,40960,
+packet_index ,80, sent_timestamp ,Thu Sep 21 19:59:36 2023
+,received-send delay ,599.696000,[msec] and size ,40960,
+packet_index ,81, sent_timestamp ,Thu Sep 21 19:59:37 2023
+,received-send delay ,566.258000,[msec] and size ,40960,
+packet_index ,82, sent_timestamp ,Thu Sep 21 19:59:37 2023
+,received-send delay ,722.137000,[msec] and size ,40960,
+packet_index ,83, sent_timestamp ,Thu Sep 21 19:59:37 2023
+,received-send delay ,688.833000,[msec] and size ,40960,
+packet_index ,84, sent_timestamp ,Thu Sep 21 19:59:37 2023
+,received-send delay ,655.362000,[msec] and size ,40960,
+packet_index ,85, sent_timestamp ,Thu Sep 21 19:59:37 2023
+,received-send delay ,622.027000,[msec] and size ,40960,
+packet_index ,86, sent_timestamp ,Thu Sep 21 19:59:37 2023
+,received-send delay ,787.441000,[msec] and size ,40960,
+packet_index ,87, sent_timestamp ,Thu Sep 21 19:59:37 2023
+,received-send delay ,754.252000,[msec] and size ,40960,
+packet_index ,88, sent_timestamp ,Thu Sep 21 19:59:37 2023
+,received-send delay ,720.933000,[msec] and size ,40960,
+packet_index ,89, sent_timestamp ,Thu Sep 21 19:59:37 2023
+,received-send delay ,687.618000,[msec] and size ,40960,
+packet_index ,90, sent_timestamp ,Thu Sep 21 19:59:37 2023
+,received-send delay ,654.389000,[msec] and size ,40960,
+packet_index ,91, sent_timestamp ,Thu Sep 21 19:59:37 2023
+,received-send delay ,621.077000,[msec] and size ,40960,
+packet_index ,92, sent_timestamp ,Thu Sep 21 19:59:37 2023
+,received-send delay ,587.813000,[msec] and size ,40960,
+packet_index ,93, sent_timestamp ,Thu Sep 21 19:59:37 2023
+,received-send delay ,756.966000,[msec] and size ,40960,
+packet_index ,94, sent_timestamp ,Thu Sep 21 19:59:37 2023
+,received-send delay ,723.584000,[msec] and size ,40960,
+packet_index ,95, sent_timestamp ,Thu Sep 21 19:59:37 2023
+,received-send delay ,690.206000,[msec] and size ,40960,
+packet_index ,96, sent_timestamp ,Thu Sep 21 19:59:37 2023
+,received-send delay ,656.780000,[msec] and size ,40960,
+packet_index ,97, sent_timestamp ,Thu Sep 21 19:59:37 2023
+,received-send delay ,623.341000,[msec] and size ,40960,
+packet_index ,98, sent_timestamp ,Thu Sep 21 19:59:37 2023
+,received-send delay ,831.285000,[msec] and size ,40960,
+packet_index ,99, sent_timestamp ,Thu Sep 21 19:59:37 2023
+,received-send delay ,797.966000,[msec] and size ,40960,
+packet_index ,100, sent_timestamp ,Thu Sep 21 19:59:37 2023
+,received-send delay ,764.549000,[msec] and size ,40960,
+packet_index ,101, sent_timestamp ,Thu Sep 21 19:59:37 2023
+,received-send delay ,731.090000,[msec] and size ,40960,
+packet_index ,102, sent_timestamp ,Thu Sep 21 19:59:37 2023
+,received-send delay ,697.648000,[msec] and size ,40960,
+packet_index ,103, sent_timestamp ,Thu Sep 21 19:59:37 2023
+,received-send delay ,664.302000,[msec] and size ,40960,
+packet_index ,104, sent_timestamp ,Thu Sep 21 19:59:37 2023
+,received-send delay ,847.701000,[msec] and size ,40960,
+packet_index ,105, sent_timestamp ,Thu Sep 21 19:59:37 2023
+,received-send delay ,814.421000,[msec] and size ,40960,
+packet_index ,106, sent_timestamp ,Thu Sep 21 19:59:37 2023
+,received-send delay ,781.000000,[msec] and size ,40960,
+packet_index ,107, sent_timestamp ,Thu Sep 21 19:59:37 2023
+,received-send delay ,747.629000,[msec] and size ,40960,
+packet_index ,108, sent_timestamp ,Thu Sep 21 19:59:37 2023
+,received-send delay ,714.207000,[msec] and size ,40960,
+packet_index ,109, sent_timestamp ,Thu Sep 21 19:59:37 2023
+,received-send delay ,680.748000,[msec] and size ,40960,
+packet_index ,110, sent_timestamp ,Thu Sep 21 19:59:37 2023
+,received-send delay ,647.336000,[msec] and size ,40960,
+packet_index ,111, sent_timestamp ,Thu Sep 21 19:59:38 2023
+,received-send delay ,856.611000,[msec] and size ,40960,
+packet_index ,112, sent_timestamp ,Thu Sep 21 19:59:38 2023
+,received-send delay ,823.224000,[msec] and size ,40960,
+packet_index ,113, sent_timestamp ,Thu Sep 21 19:59:38 2023
+,received-send delay ,789.770000,[msec] and size ,40960,
+packet_index ,114, sent_timestamp ,Thu Sep 21 19:59:38 2023
+,received-send delay ,756.309000,[msec] and size ,40960,
+packet_index ,115, sent_timestamp ,Thu Sep 21 19:59:38 2023
+,received-send delay ,722.933000,[msec] and size ,40960,
+packet_index ,116, sent_timestamp ,Thu Sep 21 19:59:38 2023
+,received-send delay ,689.547000,[msec] and size ,40960,
+packet_index ,117, sent_timestamp ,Thu Sep 21 19:59:38 2023
+,received-send delay ,909.474000,[msec] and size ,40960,
+packet_index ,118, sent_timestamp ,Thu Sep 21 19:59:38 2023
+,received-send delay ,876.282000,[msec] and size ,40960,
+packet_index ,119, sent_timestamp ,Thu Sep 21 19:59:38 2023
+,received-send delay ,842.999000,[msec] and size ,40960,
+packet_index ,120, sent_timestamp ,Thu Sep 21 19:59:38 2023
+,received-send delay ,809.778000,[msec] and size ,40960,
+packet_index ,121, sent_timestamp ,Thu Sep 21 19:59:38 2023
+,received-send delay ,776.574000,[msec] and size ,40960,
+packet_index ,122, sent_timestamp ,Thu Sep 21 19:59:38 2023
+,received-send delay ,743.331000,[msec] and size ,40960,
+packet_index ,123, sent_timestamp ,Thu Sep 21 19:59:38 2023
+,received-send delay ,710.042000,[msec] and size ,40960,
+packet_index ,124, sent_timestamp ,Thu Sep 21 19:59:38 2023
+,received-send delay ,959.977000,[msec] and size ,40960,
+packet_index ,125, sent_timestamp ,Thu Sep 21 19:59:38 2023
+,received-send delay ,926.702000,[msec] and size ,40960,
+packet_index ,126, sent_timestamp ,Thu Sep 21 19:59:38 2023
+,received-send delay ,893.202000,[msec] and size ,40960,
+packet_index ,127, sent_timestamp ,Thu Sep 21 19:59:38 2023
+,received-send delay ,859.754000,[msec] and size ,40960,
+packet_index ,128, sent_timestamp ,Thu Sep 21 19:59:38 2023
+,received-send delay ,826.243000,[msec] and size ,40960,
+packet_index ,129, sent_timestamp ,Thu Sep 21 19:59:38 2023
+,received-send delay ,792.809000,[msec] and size ,40960,
+packet_index ,130, sent_timestamp ,Thu Sep 21 19:59:38 2023
+,received-send delay ,759.358000,[msec] and size ,40960,
+packet_index ,131, sent_timestamp ,Thu Sep 21 19:59:38 2023
+,received-send delay ,1058.736000,[msec] and size ,40960,
+packet_index ,132, sent_timestamp ,Thu Sep 21 19:59:38 2023
+,received-send delay ,1025.538000,[msec] and size ,40960,
+packet_index ,133, sent_timestamp ,Thu Sep 21 19:59:38 2023
+,received-send delay ,992.147000,[msec] and size ,40960,
+packet_index ,134, sent_timestamp ,Thu Sep 21 19:59:38 2023
+,received-send delay ,958.935000,[msec] and size ,40960,
+packet_index ,135, sent_timestamp ,Thu Sep 21 19:59:38 2023
+,received-send delay ,925.615000,[msec] and size ,40960,
+packet_index ,136, sent_timestamp ,Thu Sep 21 19:59:38 2023
+,received-send delay ,892.439000,[msec] and size ,40960,
+packet_index ,137, sent_timestamp ,Thu Sep 21 19:59:38 2023
+,received-send delay ,859.296000,[msec] and size ,40960,
+packet_index ,138, sent_timestamp ,Thu Sep 21 19:59:38 2023
+,received-send delay ,826.163000,[msec] and size ,40960,
+packet_index ,139, sent_timestamp ,Thu Sep 21 19:59:38 2023
+,received-send delay ,1042.110000,[msec] and size ,40960,
+packet_index ,140, sent_timestamp ,Thu Sep 21 19:59:39 2023
+,received-send delay ,1008.710000,[msec] and size ,40960,
+packet_index ,141, sent_timestamp ,Thu Sep 21 19:59:39 2023
+,received-send delay ,975.253000,[msec] and size ,40960,
+packet_index ,142, sent_timestamp ,Thu Sep 21 19:59:39 2023
+,received-send delay ,941.760000,[msec] and size ,40960,
+packet_index ,143, sent_timestamp ,Thu Sep 21 19:59:39 2023
+,received-send delay ,908.311000,[msec] and size ,40960,
+packet_index ,144, sent_timestamp ,Thu Sep 21 19:59:39 2023
+,received-send delay ,874.862000,[msec] and size ,40960,
+packet_index ,145, sent_timestamp ,Thu Sep 21 19:59:39 2023
+,received-send delay ,841.447000,[msec] and size ,40960,
+packet_index ,146, sent_timestamp ,Thu Sep 21 19:59:39 2023
+,received-send delay ,807.963000,[msec] and size ,40960,
+packet_index ,147, sent_timestamp ,Thu Sep 21 19:59:39 2023
+,received-send delay ,1057.552000,[msec] and size ,40960,
+packet_index ,148, sent_timestamp ,Thu Sep 21 19:59:39 2023
+,received-send delay ,1024.289000,[msec] and size ,40960,
+packet_index ,149, sent_timestamp ,Thu Sep 21 19:59:39 2023
+,received-send delay ,991.023000,[msec] and size ,40960,
+packet_index ,150, sent_timestamp ,Thu Sep 21 19:59:39 2023
+,received-send delay ,957.744000,[msec] and size ,40960,
+packet_index ,151, sent_timestamp ,Thu Sep 21 19:59:39 2023
+,received-send delay ,924.464000,[msec] and size ,40960,
+packet_index ,152, sent_timestamp ,Thu Sep 21 19:59:39 2023
+,received-send delay ,891.137000,[msec] and size ,40960,
+packet_index ,153, sent_timestamp ,Thu Sep 21 19:59:39 2023
+,received-send delay ,857.849000,[msec] and size ,40960,
+packet_index ,154, sent_timestamp ,Thu Sep 21 19:59:39 2023
+,received-send delay ,1084.102000,[msec] and size ,40960,
+packet_index ,155, sent_timestamp ,Thu Sep 21 19:59:39 2023
+,received-send delay ,1050.793000,[msec] and size ,40960,
+packet_index ,156, sent_timestamp ,Thu Sep 21 19:59:39 2023
+,received-send delay ,1017.370000,[msec] and size ,40960,
+packet_index ,157, sent_timestamp ,Thu Sep 21 19:59:39 2023
+,received-send delay ,983.992000,[msec] and size ,40960,
+packet_index ,158, sent_timestamp ,Thu Sep 21 19:59:39 2023
+,received-send delay ,950.547000,[msec] and size ,40960,
+packet_index ,159, sent_timestamp ,Thu Sep 21 19:59:39 2023
+,received-send delay ,917.165000,[msec] and size ,40960,
+packet_index ,160, sent_timestamp ,Thu Sep 21 19:59:39 2023
+,received-send delay ,883.724000,[msec] and size ,40960,
+packet_index ,161, sent_timestamp ,Thu Sep 21 19:59:39 2023
+,received-send delay ,850.229000,[msec] and size ,40960,
+packet_index ,162, sent_timestamp ,Thu Sep 21 19:59:39 2023
+,received-send delay ,1067.801000,[msec] and size ,40960,
+packet_index ,163, sent_timestamp ,Thu Sep 21 19:59:39 2023
+,received-send delay ,1034.453000,[msec] and size ,40960,
+packet_index ,164, sent_timestamp ,Thu Sep 21 19:59:39 2023
+,received-send delay ,1001.053000,[msec] and size ,40960,
+packet_index ,165, sent_timestamp ,Thu Sep 21 19:59:39 2023
+,received-send delay ,967.822000,[msec] and size ,40960,
+packet_index ,166, sent_timestamp ,Thu Sep 21 19:59:39 2023
+,received-send delay ,934.455000,[msec] and size ,40960,
+packet_index ,167, sent_timestamp ,Thu Sep 21 19:59:39 2023
+,received-send delay ,901.107000,[msec] and size ,40960,
+packet_index ,168, sent_timestamp ,Thu Sep 21 19:59:39 2023
+,received-send delay ,867.838000,[msec] and size ,40960,
+packet_index ,169, sent_timestamp ,Thu Sep 21 19:59:39 2023
+,received-send delay ,1156.498000,[msec] and size ,40960,
+packet_index ,170, sent_timestamp ,Thu Sep 21 19:59:40 2023
+,received-send delay ,1123.308000,[msec] and size ,40960,
+packet_index ,171, sent_timestamp ,Thu Sep 21 19:59:40 2023
+,received-send delay ,1089.987000,[msec] and size ,40960,
+packet_index ,172, sent_timestamp ,Thu Sep 21 19:59:40 2023
+,received-send delay ,1056.730000,[msec] and size ,40960,
+packet_index ,173, sent_timestamp ,Thu Sep 21 19:59:40 2023
+,received-send delay ,1023.438000,[msec] and size ,40960,
+packet_index ,174, sent_timestamp ,Thu Sep 21 19:59:40 2023
+,received-send delay ,990.164000,[msec] and size ,40960,
+packet_index ,175, sent_timestamp ,Thu Sep 21 19:59:40 2023
+,received-send delay ,956.865000,[msec] and size ,40960,
+packet_index ,176, sent_timestamp ,Thu Sep 21 19:59:40 2023
+,received-send delay ,923.520000,[msec] and size ,40960,
+packet_index ,177, sent_timestamp ,Thu Sep 21 19:59:40 2023
+,received-send delay ,1329.240000,[msec] and size ,40960,
+packet_index ,178, sent_timestamp ,Thu Sep 21 19:59:40 2023
+,received-send delay ,1295.925000,[msec] and size ,40960,
+packet_index ,179, sent_timestamp ,Thu Sep 21 19:59:40 2023
+,received-send delay ,1262.444000,[msec] and size ,40960,
+packet_index ,180, sent_timestamp ,Thu Sep 21 19:59:40 2023
+,received-send delay ,1228.910000,[msec] and size ,40960,
+packet_index ,181, sent_timestamp ,Thu Sep 21 19:59:40 2023
+,received-send delay ,1195.539000,[msec] and size ,40960,
+packet_index ,182, sent_timestamp ,Thu Sep 21 19:59:40 2023
+,received-send delay ,1162.098000,[msec] and size ,40960,
+packet_index ,183, sent_timestamp ,Thu Sep 21 19:59:40 2023
+,received-send delay ,1128.686000,[msec] and size ,40960,
+packet_index ,184, sent_timestamp ,Thu Sep 21 19:59:40 2023
+,received-send delay ,1095.228000,[msec] and size ,40960,
+packet_index ,185, sent_timestamp ,Thu Sep 21 19:59:40 2023
+,received-send delay ,1061.781000,[msec] and size ,40960,
+packet_index ,186, sent_timestamp ,Thu Sep 21 19:59:40 2023
+,received-send delay ,1028.298000,[msec] and size ,40960,
+packet_index ,187, sent_timestamp ,Thu Sep 21 19:59:40 2023
+,received-send delay ,994.804000,[msec] and size ,40960,
+packet_index ,188, sent_timestamp ,Thu Sep 21 19:59:40 2023
+,received-send delay ,1231.698000,[msec] and size ,40960,
+packet_index ,189, sent_timestamp ,Thu Sep 21 19:59:40 2023
+,received-send delay ,1198.390000,[msec] and size ,40960,
+packet_index ,190, sent_timestamp ,Thu Sep 21 19:59:40 2023
+,received-send delay ,1165.078000,[msec] and size ,40960,
+packet_index ,191, sent_timestamp ,Thu Sep 21 19:59:40 2023
+,received-send delay ,1131.711000,[msec] and size ,40960,
+packet_index ,192, sent_timestamp ,Thu Sep 21 19:59:40 2023
+,received-send delay ,1098.302000,[msec] and size ,40960,
+packet_index ,193, sent_timestamp ,Thu Sep 21 19:59:40 2023
+,received-send delay ,1064.913000,[msec] and size ,40960,
+packet_index ,194, sent_timestamp ,Thu Sep 21 19:59:40 2023
+,received-send delay ,1031.493000,[msec] and size ,40960,
+packet_index ,195, sent_timestamp ,Thu Sep 21 19:59:40 2023
+,received-send delay ,998.167000,[msec] and size ,40960,
+packet_index ,196, sent_timestamp ,Thu Sep 21 19:59:40 2023
+,received-send delay ,964.746000,[msec] and size ,40960,
+packet_index ,197, sent_timestamp ,Thu Sep 21 19:59:40 2023
+,received-send delay ,1196.528000,[msec] and size ,40960,
+packet_index ,198, sent_timestamp ,Thu Sep 21 19:59:40 2023
+,received-send delay ,1163.180000,[msec] and size ,40960,
+packet_index ,199, sent_timestamp ,Thu Sep 21 19:59:40 2023
+,received-send delay ,1129.665000,[msec] and size ,40960,
+packet_index ,200, sent_timestamp ,Thu Sep 21 19:59:41 2023
+,received-send delay ,1096.109000,[msec] and size ,40960,
+packet_index ,201, sent_timestamp ,Thu Sep 21 19:59:41 2023
+,received-send delay ,1062.605000,[msec] and size ,40960,
+packet_index ,202, sent_timestamp ,Thu Sep 21 19:59:41 2023
+,received-send delay ,1029.069000,[msec] and size ,40960,
+packet_index ,203, sent_timestamp ,Thu Sep 21 19:59:41 2023
+,received-send delay ,995.712000,[msec] and size ,40960,
+packet_index ,204, sent_timestamp ,Thu Sep 21 19:59:41 2023
+,received-send delay ,1193.733000,[msec] and size ,40960,
+packet_index ,205, sent_timestamp ,Thu Sep 21 19:59:41 2023
+,received-send delay ,1160.441000,[msec] and size ,40960,
+packet_index ,206, sent_timestamp ,Thu Sep 21 19:59:41 2023
+,received-send delay ,1127.105000,[msec] and size ,40960,
+packet_index ,207, sent_timestamp ,Thu Sep 21 19:59:41 2023
+,received-send delay ,1093.734000,[msec] and size ,40960,
+packet_index ,208, sent_timestamp ,Thu Sep 21 19:59:41 2023
+,received-send delay ,1060.357000,[msec] and size ,40960,
+packet_index ,209, sent_timestamp ,Thu Sep 21 19:59:41 2023
+,received-send delay ,1027.049000,[msec] and size ,40960,
+packet_index ,210, sent_timestamp ,Thu Sep 21 19:59:41 2023
+,received-send delay ,993.729000,[msec] and size ,40960,
+packet_index ,211, sent_timestamp ,Thu Sep 21 19:59:41 2023
+,received-send delay ,1201.234000,[msec] and size ,40960,
+packet_index ,212, sent_timestamp ,Thu Sep 21 19:59:41 2023
+,received-send delay ,1167.861000,[msec] and size ,40960,
+packet_index ,213, sent_timestamp ,Thu Sep 21 19:59:41 2023
+,received-send delay ,1134.378000,[msec] and size ,40960,
+packet_index ,214, sent_timestamp ,Thu Sep 21 19:59:41 2023
+,received-send delay ,1101.016000,[msec] and size ,40960,
+packet_index ,215, sent_timestamp ,Thu Sep 21 19:59:41 2023
+,received-send delay ,1067.396000,[msec] and size ,40960,
+packet_index ,216, sent_timestamp ,Thu Sep 21 19:59:41 2023
+,received-send delay ,1034.043000,[msec] and size ,40960,
+packet_index ,217, sent_timestamp ,Thu Sep 21 19:59:41 2023
+,received-send delay ,1000.544000,[msec] and size ,40960,
+packet_index ,218, sent_timestamp ,Thu Sep 21 19:59:41 2023
+,received-send delay ,1220.721000,[msec] and size ,40960,
+packet_index ,219, sent_timestamp ,Thu Sep 21 19:59:41 2023
+,received-send delay ,1187.482000,[msec] and size ,40960,
+packet_index ,220, sent_timestamp ,Thu Sep 21 19:59:41 2023
+,received-send delay ,1154.223000,[msec] and size ,40960,
+packet_index ,221, sent_timestamp ,Thu Sep 21 19:59:41 2023
+,received-send delay ,1121.091000,[msec] and size ,40960,
+packet_index ,222, sent_timestamp ,Thu Sep 21 19:59:41 2023
+,received-send delay ,1087.945000,[msec] and size ,40960,
+packet_index ,223, sent_timestamp ,Thu Sep 21 19:59:41 2023
+,received-send delay ,1054.711000,[msec] and size ,40960,
+packet_index ,224, sent_timestamp ,Thu Sep 21 19:59:41 2023
+,received-send delay ,1021.521000,[msec] and size ,40960,
+packet_index ,225, sent_timestamp ,Thu Sep 21 19:59:41 2023
+,received-send delay ,1244.506000,[msec] and size ,40960,
+packet_index ,226, sent_timestamp ,Thu Sep 21 19:59:41 2023
+,received-send delay ,1211.133000,[msec] and size ,40960,
+packet_index ,227, sent_timestamp ,Thu Sep 21 19:59:41 2023
+,received-send delay ,1177.609000,[msec] and size ,40960,
+packet_index ,228, sent_timestamp ,Thu Sep 21 19:59:41 2023
+,received-send delay ,1144.143000,[msec] and size ,40960,
+packet_index ,229, sent_timestamp ,Thu Sep 21 19:59:41 2023
+,received-send delay ,1110.797000,[msec] and size ,40960,
+packet_index ,230, sent_timestamp ,Thu Sep 21 19:59:42 2023
+,received-send delay ,1077.417000,[msec] and size ,40960,
+packet_index ,231, sent_timestamp ,Thu Sep 21 19:59:42 2023
+,received-send delay ,1043.930000,[msec] and size ,40960,
+packet_index ,232, sent_timestamp ,Thu Sep 21 19:59:42 2023
+,received-send delay ,1269.789000,[msec] and size ,40960,
+packet_index ,233, sent_timestamp ,Thu Sep 21 19:59:42 2023
+,received-send delay ,1236.381000,[msec] and size ,40960,
+packet_index ,234, sent_timestamp ,Thu Sep 21 19:59:42 2023
+,received-send delay ,1202.911000,[msec] and size ,40960,
+packet_index ,235, sent_timestamp ,Thu Sep 21 19:59:42 2023
+,received-send delay ,1169.433000,[msec] and size ,40960,
+packet_index ,236, sent_timestamp ,Thu Sep 21 19:59:42 2023
+,received-send delay ,1135.949000,[msec] and size ,40960,
+packet_index ,237, sent_timestamp ,Thu Sep 21 19:59:42 2023
+,received-send delay ,1102.526000,[msec] and size ,40960,
+packet_index ,238, sent_timestamp ,Thu Sep 21 19:59:42 2023
+,received-send delay ,1069.095000,[msec] and size ,40960,
+packet_index ,239, sent_timestamp ,Thu Sep 21 19:59:42 2023
+,received-send delay ,1035.696000,[msec] and size ,40960,
+packet_index ,240, sent_timestamp ,Thu Sep 21 19:59:42 2023
+,received-send delay ,1002.300000,[msec] and size ,40960,
+packet_index ,241, sent_timestamp ,Thu Sep 21 19:59:42 2023
+,received-send delay ,1200.785000,[msec] and size ,40960,
+packet_index ,242, sent_timestamp ,Thu Sep 21 19:59:42 2023
+,received-send delay ,1167.525000,[msec] and size ,40960,
+packet_index ,243, sent_timestamp ,Thu Sep 21 19:59:42 2023
+,received-send delay ,1134.256000,[msec] and size ,40960,
+packet_index ,244, sent_timestamp ,Thu Sep 21 19:59:42 2023
+,received-send delay ,1100.716000,[msec] and size ,40960,
+packet_index ,245, sent_timestamp ,Thu Sep 21 19:59:42 2023
+,received-send delay ,1067.493000,[msec] and size ,40960,
+packet_index ,246, sent_timestamp ,Thu Sep 21 19:59:42 2023
+,received-send delay ,1034.214000,[msec] and size ,40960,
+packet_index ,247, sent_timestamp ,Thu Sep 21 19:59:42 2023
+,received-send delay ,1243.512000,[msec] and size ,40960,
+packet_index ,248, sent_timestamp ,Thu Sep 21 19:59:42 2023
+,received-send delay ,1210.259000,[msec] and size ,40960,
+packet_index ,249, sent_timestamp ,Thu Sep 21 19:59:42 2023
+,received-send delay ,1176.834000,[msec] and size ,40960,
+packet_index ,250, sent_timestamp ,Thu Sep 21 19:59:42 2023
+,received-send delay ,1143.342000,[msec] and size ,40960,
+packet_index ,251, sent_timestamp ,Thu Sep 21 19:59:42 2023
+,received-send delay ,1109.854000,[msec] and size ,40960,
+packet_index ,252, sent_timestamp ,Thu Sep 21 19:59:42 2023
+,received-send delay ,1076.426000,[msec] and size ,40960,
+packet_index ,253, sent_timestamp ,Thu Sep 21 19:59:42 2023
+,received-send delay ,1042.969000,[msec] and size ,40960,
+packet_index ,254, sent_timestamp ,Thu Sep 21 19:59:42 2023
+,received-send delay ,1244.646000,[msec] and size ,40960,
+packet_index ,255, sent_timestamp ,Thu Sep 21 19:59:42 2023
+,received-send delay ,1211.351000,[msec] and size ,40960,
+packet_index ,256, sent_timestamp ,Thu Sep 21 19:59:42 2023
+,received-send delay ,1177.964000,[msec] and size ,40960,
+packet_index ,257, sent_timestamp ,Thu Sep 21 19:59:42 2023
+,received-send delay ,1144.593000,[msec] and size ,40960,
+packet_index ,258, sent_timestamp ,Thu Sep 21 19:59:42 2023
+,received-send delay ,1111.163000,[msec] and size ,40960,
+packet_index ,259, sent_timestamp ,Thu Sep 21 19:59:42 2023
+,received-send delay ,1077.723000,[msec] and size ,40960,
+packet_index ,260, sent_timestamp ,Thu Sep 21 19:59:43 2023
+,received-send delay ,1044.327000,[msec] and size ,40960,
+packet_index ,261, sent_timestamp ,Thu Sep 21 19:59:43 2023
+,received-send delay ,1010.992000,[msec] and size ,40960,
+packet_index ,262, sent_timestamp ,Thu Sep 21 19:59:43 2023
+,received-send delay ,1207.541000,[msec] and size ,40960,
+packet_index ,263, sent_timestamp ,Thu Sep 21 19:59:43 2023
+,received-send delay ,1174.361000,[msec] and size ,40960,
+packet_index ,264, sent_timestamp ,Thu Sep 21 19:59:43 2023
+,received-send delay ,1140.927000,[msec] and size ,40960,
+packet_index ,265, sent_timestamp ,Thu Sep 21 19:59:43 2023
+,received-send delay ,1107.427000,[msec] and size ,40960,
+packet_index ,266, sent_timestamp ,Thu Sep 21 19:59:43 2023
+,received-send delay ,1073.999000,[msec] and size ,40960,
+packet_index ,267, sent_timestamp ,Thu Sep 21 19:59:43 2023
+,received-send delay ,1040.576000,[msec] and size ,40960,
+packet_index ,268, sent_timestamp ,Thu Sep 21 19:59:43 2023
+,received-send delay ,1007.119000,[msec] and size ,40960,
+packet_index ,269, sent_timestamp ,Thu Sep 21 19:59:43 2023
+,received-send delay ,1214.164000,[msec] and size ,40960,
+packet_index ,270, sent_timestamp ,Thu Sep 21 19:59:43 2023
+,received-send delay ,1180.890000,[msec] and size ,40960,
+packet_index ,271, sent_timestamp ,Thu Sep 21 19:59:43 2023
+,received-send delay ,1147.582000,[msec] and size ,40960,
+packet_index ,272, sent_timestamp ,Thu Sep 21 19:59:43 2023
+,received-send delay ,1114.156000,[msec] and size ,40960,
+packet_index ,273, sent_timestamp ,Thu Sep 21 19:59:43 2023
+,received-send delay ,1080.701000,[msec] and size ,40960,
+packet_index ,274, sent_timestamp ,Thu Sep 21 19:59:43 2023
+,received-send delay ,1047.405000,[msec] and size ,40960,
+packet_index ,275, sent_timestamp ,Thu Sep 21 19:59:43 2023
+,received-send delay ,1014.158000,[msec] and size ,40960,
+packet_index ,276, sent_timestamp ,Thu Sep 21 19:59:43 2023
+,received-send delay ,978.608000,[msec] and size ,40960,
+packet_index ,277, sent_timestamp ,Thu Sep 21 19:59:43 2023
+,received-send delay ,945.324000,[msec] and size ,40960,
+packet_index ,278, sent_timestamp ,Thu Sep 21 19:59:43 2023
+,received-send delay ,1155.396000,[msec] and size ,40960,
+packet_index ,279, sent_timestamp ,Thu Sep 21 19:59:43 2023
+,received-send delay ,1122.168000,[msec] and size ,40960,
+packet_index ,280, sent_timestamp ,Thu Sep 21 19:59:43 2023
+,received-send delay ,1088.848000,[msec] and size ,40960,
+packet_index ,281, sent_timestamp ,Thu Sep 21 19:59:43 2023
+,received-send delay ,1055.471000,[msec] and size ,40960,
+packet_index ,282, sent_timestamp ,Thu Sep 21 19:59:43 2023
+,received-send delay ,1022.151000,[msec] and size ,40960,
+packet_index ,283, sent_timestamp ,Thu Sep 21 19:59:43 2023
+,received-send delay ,988.811000,[msec] and size ,40960,
+packet_index ,284, sent_timestamp ,Thu Sep 21 19:59:43 2023
+,received-send delay ,1350.015000,[msec] and size ,40960,
+packet_index ,285, sent_timestamp ,Thu Sep 21 19:59:43 2023
+,received-send delay ,1316.734000,[msec] and size ,40960,
+packet_index ,286, sent_timestamp ,Thu Sep 21 19:59:43 2023
+,received-send delay ,1283.290000,[msec] and size ,40960,
+packet_index ,287, sent_timestamp ,Thu Sep 21 19:59:43 2023
+,received-send delay ,1249.861000,[msec] and size ,40960,
+packet_index ,288, sent_timestamp ,Thu Sep 21 19:59:43 2023
+,received-send delay ,1216.416000,[msec] and size ,40960,
+packet_index ,289, sent_timestamp ,Thu Sep 21 19:59:44 2023
+,received-send delay ,1183.019000,[msec] and size ,40960,
+packet_index ,290, sent_timestamp ,Thu Sep 21 19:59:44 2023
+,received-send delay ,1149.616000,[msec] and size ,40960,
+packet_index ,291, sent_timestamp ,Thu Sep 21 19:59:44 2023
+,received-send delay ,1116.173000,[msec] and size ,40960,
+packet_index ,292, sent_timestamp ,Thu Sep 21 19:59:44 2023
+,received-send delay ,1082.721000,[msec] and size ,40960,
+packet_index ,293, sent_timestamp ,Thu Sep 21 19:59:44 2023
+,received-send delay ,1049.355000,[msec] and size ,40960,
+packet_index ,294, sent_timestamp ,Thu Sep 21 19:59:44 2023
+,received-send delay ,1016.039000,[msec] and size ,40960,
+packet_index ,295, sent_timestamp ,Thu Sep 21 19:59:44 2023
+,received-send delay ,982.606000,[msec] and size ,40960,
+packet_index ,296, sent_timestamp ,Thu Sep 21 19:59:44 2023
+,received-send delay ,949.220000,[msec] and size ,40960,
+packet_index ,297, sent_timestamp ,Thu Sep 21 19:59:44 2023
+,received-send delay ,915.887000,[msec] and size ,40960,
+packet_index ,298, sent_timestamp ,Thu Sep 21 19:59:44 2023
+,received-send delay ,882.542000,[msec] and size ,40960,
+packet_index ,299, sent_timestamp ,Thu Sep 21 19:59:44 2023
+,received-send delay ,849.157000,[msec] and size ,40960,
+packet_index ,300, sent_timestamp ,Thu Sep 21 19:59:44 2023
+,received-send delay ,1138.893000,[msec] and size ,40960,
+start--------------------------------------------
+packet_index ,1, sent_timestamp ,Thu Sep 21 20:00:04 2023
+,received-send delay ,567.850000,[msec] and size ,40960,
+packet_index ,2, sent_timestamp ,Thu Sep 21 20:00:04 2023
+,received-send delay ,200.084000,[msec] and size ,40960,
+packet_index ,3, sent_timestamp ,Thu Sep 21 20:00:04 2023
+,received-send delay ,159.336000,[msec] and size ,40960,
+packet_index ,4, sent_timestamp ,Thu Sep 21 20:00:04 2023
+,received-send delay ,178.338000,[msec] and size ,40960,
+packet_index ,5, sent_timestamp ,Thu Sep 21 20:00:04 2023
+,received-send delay ,206.083000,[msec] and size ,40960,
+packet_index ,6, sent_timestamp ,Thu Sep 21 20:00:04 2023
+,received-send delay ,199.220000,[msec] and size ,40960,
+packet_index ,7, sent_timestamp ,Thu Sep 21 20:00:05 2023
+,received-send delay ,223.464000,[msec] and size ,40960,
+packet_index ,8, sent_timestamp ,Thu Sep 21 20:00:05 2023
+,received-send delay ,213.769000,[msec] and size ,40960,
+packet_index ,9, sent_timestamp ,Thu Sep 21 20:00:05 2023
+,received-send delay ,136.381000,[msec] and size ,40960,
+packet_index ,10, sent_timestamp ,Thu Sep 21 20:00:05 2023
+,received-send delay ,167.283000,[msec] and size ,40960,
+packet_index ,11, sent_timestamp ,Thu Sep 21 20:00:05 2023
+,received-send delay ,193.979000,[msec] and size ,40960,
+packet_index ,12, sent_timestamp ,Thu Sep 21 20:00:05 2023
+,received-send delay ,158.390000,[msec] and size ,40960,
+packet_index ,13, sent_timestamp ,Thu Sep 21 20:00:05 2023
+,received-send delay ,198.134000,[msec] and size ,40960,
+packet_index ,14, sent_timestamp ,Thu Sep 21 20:00:05 2023
+,received-send delay ,164.830000,[msec] and size ,40960,
+packet_index ,15, sent_timestamp ,Thu Sep 21 20:00:05 2023
+,received-send delay ,216.551000,[msec] and size ,40960,
+packet_index ,16, sent_timestamp ,Thu Sep 21 20:00:05 2023
+,received-send delay ,183.156000,[msec] and size ,40960,
+packet_index ,17, sent_timestamp ,Thu Sep 21 20:00:05 2023
+,received-send delay ,224.663000,[msec] and size ,40960,
+packet_index ,18, sent_timestamp ,Thu Sep 21 20:00:05 2023
+,received-send delay ,191.353000,[msec] and size ,40960,
+packet_index ,19, sent_timestamp ,Thu Sep 21 20:00:05 2023
+,received-send delay ,242.641000,[msec] and size ,40960,
+packet_index ,20, sent_timestamp ,Thu Sep 21 20:00:05 2023
+,received-send delay ,193.512000,[msec] and size ,40960,
+packet_index ,21, sent_timestamp ,Thu Sep 21 20:00:05 2023
+,received-send delay ,251.152000,[msec] and size ,40960,
+packet_index ,22, sent_timestamp ,Thu Sep 21 20:00:05 2023
+,received-send delay ,208.037000,[msec] and size ,40960,
+packet_index ,23, sent_timestamp ,Thu Sep 21 20:00:05 2023
+,received-send delay ,174.664000,[msec] and size ,40960,
+packet_index ,24, sent_timestamp ,Thu Sep 21 20:00:05 2023
+,received-send delay ,259.763000,[msec] and size ,40960,
+packet_index ,25, sent_timestamp ,Thu Sep 21 20:00:05 2023
+,received-send delay ,226.539000,[msec] and size ,40960,
+packet_index ,26, sent_timestamp ,Thu Sep 21 20:00:05 2023
+,received-send delay ,257.458000,[msec] and size ,40960,
+packet_index ,27, sent_timestamp ,Thu Sep 21 20:00:05 2023
+,received-send delay ,224.234000,[msec] and size ,40960,
+packet_index ,28, sent_timestamp ,Thu Sep 21 20:00:05 2023
+,received-send delay ,547.275000,[msec] and size ,40960,
+packet_index ,29, sent_timestamp ,Thu Sep 21 20:00:05 2023
+,received-send delay ,656.754000,[msec] and size ,40960,
+packet_index ,30, sent_timestamp ,Thu Sep 21 20:00:05 2023
+,received-send delay ,623.467000,[msec] and size ,40960,
+packet_index ,31, sent_timestamp ,Thu Sep 21 20:00:05 2023
+,received-send delay ,590.091000,[msec] and size ,40960,
+packet_index ,32, sent_timestamp ,Thu Sep 21 20:00:05 2023
+,received-send delay ,556.742000,[msec] and size ,40960,
+packet_index ,33, sent_timestamp ,Thu Sep 21 20:00:06 2023
+,received-send delay ,523.820000,[msec] and size ,40960,
+packet_index ,34, sent_timestamp ,Thu Sep 21 20:00:06 2023
+,received-send delay ,490.423000,[msec] and size ,40960,
+packet_index ,35, sent_timestamp ,Thu Sep 21 20:00:06 2023
+,received-send delay ,457.087000,[msec] and size ,40960,
+packet_index ,36, sent_timestamp ,Thu Sep 21 20:00:06 2023
+,received-send delay ,423.833000,[msec] and size ,40960,
+packet_index ,37, sent_timestamp ,Thu Sep 21 20:00:06 2023
+,received-send delay ,390.348000,[msec] and size ,40960,
+packet_index ,38, sent_timestamp ,Thu Sep 21 20:00:06 2023
+,received-send delay ,356.851000,[msec] and size ,40960,
+packet_index ,39, sent_timestamp ,Thu Sep 21 20:00:06 2023
+,received-send delay ,323.497000,[msec] and size ,40960,
+packet_index ,40, sent_timestamp ,Thu Sep 21 20:00:06 2023
+,received-send delay ,290.150000,[msec] and size ,40960,
+packet_index ,41, sent_timestamp ,Thu Sep 21 20:00:06 2023
+,received-send delay ,353.887000,[msec] and size ,40960,
+packet_index ,42, sent_timestamp ,Thu Sep 21 20:00:06 2023
+,received-send delay ,320.461000,[msec] and size ,40960,
+packet_index ,43, sent_timestamp ,Thu Sep 21 20:00:06 2023
+,received-send delay ,287.007000,[msec] and size ,40960,
+packet_index ,44, sent_timestamp ,Thu Sep 21 20:00:06 2023
+,received-send delay ,385.351000,[msec] and size ,40960,
+packet_index ,45, sent_timestamp ,Thu Sep 21 20:00:06 2023
+,received-send delay ,352.066000,[msec] and size ,40960,
+packet_index ,46, sent_timestamp ,Thu Sep 21 20:00:06 2023
+,received-send delay ,463.383000,[msec] and size ,40960,
+packet_index ,47, sent_timestamp ,Thu Sep 21 20:00:06 2023
+,received-send delay ,430.115000,[msec] and size ,40960,
+packet_index ,48, sent_timestamp ,Thu Sep 21 20:00:06 2023
+,received-send delay ,396.957000,[msec] and size ,40960,
+packet_index ,49, sent_timestamp ,Thu Sep 21 20:00:06 2023
+,received-send delay ,363.613000,[msec] and size ,40960,
+packet_index ,50, sent_timestamp ,Thu Sep 21 20:00:06 2023
+,received-send delay ,330.259000,[msec] and size ,40960,
+packet_index ,51, sent_timestamp ,Thu Sep 21 20:00:06 2023
+,received-send delay ,297.003000,[msec] and size ,40960,
+packet_index ,52, sent_timestamp ,Thu Sep 21 20:00:06 2023
+,received-send delay ,418.124000,[msec] and size ,40960,
+packet_index ,53, sent_timestamp ,Thu Sep 21 20:00:06 2023
+,received-send delay ,564.108000,[msec] and size ,40960,
+packet_index ,54, sent_timestamp ,Thu Sep 21 20:00:06 2023
+,received-send delay ,531.473000,[msec] and size ,40960,
+packet_index ,55, sent_timestamp ,Thu Sep 21 20:00:06 2023
+,received-send delay ,498.144000,[msec] and size ,40960,
+packet_index ,56, sent_timestamp ,Thu Sep 21 20:00:06 2023
+,received-send delay ,465.178000,[msec] and size ,40960,
+packet_index ,57, sent_timestamp ,Thu Sep 21 20:00:06 2023
+,received-send delay ,431.771000,[msec] and size ,40960,
+packet_index ,58, sent_timestamp ,Thu Sep 21 20:00:06 2023
+,received-send delay ,398.393000,[msec] and size ,40960,
+packet_index ,59, sent_timestamp ,Thu Sep 21 20:00:06 2023
+,received-send delay ,365.029000,[msec] and size ,40960,
+packet_index ,60, sent_timestamp ,Thu Sep 21 20:00:06 2023
+,received-send delay ,331.655000,[msec] and size ,40960,
+packet_index ,61, sent_timestamp ,Thu Sep 21 20:00:06 2023
+,received-send delay ,425.528000,[msec] and size ,40960,
+packet_index ,62, sent_timestamp ,Thu Sep 21 20:00:06 2023
+,received-send delay ,392.411000,[msec] and size ,40960,
+packet_index ,63, sent_timestamp ,Thu Sep 21 20:00:07 2023
+,received-send delay ,532.069000,[msec] and size ,40960,
+packet_index ,64, sent_timestamp ,Thu Sep 21 20:00:07 2023
+,received-send delay ,498.858000,[msec] and size ,40960,
+packet_index ,65, sent_timestamp ,Thu Sep 21 20:00:07 2023
+,received-send delay ,465.579000,[msec] and size ,40960,
+packet_index ,66, sent_timestamp ,Thu Sep 21 20:00:07 2023
+,received-send delay ,432.788000,[msec] and size ,40960,
+packet_index ,67, sent_timestamp ,Thu Sep 21 20:00:07 2023
+,received-send delay ,399.324000,[msec] and size ,40960,
+packet_index ,68, sent_timestamp ,Thu Sep 21 20:00:07 2023
+,received-send delay ,365.967000,[msec] and size ,40960,
+packet_index ,69, sent_timestamp ,Thu Sep 21 20:00:07 2023
+,received-send delay ,539.281000,[msec] and size ,40960,
+packet_index ,70, sent_timestamp ,Thu Sep 21 20:00:07 2023
+,received-send delay ,506.432000,[msec] and size ,40960,
+packet_index ,71, sent_timestamp ,Thu Sep 21 20:00:07 2023
+,received-send delay ,473.176000,[msec] and size ,40960,
+packet_index ,72, sent_timestamp ,Thu Sep 21 20:00:07 2023
+,received-send delay ,439.855000,[msec] and size ,40960,
+packet_index ,73, sent_timestamp ,Thu Sep 21 20:00:07 2023
+,received-send delay ,406.464000,[msec] and size ,40960,
+packet_index ,74, sent_timestamp ,Thu Sep 21 20:00:07 2023
+,received-send delay ,373.115000,[msec] and size ,40960,
+packet_index ,75, sent_timestamp ,Thu Sep 21 20:00:07 2023
+,received-send delay ,339.751000,[msec] and size ,40960,
+packet_index ,76, sent_timestamp ,Thu Sep 21 20:00:07 2023
+,received-send delay ,306.273000,[msec] and size ,40960,
+packet_index ,77, sent_timestamp ,Thu Sep 21 20:00:07 2023
+,received-send delay ,437.530000,[msec] and size ,40960,
+packet_index ,78, sent_timestamp ,Thu Sep 21 20:00:07 2023
+,received-send delay ,404.160000,[msec] and size ,40960,
+packet_index ,79, sent_timestamp ,Thu Sep 21 20:00:07 2023
+,received-send delay ,370.770000,[msec] and size ,40960,
+packet_index ,80, sent_timestamp ,Thu Sep 21 20:00:07 2023
+,received-send delay ,337.341000,[msec] and size ,40960,
+packet_index ,81, sent_timestamp ,Thu Sep 21 20:00:07 2023
+,received-send delay ,303.971000,[msec] and size ,40960,
+packet_index ,82, sent_timestamp ,Thu Sep 21 20:00:07 2023
+,received-send delay ,270.614000,[msec] and size ,40960,
+packet_index ,83, sent_timestamp ,Thu Sep 21 20:00:07 2023
+,received-send delay ,421.210000,[msec] and size ,40960,
+packet_index ,84, sent_timestamp ,Thu Sep 21 20:00:07 2023
+,received-send delay ,387.401000,[msec] and size ,40960,
+packet_index ,85, sent_timestamp ,Thu Sep 21 20:00:07 2023
+,received-send delay ,353.955000,[msec] and size ,40960,
+packet_index ,86, sent_timestamp ,Thu Sep 21 20:00:07 2023
+,received-send delay ,320.466000,[msec] and size ,40960,
+packet_index ,87, sent_timestamp ,Thu Sep 21 20:00:07 2023
+,received-send delay ,287.115000,[msec] and size ,40960,
+packet_index ,88, sent_timestamp ,Thu Sep 21 20:00:07 2023
+,received-send delay ,429.090000,[msec] and size ,40960,
+packet_index ,89, sent_timestamp ,Thu Sep 21 20:00:07 2023
+,received-send delay ,395.713000,[msec] and size ,40960,
+packet_index ,90, sent_timestamp ,Thu Sep 21 20:00:07 2023
+,received-send delay ,362.239000,[msec] and size ,40960,
+packet_index ,91, sent_timestamp ,Thu Sep 21 20:00:07 2023
+,received-send delay ,328.858000,[msec] and size ,40960,
+packet_index ,92, sent_timestamp ,Thu Sep 21 20:00:08 2023
+,received-send delay ,295.450000,[msec] and size ,40960,
+packet_index ,93, sent_timestamp ,Thu Sep 21 20:00:08 2023
+,received-send delay ,488.608000,[msec] and size ,40960,
+packet_index ,94, sent_timestamp ,Thu Sep 21 20:00:08 2023
+,received-send delay ,455.419000,[msec] and size ,40960,
+packet_index ,95, sent_timestamp ,Thu Sep 21 20:00:08 2023
+,received-send delay ,422.140000,[msec] and size ,40960,
+packet_index ,96, sent_timestamp ,Thu Sep 21 20:00:08 2023
+,received-send delay ,388.737000,[msec] and size ,40960,
+packet_index ,97, sent_timestamp ,Thu Sep 21 20:00:08 2023
+,received-send delay ,355.431000,[msec] and size ,40960,
+packet_index ,98, sent_timestamp ,Thu Sep 21 20:00:08 2023
+,received-send delay ,322.040000,[msec] and size ,40960,
+packet_index ,99, sent_timestamp ,Thu Sep 21 20:00:08 2023
+,received-send delay ,465.006000,[msec] and size ,40960,
+packet_index ,100, sent_timestamp ,Thu Sep 21 20:00:08 2023
+,received-send delay ,431.722000,[msec] and size ,40960,
+packet_index ,101, sent_timestamp ,Thu Sep 21 20:00:08 2023
+,received-send delay ,398.239000,[msec] and size ,40960,
+packet_index ,102, sent_timestamp ,Thu Sep 21 20:00:08 2023
+,received-send delay ,364.819000,[msec] and size ,40960,
+packet_index ,103, sent_timestamp ,Thu Sep 21 20:00:08 2023
+,received-send delay ,331.398000,[msec] and size ,40960,
+packet_index ,104, sent_timestamp ,Thu Sep 21 20:00:08 2023
+,received-send delay ,298.045000,[msec] and size ,40960,
+packet_index ,105, sent_timestamp ,Thu Sep 21 20:00:08 2023
+,received-send delay ,492.724000,[msec] and size ,40960,
+packet_index ,106, sent_timestamp ,Thu Sep 21 20:00:08 2023
+,received-send delay ,459.288000,[msec] and size ,40960,
+packet_index ,107, sent_timestamp ,Thu Sep 21 20:00:08 2023
+,received-send delay ,425.926000,[msec] and size ,40960,
+packet_index ,108, sent_timestamp ,Thu Sep 21 20:00:08 2023
+,received-send delay ,392.602000,[msec] and size ,40960,
+packet_index ,109, sent_timestamp ,Thu Sep 21 20:00:08 2023
+,received-send delay ,359.278000,[msec] and size ,40960,
+packet_index ,110, sent_timestamp ,Thu Sep 21 20:00:08 2023
+,received-send delay ,325.938000,[msec] and size ,40960,
+packet_index ,111, sent_timestamp ,Thu Sep 21 20:00:08 2023
+,received-send delay ,292.554000,[msec] and size ,40960,
+packet_index ,112, sent_timestamp ,Thu Sep 21 20:00:08 2023
+,received-send delay ,511.320000,[msec] and size ,40960,
+packet_index ,113, sent_timestamp ,Thu Sep 21 20:00:08 2023
+,received-send delay ,478.181000,[msec] and size ,40960,
+packet_index ,114, sent_timestamp ,Thu Sep 21 20:00:08 2023
+,received-send delay ,444.840000,[msec] and size ,40960,
+packet_index ,115, sent_timestamp ,Thu Sep 21 20:00:08 2023
+,received-send delay ,411.482000,[msec] and size ,40960,
+packet_index ,116, sent_timestamp ,Thu Sep 21 20:00:08 2023
+,received-send delay ,378.112000,[msec] and size ,40960,
+packet_index ,117, sent_timestamp ,Thu Sep 21 20:00:08 2023
+,received-send delay ,344.804000,[msec] and size ,40960,
+packet_index ,118, sent_timestamp ,Thu Sep 21 20:00:08 2023
+,received-send delay ,311.542000,[msec] and size ,40960,
+packet_index ,119, sent_timestamp ,Thu Sep 21 20:00:08 2023
+,received-send delay ,494.023000,[msec] and size ,40960,
+packet_index ,120, sent_timestamp ,Thu Sep 21 20:00:08 2023
+,received-send delay ,460.723000,[msec] and size ,40960,
+packet_index ,121, sent_timestamp ,Thu Sep 21 20:00:08 2023
+,received-send delay ,427.392000,[msec] and size ,40960,
+packet_index ,122, sent_timestamp ,Thu Sep 21 20:00:09 2023
+,received-send delay ,394.191000,[msec] and size ,40960,
+packet_index ,123, sent_timestamp ,Thu Sep 21 20:00:09 2023
+,received-send delay ,360.799000,[msec] and size ,40960,
+packet_index ,124, sent_timestamp ,Thu Sep 21 20:00:09 2023
+,received-send delay ,327.409000,[msec] and size ,40960,
+packet_index ,125, sent_timestamp ,Thu Sep 21 20:00:09 2023
+,received-send delay ,293.972000,[msec] and size ,40960,
+packet_index ,126, sent_timestamp ,Thu Sep 21 20:00:09 2023
+,received-send delay ,567.642000,[msec] and size ,40960,
+packet_index ,127, sent_timestamp ,Thu Sep 21 20:00:09 2023
+,received-send delay ,534.402000,[msec] and size ,40960,
+packet_index ,128, sent_timestamp ,Thu Sep 21 20:00:09 2023
+,received-send delay ,501.159000,[msec] and size ,40960,
+packet_index ,129, sent_timestamp ,Thu Sep 21 20:00:09 2023
+,received-send delay ,468.014000,[msec] and size ,40960,
+packet_index ,130, sent_timestamp ,Thu Sep 21 20:00:09 2023
+,received-send delay ,434.791000,[msec] and size ,40960,
+packet_index ,131, sent_timestamp ,Thu Sep 21 20:00:09 2023
+,received-send delay ,401.372000,[msec] and size ,40960,
+packet_index ,132, sent_timestamp ,Thu Sep 21 20:00:09 2023
+,received-send delay ,367.990000,[msec] and size ,40960,
+packet_index ,133, sent_timestamp ,Thu Sep 21 20:00:09 2023
+,received-send delay ,572.865000,[msec] and size ,40960,
+packet_index ,134, sent_timestamp ,Thu Sep 21 20:00:09 2023
+,received-send delay ,539.502000,[msec] and size ,40960,
+packet_index ,135, sent_timestamp ,Thu Sep 21 20:00:09 2023
+,received-send delay ,506.078000,[msec] and size ,40960,
+packet_index ,136, sent_timestamp ,Thu Sep 21 20:00:09 2023
+,received-send delay ,472.642000,[msec] and size ,40960,
+packet_index ,137, sent_timestamp ,Thu Sep 21 20:00:09 2023
+,received-send delay ,439.194000,[msec] and size ,40960,
+packet_index ,138, sent_timestamp ,Thu Sep 21 20:00:09 2023
+,received-send delay ,405.746000,[msec] and size ,40960,
+packet_index ,139, sent_timestamp ,Thu Sep 21 20:00:09 2023
+,received-send delay ,372.311000,[msec] and size ,40960,
+packet_index ,140, sent_timestamp ,Thu Sep 21 20:00:09 2023
+,received-send delay ,338.866000,[msec] and size ,40960,
+packet_index ,141, sent_timestamp ,Thu Sep 21 20:00:09 2023
+,received-send delay ,305.459000,[msec] and size ,40960,
+packet_index ,142, sent_timestamp ,Thu Sep 21 20:00:09 2023
+,received-send delay ,507.880000,[msec] and size ,40960,
+packet_index ,143, sent_timestamp ,Thu Sep 21 20:00:09 2023
+,received-send delay ,475.533000,[msec] and size ,40960,
+packet_index ,144, sent_timestamp ,Thu Sep 21 20:00:09 2023
+,received-send delay ,442.173000,[msec] and size ,40960,
+packet_index ,145, sent_timestamp ,Thu Sep 21 20:00:09 2023
+,received-send delay ,408.818000,[msec] and size ,40960,
+packet_index ,146, sent_timestamp ,Thu Sep 21 20:00:09 2023
+,received-send delay ,375.292000,[msec] and size ,40960,
+packet_index ,147, sent_timestamp ,Thu Sep 21 20:00:09 2023
+,received-send delay ,342.006000,[msec] and size ,40960,
+packet_index ,148, sent_timestamp ,Thu Sep 21 20:00:09 2023
+,received-send delay ,559.782000,[msec] and size ,40960,
+packet_index ,149, sent_timestamp ,Thu Sep 21 20:00:09 2023
+,received-send delay ,526.452000,[msec] and size ,40960,
+packet_index ,150, sent_timestamp ,Thu Sep 21 20:00:09 2023
+,received-send delay ,493.046000,[msec] and size ,40960,
+packet_index ,151, sent_timestamp ,Thu Sep 21 20:00:09 2023
+,received-send delay ,459.676000,[msec] and size ,40960,
+packet_index ,152, sent_timestamp ,Thu Sep 21 20:00:10 2023
+,received-send delay ,426.298000,[msec] and size ,40960,
+packet_index ,153, sent_timestamp ,Thu Sep 21 20:00:10 2023
+,received-send delay ,392.914000,[msec] and size ,40960,
+packet_index ,154, sent_timestamp ,Thu Sep 21 20:00:10 2023
+,received-send delay ,359.543000,[msec] and size ,40960,
+packet_index ,155, sent_timestamp ,Thu Sep 21 20:00:10 2023
+,received-send delay ,580.769000,[msec] and size ,40960,
+packet_index ,156, sent_timestamp ,Thu Sep 21 20:00:10 2023
+,received-send delay ,547.399000,[msec] and size ,40960,
+packet_index ,157, sent_timestamp ,Thu Sep 21 20:00:10 2023
+,received-send delay ,514.043000,[msec] and size ,40960,
+packet_index ,158, sent_timestamp ,Thu Sep 21 20:00:10 2023
+,received-send delay ,480.633000,[msec] and size ,40960,
+packet_index ,159, sent_timestamp ,Thu Sep 21 20:00:10 2023
+,received-send delay ,447.280000,[msec] and size ,40960,
+packet_index ,160, sent_timestamp ,Thu Sep 21 20:00:10 2023
+,received-send delay ,413.913000,[msec] and size ,40960,
+packet_index ,161, sent_timestamp ,Thu Sep 21 20:00:10 2023
+,received-send delay ,380.392000,[msec] and size ,40960,
+packet_index ,162, sent_timestamp ,Thu Sep 21 20:00:10 2023
+,received-send delay ,346.986000,[msec] and size ,40960,
+packet_index ,163, sent_timestamp ,Thu Sep 21 20:00:10 2023
+,received-send delay ,313.544000,[msec] and size ,40960,
+packet_index ,164, sent_timestamp ,Thu Sep 21 20:00:10 2023
+,received-send delay ,523.434000,[msec] and size ,40960,
+packet_index ,165, sent_timestamp ,Thu Sep 21 20:00:10 2023
+,received-send delay ,490.160000,[msec] and size ,40960,
+packet_index ,166, sent_timestamp ,Thu Sep 21 20:00:10 2023
+,received-send delay ,457.559000,[msec] and size ,40960,
+packet_index ,167, sent_timestamp ,Thu Sep 21 20:00:10 2023
+,received-send delay ,424.348000,[msec] and size ,40960,
+packet_index ,168, sent_timestamp ,Thu Sep 21 20:00:10 2023
+,received-send delay ,391.046000,[msec] and size ,40960,
+packet_index ,169, sent_timestamp ,Thu Sep 21 20:00:10 2023
+,received-send delay ,357.755000,[msec] and size ,40960,
+packet_index ,170, sent_timestamp ,Thu Sep 21 20:00:10 2023
+,received-send delay ,324.484000,[msec] and size ,40960,
+packet_index ,171, sent_timestamp ,Thu Sep 21 20:00:10 2023
+,received-send delay ,571.577000,[msec] and size ,40960,
+packet_index ,172, sent_timestamp ,Thu Sep 21 20:00:10 2023
+,received-send delay ,538.198000,[msec] and size ,40960,
+packet_index ,173, sent_timestamp ,Thu Sep 21 20:00:10 2023
+,received-send delay ,504.708000,[msec] and size ,40960,
+packet_index ,174, sent_timestamp ,Thu Sep 21 20:00:10 2023
+,received-send delay ,471.281000,[msec] and size ,40960,
+packet_index ,175, sent_timestamp ,Thu Sep 21 20:00:10 2023
+,received-send delay ,437.954000,[msec] and size ,40960,
+packet_index ,176, sent_timestamp ,Thu Sep 21 20:00:10 2023
+,received-send delay ,404.486000,[msec] and size ,40960,
+packet_index ,177, sent_timestamp ,Thu Sep 21 20:00:10 2023
+,received-send delay ,370.977000,[msec] and size ,40960,
+packet_index ,178, sent_timestamp ,Thu Sep 21 20:00:10 2023
+,received-send delay ,595.088000,[msec] and size ,40960,
+packet_index ,179, sent_timestamp ,Thu Sep 21 20:00:10 2023
+,received-send delay ,561.814000,[msec] and size ,40960,
+packet_index ,180, sent_timestamp ,Thu Sep 21 20:00:10 2023
+,received-send delay ,528.471000,[msec] and size ,40960,
+packet_index ,181, sent_timestamp ,Thu Sep 21 20:00:10 2023
+,received-send delay ,495.078000,[msec] and size ,40960,
+packet_index ,182, sent_timestamp ,Thu Sep 21 20:00:11 2023
+,received-send delay ,461.701000,[msec] and size ,40960,
+packet_index ,183, sent_timestamp ,Thu Sep 21 20:00:11 2023
+,received-send delay ,428.276000,[msec] and size ,40960,
+packet_index ,184, sent_timestamp ,Thu Sep 21 20:00:11 2023
+,received-send delay ,394.833000,[msec] and size ,40960,
+packet_index ,185, sent_timestamp ,Thu Sep 21 20:00:11 2023
+,received-send delay ,361.340000,[msec] and size ,40960,
+packet_index ,186, sent_timestamp ,Thu Sep 21 20:00:11 2023
+,received-send delay ,327.912000,[msec] and size ,40960,
+packet_index ,187, sent_timestamp ,Thu Sep 21 20:00:11 2023
+,received-send delay ,587.412000,[msec] and size ,40960,
+packet_index ,188, sent_timestamp ,Thu Sep 21 20:00:11 2023
+,received-send delay ,554.002000,[msec] and size ,40960,
+packet_index ,189, sent_timestamp ,Thu Sep 21 20:00:11 2023
+,received-send delay ,520.543000,[msec] and size ,40960,
+packet_index ,190, sent_timestamp ,Thu Sep 21 20:00:11 2023
+,received-send delay ,487.170000,[msec] and size ,40960,
+packet_index ,191, sent_timestamp ,Thu Sep 21 20:00:11 2023
+,received-send delay ,453.808000,[msec] and size ,40960,
+packet_index ,192, sent_timestamp ,Thu Sep 21 20:00:11 2023
+,received-send delay ,420.396000,[msec] and size ,40960,
+packet_index ,193, sent_timestamp ,Thu Sep 21 20:00:11 2023
+,received-send delay ,386.956000,[msec] and size ,40960,
+packet_index ,194, sent_timestamp ,Thu Sep 21 20:00:11 2023
+,received-send delay ,353.492000,[msec] and size ,40960,
+packet_index ,195, sent_timestamp ,Thu Sep 21 20:00:11 2023
+,received-send delay ,574.128000,[msec] and size ,40960,
+packet_index ,196, sent_timestamp ,Thu Sep 21 20:00:11 2023
+,received-send delay ,540.766000,[msec] and size ,40960,
+packet_index ,197, sent_timestamp ,Thu Sep 21 20:00:11 2023
+,received-send delay ,507.303000,[msec] and size ,40960,
+packet_index ,198, sent_timestamp ,Thu Sep 21 20:00:11 2023
+,received-send delay ,473.860000,[msec] and size ,40960,
+packet_index ,199, sent_timestamp ,Thu Sep 21 20:00:11 2023
+,received-send delay ,440.274000,[msec] and size ,40960,
+packet_index ,200, sent_timestamp ,Thu Sep 21 20:00:11 2023
+,received-send delay ,406.818000,[msec] and size ,40960,
+packet_index ,201, sent_timestamp ,Thu Sep 21 20:00:11 2023
+,received-send delay ,373.304000,[msec] and size ,40960,
+packet_index ,202, sent_timestamp ,Thu Sep 21 20:00:11 2023
+,received-send delay ,339.963000,[msec] and size ,40960,
+packet_index ,203, sent_timestamp ,Thu Sep 21 20:00:11 2023
+,received-send delay ,584.156000,[msec] and size ,40960,
+packet_index ,204, sent_timestamp ,Thu Sep 21 20:00:11 2023
+,received-send delay ,550.804000,[msec] and size ,40960,
+packet_index ,205, sent_timestamp ,Thu Sep 21 20:00:11 2023
+,received-send delay ,517.502000,[msec] and size ,40960,
+packet_index ,206, sent_timestamp ,Thu Sep 21 20:00:11 2023
+,received-send delay ,484.262000,[msec] and size ,40960,
+packet_index ,207, sent_timestamp ,Thu Sep 21 20:00:11 2023
+,received-send delay ,450.732000,[msec] and size ,40960,
+packet_index ,208, sent_timestamp ,Thu Sep 21 20:00:11 2023
+,received-send delay ,417.245000,[msec] and size ,40960,
+packet_index ,209, sent_timestamp ,Thu Sep 21 20:00:11 2023
+,received-send delay ,383.917000,[msec] and size ,40960,
+packet_index ,210, sent_timestamp ,Thu Sep 21 20:00:11 2023
+,received-send delay ,350.558000,[msec] and size ,40960,
+packet_index ,211, sent_timestamp ,Thu Sep 21 20:00:11 2023
+,received-send delay ,566.620000,[msec] and size ,40960,
+packet_index ,212, sent_timestamp ,Thu Sep 21 20:00:12 2023
+,received-send delay ,533.500000,[msec] and size ,40960,
+packet_index ,213, sent_timestamp ,Thu Sep 21 20:00:12 2023
+,received-send delay ,500.192000,[msec] and size ,40960,
+packet_index ,214, sent_timestamp ,Thu Sep 21 20:00:12 2023
+,received-send delay ,466.966000,[msec] and size ,40960,
+packet_index ,215, sent_timestamp ,Thu Sep 21 20:00:12 2023
+,received-send delay ,433.673000,[msec] and size ,40960,
+packet_index ,216, sent_timestamp ,Thu Sep 21 20:00:12 2023
+,received-send delay ,400.407000,[msec] and size ,40960,
+packet_index ,217, sent_timestamp ,Thu Sep 21 20:00:12 2023
+,received-send delay ,367.212000,[msec] and size ,40960,
+packet_index ,218, sent_timestamp ,Thu Sep 21 20:00:12 2023
+,received-send delay ,333.999000,[msec] and size ,40960,
+packet_index ,219, sent_timestamp ,Thu Sep 21 20:00:12 2023
+,received-send delay ,605.727000,[msec] and size ,40960,
+packet_index ,220, sent_timestamp ,Thu Sep 21 20:00:12 2023
+,received-send delay ,572.358000,[msec] and size ,40960,
+packet_index ,221, sent_timestamp ,Thu Sep 21 20:00:12 2023
+,received-send delay ,538.986000,[msec] and size ,40960,
+packet_index ,222, sent_timestamp ,Thu Sep 21 20:00:12 2023
+,received-send delay ,505.487000,[msec] and size ,40960,
+packet_index ,223, sent_timestamp ,Thu Sep 21 20:00:12 2023
+,received-send delay ,472.062000,[msec] and size ,40960,
+packet_index ,224, sent_timestamp ,Thu Sep 21 20:00:12 2023
+,received-send delay ,438.685000,[msec] and size ,40960,
+packet_index ,225, sent_timestamp ,Thu Sep 21 20:00:12 2023
+,received-send delay ,405.315000,[msec] and size ,40960,
+packet_index ,226, sent_timestamp ,Thu Sep 21 20:00:12 2023
+,received-send delay ,371.865000,[msec] and size ,40960,
+packet_index ,227, sent_timestamp ,Thu Sep 21 20:00:12 2023
+,received-send delay ,620.373000,[msec] and size ,40960,
+packet_index ,228, sent_timestamp ,Thu Sep 21 20:00:12 2023
+,received-send delay ,587.063000,[msec] and size ,40960,
+packet_index ,229, sent_timestamp ,Thu Sep 21 20:00:12 2023
+,received-send delay ,553.650000,[msec] and size ,40960,
+packet_index ,230, sent_timestamp ,Thu Sep 21 20:00:12 2023
+,received-send delay ,520.220000,[msec] and size ,40960,
+packet_index ,231, sent_timestamp ,Thu Sep 21 20:00:12 2023
+,received-send delay ,486.664000,[msec] and size ,40960,
+packet_index ,232, sent_timestamp ,Thu Sep 21 20:00:12 2023
+,received-send delay ,453.289000,[msec] and size ,40960,
+packet_index ,233, sent_timestamp ,Thu Sep 21 20:00:12 2023
+,received-send delay ,419.966000,[msec] and size ,40960,
+packet_index ,234, sent_timestamp ,Thu Sep 21 20:00:12 2023
+,received-send delay ,386.547000,[msec] and size ,40960,
+packet_index ,235, sent_timestamp ,Thu Sep 21 20:00:12 2023
+,received-send delay ,353.156000,[msec] and size ,40960,
+packet_index ,236, sent_timestamp ,Thu Sep 21 20:00:12 2023
+,received-send delay ,552.156000,[msec] and size ,40960,
+packet_index ,237, sent_timestamp ,Thu Sep 21 20:00:12 2023
+,received-send delay ,518.898000,[msec] and size ,40960,
+packet_index ,238, sent_timestamp ,Thu Sep 21 20:00:12 2023
+,received-send delay ,485.557000,[msec] and size ,40960,
+packet_index ,239, sent_timestamp ,Thu Sep 21 20:00:12 2023
+,received-send delay ,452.108000,[msec] and size ,40960,
+packet_index ,240, sent_timestamp ,Thu Sep 21 20:00:12 2023
+,received-send delay ,418.668000,[msec] and size ,40960,
+packet_index ,241, sent_timestamp ,Thu Sep 21 20:00:12 2023
+,received-send delay ,385.215000,[msec] and size ,40960,
+packet_index ,242, sent_timestamp ,Thu Sep 21 20:00:13 2023
+,received-send delay ,351.699000,[msec] and size ,40960,
+packet_index ,243, sent_timestamp ,Thu Sep 21 20:00:13 2023
+,received-send delay ,318.310000,[msec] and size ,40960,
+packet_index ,244, sent_timestamp ,Thu Sep 21 20:00:13 2023
+,received-send delay ,527.884000,[msec] and size ,40960,
+packet_index ,245, sent_timestamp ,Thu Sep 21 20:00:13 2023
+,received-send delay ,494.602000,[msec] and size ,40960,
+packet_index ,246, sent_timestamp ,Thu Sep 21 20:00:13 2023
+,received-send delay ,461.207000,[msec] and size ,40960,
+packet_index ,247, sent_timestamp ,Thu Sep 21 20:00:13 2023
+,received-send delay ,427.708000,[msec] and size ,40960,
+packet_index ,248, sent_timestamp ,Thu Sep 21 20:00:13 2023
+,received-send delay ,394.323000,[msec] and size ,40960,
+packet_index ,249, sent_timestamp ,Thu Sep 21 20:00:13 2023
+,received-send delay ,360.972000,[msec] and size ,40960,
+packet_index ,250, sent_timestamp ,Thu Sep 21 20:00:13 2023
+,received-send delay ,327.539000,[msec] and size ,40960,
+packet_index ,251, sent_timestamp ,Thu Sep 21 20:00:13 2023
+,received-send delay ,599.115000,[msec] and size ,40960,
+packet_index ,252, sent_timestamp ,Thu Sep 21 20:00:13 2023
+,received-send delay ,565.826000,[msec] and size ,40960,
+packet_index ,253, sent_timestamp ,Thu Sep 21 20:00:13 2023
+,received-send delay ,532.240000,[msec] and size ,40960,
+packet_index ,254, sent_timestamp ,Thu Sep 21 20:00:13 2023
+,received-send delay ,498.770000,[msec] and size ,40960,
+packet_index ,255, sent_timestamp ,Thu Sep 21 20:00:13 2023
+,received-send delay ,465.265000,[msec] and size ,40960,
+packet_index ,256, sent_timestamp ,Thu Sep 21 20:00:13 2023
+,received-send delay ,431.791000,[msec] and size ,40960,
+packet_index ,257, sent_timestamp ,Thu Sep 21 20:00:13 2023
+,received-send delay ,398.315000,[msec] and size ,40960,
+packet_index ,258, sent_timestamp ,Thu Sep 21 20:00:13 2023
+,received-send delay ,364.916000,[msec] and size ,40960,
+packet_index ,259, sent_timestamp ,Thu Sep 21 20:00:13 2023
+,received-send delay ,614.925000,[msec] and size ,40960,
+packet_index ,260, sent_timestamp ,Thu Sep 21 20:00:13 2023
+,received-send delay ,581.607000,[msec] and size ,40960,
+packet_index ,261, sent_timestamp ,Thu Sep 21 20:00:13 2023
+,received-send delay ,548.276000,[msec] and size ,40960,
+packet_index ,262, sent_timestamp ,Thu Sep 21 20:00:13 2023
+,received-send delay ,514.865000,[msec] and size ,40960,
+packet_index ,263, sent_timestamp ,Thu Sep 21 20:00:13 2023
+,received-send delay ,481.555000,[msec] and size ,40960,
+packet_index ,264, sent_timestamp ,Thu Sep 21 20:00:13 2023
+,received-send delay ,448.372000,[msec] and size ,40960,
+packet_index ,265, sent_timestamp ,Thu Sep 21 20:00:13 2023
+,received-send delay ,415.059000,[msec] and size ,40960,
+packet_index ,266, sent_timestamp ,Thu Sep 21 20:00:13 2023
+,received-send delay ,381.715000,[msec] and size ,40960,
+packet_index ,267, sent_timestamp ,Thu Sep 21 20:00:13 2023
+,received-send delay ,348.365000,[msec] and size ,40960,
+packet_index ,268, sent_timestamp ,Thu Sep 21 20:00:13 2023
+,received-send delay ,544.979000,[msec] and size ,40960,
+packet_index ,269, sent_timestamp ,Thu Sep 21 20:00:13 2023
+,received-send delay ,511.679000,[msec] and size ,40960,
+packet_index ,270, sent_timestamp ,Thu Sep 21 20:00:13 2023
+,received-send delay ,478.210000,[msec] and size ,40960,
+packet_index ,271, sent_timestamp ,Thu Sep 21 20:00:14 2023
+,received-send delay ,444.768000,[msec] and size ,40960,
+packet_index ,272, sent_timestamp ,Thu Sep 21 20:00:14 2023
+,received-send delay ,411.293000,[msec] and size ,40960,
+packet_index ,273, sent_timestamp ,Thu Sep 21 20:00:14 2023
+,received-send delay ,377.897000,[msec] and size ,40960,
+packet_index ,274, sent_timestamp ,Thu Sep 21 20:00:14 2023
+,received-send delay ,344.376000,[msec] and size ,40960,
+packet_index ,275, sent_timestamp ,Thu Sep 21 20:00:14 2023
+,received-send delay ,310.875000,[msec] and size ,40960,
+packet_index ,276, sent_timestamp ,Thu Sep 21 20:00:14 2023
+,received-send delay ,568.570000,[msec] and size ,40960,
+packet_index ,277, sent_timestamp ,Thu Sep 21 20:00:14 2023
+,received-send delay ,535.241000,[msec] and size ,40960,
+packet_index ,278, sent_timestamp ,Thu Sep 21 20:00:14 2023
+,received-send delay ,501.907000,[msec] and size ,40960,
+packet_index ,279, sent_timestamp ,Thu Sep 21 20:00:14 2023
+,received-send delay ,468.529000,[msec] and size ,40960,
+packet_index ,280, sent_timestamp ,Thu Sep 21 20:00:14 2023
+,received-send delay ,435.076000,[msec] and size ,40960,
+packet_index ,281, sent_timestamp ,Thu Sep 21 20:00:14 2023
+,received-send delay ,401.789000,[msec] and size ,40960,
+packet_index ,282, sent_timestamp ,Thu Sep 21 20:00:14 2023
+,received-send delay ,368.376000,[msec] and size ,40960,
+packet_index ,283, sent_timestamp ,Thu Sep 21 20:00:14 2023
+,received-send delay ,595.803000,[msec] and size ,40960,
+packet_index ,284, sent_timestamp ,Thu Sep 21 20:00:14 2023
+,received-send delay ,562.576000,[msec] and size ,40960,
+packet_index ,285, sent_timestamp ,Thu Sep 21 20:00:14 2023
+,received-send delay ,529.038000,[msec] and size ,40960,
+packet_index ,286, sent_timestamp ,Thu Sep 21 20:00:14 2023
+,received-send delay ,495.629000,[msec] and size ,40960,
+packet_index ,287, sent_timestamp ,Thu Sep 21 20:00:14 2023
+,received-send delay ,462.213000,[msec] and size ,40960,
+packet_index ,288, sent_timestamp ,Thu Sep 21 20:00:14 2023
+,received-send delay ,428.788000,[msec] and size ,40960,
+packet_index ,289, sent_timestamp ,Thu Sep 21 20:00:14 2023
+,received-send delay ,395.408000,[msec] and size ,40960,
+packet_index ,290, sent_timestamp ,Thu Sep 21 20:00:14 2023
+,received-send delay ,583.249000,[msec] and size ,40960,
+packet_index ,291, sent_timestamp ,Thu Sep 21 20:00:14 2023
+,received-send delay ,549.926000,[msec] and size ,40960,
+packet_index ,292, sent_timestamp ,Thu Sep 21 20:00:14 2023
+,received-send delay ,516.514000,[msec] and size ,40960,
+packet_index ,293, sent_timestamp ,Thu Sep 21 20:00:14 2023
+,received-send delay ,482.973000,[msec] and size ,40960,
+packet_index ,294, sent_timestamp ,Thu Sep 21 20:00:14 2023
+,received-send delay ,449.501000,[msec] and size ,40960,
+packet_index ,295, sent_timestamp ,Thu Sep 21 20:00:14 2023
+,received-send delay ,416.061000,[msec] and size ,40960,
+packet_index ,296, sent_timestamp ,Thu Sep 21 20:00:14 2023
+,received-send delay ,382.650000,[msec] and size ,40960,
+packet_index ,297, sent_timestamp ,Thu Sep 21 20:00:14 2023
+,received-send delay ,349.307000,[msec] and size ,40960,
+packet_index ,298, sent_timestamp ,Thu Sep 21 20:00:14 2023
+,received-send delay ,316.041000,[msec] and size ,40960,
+packet_index ,299, sent_timestamp ,Thu Sep 21 20:00:14 2023
+,received-send delay ,360.368000,[msec] and size ,40960,
+packet_index ,300, sent_timestamp ,Thu Sep 21 20:00:14 2023
+,received-send delay ,361.239000,[msec] and size ,40960,
