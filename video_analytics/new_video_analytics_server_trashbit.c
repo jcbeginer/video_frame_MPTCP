@@ -109,8 +109,8 @@ int main(int argc, char** argv)
 
 	int enable = 1;
 
-	if(argc != 1){
-		printf("instead use 8888 as default port number");
+	if(argc != 2){
+		perror("instead use 8888 as default port number");
 		PORT = atoi("8888");
 	}
 	else{
