@@ -29,6 +29,7 @@ int frame_sizes[8] = {15360,25600,30720,40960,71680,102400,133120,153600}; // # 
 int send_frame_size;
 struct timeval tv;
 struct tm* timeinfo;
+char formatted_time[100];
 /**
  * 기존의 TCP Client는 { socket() -> connect() -> recv(), send() -> close() }순서로 흘러간다.
  * 여기서 TCP Socket을 MPTCP Socket으로 설정하기 위해서는 socket()과 connect()사이에 setsockopt()을 사용한다.
@@ -109,9 +110,11 @@ void* receive_frames(void* arg) {
         
         time_t rawtime = (time_t)sent_timestamp/1000000;
         timeinfo = localtime(&rawtime);
+	strftime(formatted_time, sizeof(formatted_time), "%a %b %d %H:%M:%S %Y", timeinfo);
+
         FILE* f = fopen(filename, "a");
         if (f) {
-            fprintf(f, "packet_index ,%d, sent_timestamp ,%s,received-send delay ,%lf,[msec] and size ,%d,\n", idx, asctime(timeinfo), received_send_delay, received_frame_size);
+            fprintf(f, "packet_index ,%d, sent_timestamp ,%s,received-send delay ,%lf,[msec] and size ,%d,\n", idx, formatted_time, received_send_delay, received_frame_size);
             fclose(f);
         }
 	if (idx==FRAME_RATE * DURATION){break;}
